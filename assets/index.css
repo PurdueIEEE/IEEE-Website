@@ -1,0 +1,12 @@
+body {
+    height: 100%;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/ieee-2021.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
