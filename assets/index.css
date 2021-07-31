@@ -2,6 +2,24 @@ body {
     height: 100%;
 }
 
+.btn-ieee {
+    color: white;
+    background-color: #00629B;
+    border-color: #002855;
+}
+
+.btn-ieee:hover {
+    color: white;
+    background-color: #002855;
+    border-color: #002855;
+}
+
+.btn-ieee:active {
+    color: white;
+    background-color: #002855;
+    border-color: #002855;
+}
+
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/exec-2021-22.jpg');
     height: 100%;
