@@ -25,18 +25,6 @@ let info_sessions = [
         },
         committee:'Computer Society',
         location:'EE 270',
-    },
-    {
-        date: {
-            month: 7,
-            day: 31,
-        },
-        time: {
-            hour: 8,
-            minute: 15,
-        },
-        committee:'Computer Society',
-        location:'EE 270',
     }
 ];
 
