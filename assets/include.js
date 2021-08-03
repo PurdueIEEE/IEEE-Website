@@ -19,7 +19,7 @@ Vue.component('ieee-header', {
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarlinks_about" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarlinks_about">
-                    <li><a class="dropdown-item" href="#">About IEEE</a></li>
+                    <li><a class="dropdown-item" href="/about">About IEEE</a></li>
                     <li><a class="dropdown-item" href="#">Officers</a></li>
                     <li><a class="dropdown-item" href="#">Annual Award Winners</a></li>
                     <li><a class="dropdown-item" href="#">Students of the Week</a></li>
