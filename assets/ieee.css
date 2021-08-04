@@ -30,6 +30,96 @@ footer {
     background-color: #CFB991;
 }
 
+.igrid-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.igrid-col {
+    flex: 25%;
+    max-width: 25%;
+    /*padding: 0 4px;*/
+}
+
+.igrid-img-container {
+    width: 100%;
+}
+
+.igrid-img {
+    width: 100%;
+}
+
+.igrid-img-text {
+    display: none;
+}
+
+
+@media screen and (min-width: 950px) {
+    
+    @keyframes toBW {
+        0%    { -webkit-filter: grayscale(0%) brightness(100%); filter: grayscale(0%) brightness(100%); }
+        25%   { -webkit-filter: grayscale(25%) brightness(87%); filter: grayscale(25%) brightness(87%); }
+        50%   { -webkit-filter: grayscale(50%) brightness(75%); filter: grayscale(50%) brightness(75%); }
+        75%   { -webkit-filter: grayscale(75%) brightness(62%); filter: grayscale(75%) brightness(62%); }
+        100%  { -webkit-filter: grayscale(100%) brightness(50%); filter: grayscale(100%) brightness(50%); }
+    }
+
+    @keyframes toColor {
+        0%    { -webkit-filter: grayscale(100%) brightness(50%); filter: grayscale(100%) brightness(50%); }
+        25%   { -webkit-filter: grayscale(75%) brightness(62%); filter: grayscale(75%) brightness(62%); }
+        50%   { -webkit-filter: grayscale(50%) brightness(75%); filter: grayscale(50%) brightness(75%); }
+        75%   { -webkit-filter: grayscale(25%) brightness(87%); filter: grayscale(25%) brightness(87%); }
+        100%  { -webkit-filter: grayscale(0%) brightness(100%); filter: grayscale(0%) brightness(100%); }
+    }
+
+    .igrid-img-container .igrid-img {
+        animation: toColor 0.35s;
+        width: 100%;
+        display: block;
+    }
+
+    .igrid-img-container:hover .igrid-img{ 
+        animation: toBW 0.35s;
+        -webkit-filter: grayscale(100%) brightness(50%);
+        filter: grayscale(100%) brightness(50%);
+        width:100%;
+        display: block;
+    }
+
+    .igrid-img-container {
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+
+    .igrid-img-text {
+        position: absolute;
+        display: inherit;
+        top: 50%;
+        left: 50%;
+        transform: translate( -50%, -50% );
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 1.4em;
+        opacity: 0;
+    }
+
+    .igrid-img-container:hover .igrid-img-text {
+        position: absolute;
+        display: inherit;
+        top: 50%;
+        left: 50%;
+        transform: translate( -50%, -50% );
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 1.4em;
+        opacity: 1;
+        transition: opacity 0.5s;
+    }
+}
+
 .debug {
     outline: 2px solid red;
 }
