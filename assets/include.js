@@ -96,8 +96,8 @@ Vue.component('ieee-footer',{
 const vm = new Vue({
     el: '#app',
     data: {
-      year: (new Date()).getMonth() <= 6 ? (new Date()).getFullYear() - 1 : (new Date()).getFullYear(), // consider Aug 1. to be the start of a new term - THIS WILL BREAK THINGS IF JSON DOES NOT EXIST
-      maxYear: (new Date()).getMonth() <= 6 ? (new Date()).getFullYear() - 1 : (new Date()).getFullYear(),
+      year: 2021,
+      maxYear: 2021,
       startYear: 2008,
       elected: [],
       cornerstone: [],
