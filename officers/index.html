@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="/assets/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link href="/assets/ieee.css" rel="stylesheet">
+        <link rel="icon" href="/favicon.ico"/>
+
+        <meta name="description" content="The official website of the Purdue IEEE Student Branch">
+        <meta name="author" content="Purdue IEEE">
+
+        <title>Purdue IEEE</title>
+
+    </head>
+    <body>
+    <div id="app">
+        <ieee-header head="Purdue IEEE" page="Officers" v-on:init="handleInit"></ieee-header>
+
+        <main>
+            <div class="container-fluid py-5 my-5">
+                <p class="display-3 fw-bold text-center">Executive Committee {{year}}-{{year+1}}</p>
+            </div>
+            <div class="container-fluid" style="background: #A3BFD8;">
+                <div class="d-flex flex-column color container-lg">
+                    <div v-for="officer in elected" v-bind:officer="officer" class="p-4">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-md-2">
+                                <img class="rounded-3 mx-auto d-block img-fluid" v-bind:src="officer.image" alt="">
+                            </div>
+                            <div class="col-md-10">
+                                <p class="fs-3 fw-bold">{{officer.name}}</p>
+                                <p class="fs-4">{{officer.position}}</p>
+                                <p class="fs-5">{{officer.description}}</p>
+                                <p class="fs-5"><span v-html="officer.committees" class="officer-link"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="d-flex flex-column color container-lg">
+                    <div v-for="officer in cornerstone" v-bind:officer="officer" class="p-4">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-md-2">
+                                <img class="rounded-3 mx-auto d-block img-fluid" v-bind:src="officer.image" alt="">
+                            </div>
+                            <div class="col-md-10">
+                                <p class="fs-3 fw-bold">{{officer.name}}</p>
+                                <p class="fs-4">{{officer.position}}</p>
+                                <p class="fs-5">{{officer.description}}</p>
+                                <p class="fs-5"><span v-html="officer.committees" class="officer-link"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" style="background: #A3BFD8;">
+                <div class="d-flex flex-column color container-lg">
+                    <div v-for="officer in technical" v-bind:officer="officer" class="p-4">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-md-2">
+                                <img class="rounded-3 mx-auto d-block img-fluid" v-bind:src="officer.image" alt="">
+                            </div>
+                            <div class="col-md-10">
+                                <p class="fs-3 fw-bold">{{officer.name}}</p>
+                                <p class="fs-4">{{officer.position}}</p>
+                                <p class="fs-5">{{officer.description}}</p>
+                                <p class="fs-5"><span v-html="officer.committees" class="officer-link"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-lg mt-3">
+                <div class="btn-group d-flex flex-wrap" role="group" aria-label="Officer Year">
+                    <button type="button" v-for="y in createYears()" v-bind:class="buttonClasses(y)" v-on:click="handleYearChange(y)">{{y}}-{{((y+1)%100).toString().padStart(2, "0")}}</button>
+                </div>
+            </div>
+        </main>
+
+       <ieee-footer></ieee-footer>
+    </div>
+    <script src="/assets/bootstrap.bundle.min.js"></script>
+    <script src="/assets//vue2.js"></script>
+    <script src="/assets/include.js"></script>
+    </body>
+</html>

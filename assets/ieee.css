@@ -16,6 +16,12 @@
     border-color: #002855;
 }
 
+.btn-ieee.active {
+    color: white;
+    background-color: #002855;
+    border-color: #002855;
+}
+
 .hero-image {
     /*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/exec-2021-22.jpg');*/
     height: 100%;
@@ -118,6 +124,14 @@ footer {
         opacity: 1;
         transition: opacity 0.5s;
     }
+}
+
+.officer-link a {
+    color: #6c757d;
+}
+
+.officer-link a:hover {
+    color: #565e64;
 }
 
 .debug {

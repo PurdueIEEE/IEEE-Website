@@ -2,6 +2,7 @@
 Vue.component('ieee-header', {
     mounted: function() {
         document.title = `${this.page} | Purdue IEEE`;
+        if(document.title == 'Officers | Purdue IEEE') this.$emit('init'); // This is SUCH A SHITTY way to let the root element know it is the officers page
     },
     props: ['head', 'page'],
     template:`
@@ -20,10 +21,10 @@ Vue.component('ieee-header', {
                 <a class="nav-link dropdown-toggle" href="#" id="navbarlinks_about" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarlinks_about">
                     <li><a class="dropdown-item" href="/about">About IEEE</a></li>
-                    <li><a class="dropdown-item" href="#">Officers</a></li>
+                    <li><a class="dropdown-item" href="/officers">Officers</a></li>
                     <li><a class="dropdown-item" href="#">Annual Award Winners</a></li>
                     <li><a class="dropdown-item" href="#">Students of the Week</a></li>
-                    <li><a class="dropdown-item" href="#">Constitution</a></li>
+                    <li><a class="dropdown-item" href="/constitution">Constitution</a></li>
                 </ul>
               </li>
               <!-- /navbarlinks_about -->
@@ -90,11 +91,40 @@ Vue.component('ieee-footer',{
         <!-- /footer -->
     </footer>
     `
-})
+});
 
 const vm = new Vue({
     el: '#app',
     data: {
- 
+      year: (new Date()).getMonth() <= 6 ? (new Date()).getFullYear() - 1 : (new Date()).getFullYear(), // consider Aug 1. to be the start of a new term - THIS WILL BREAK THINGS IF JSON DOES NOT EXIST
+      maxYear: (new Date()).getMonth() <= 6 ? (new Date()).getFullYear() - 1 : (new Date()).getFullYear(),
+      startYear: 2008,
+      elected: [],
+      cornerstone: [],
+      technical: [],
     },
-})
+    methods: {
+      // Literally all of these are just used for the officers page
+      handleInit: async function() {
+        let response = await fetch(`/officers/${this.year}.json`);
+        let responseJSON = await response.json();
+        this.elected = responseJSON.elected;
+        this.cornerstone = responseJSON.cornerstone;
+        this.technical = responseJSON.technical;
+      },
+      handleYearChange: async function(year) {
+        this.year = year;
+        await this.handleInit();
+      },
+      createYears: function() {
+        return new Array(this.maxYear - this.startYear + 1).fill(this.startYear).map((n,i)=>n+i);
+      },
+      buttonClasses: function(year) {
+        return {
+          btn:true, 
+          'btn-ieee':true, 
+          'active':(year==this.year)
+        }
+      }
+    }
+});
