@@ -76,7 +76,7 @@ Vue.component('ieee-footer',{
     template: `
     <footer>
         <!-- footer -->
-        <div class="container-fluid mt-5 text-center py-3">
+        <div class="container-fluid mt-3 text-center py-3">
             <div class="row justify-content-center">
                 <div class="col-md-6">
                 <a href="https://twitter.com/purdueieee" target="_blank" class="link-dark"><i class="bi bi-twitter fs-1 mx-2" width="50"></i></a>
