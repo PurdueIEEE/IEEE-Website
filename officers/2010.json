@@ -1,4 +1,5 @@
-[
+{
+  "elected":[
   {
     "name": "Greg Brener",
     "image": "/images/officers/.jpg",
@@ -7,3 +8,4 @@
     "committees": "<a href=\"/professional/\">Industrial Relations</a>"
   }
 ]
+}

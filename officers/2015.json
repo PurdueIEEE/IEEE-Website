@@ -1,4 +1,5 @@
-[
+{
+  "elected":[
   {
     "name": "Flor Albornoz",
     "image": "/images/officers/2015_Flor_Albornoz.jpg",
@@ -33,7 +34,8 @@
     "position": "Secretary",
     "description": "Carolyn Lewelling is a Sophomore pursuing a major in Electrical Engineering and a minor in Computer Science. In addition to being Secretary of the Purdue branch of IEEE, she is also on the ROV team where she works on electrical components and helps find sponsors for the team. Carolyn joined IEEE as a freshman and loves being involved with the group. Her other interests include baking, Disney, and owls.",
     "committees": "<a href=\"/rov/\">ROV</a>"
-  },
+  }],
+  "cornerstone":[
   {
     "name": "Tim Vincent",
     "image": "/images/officers/2015_Tim_Vincent.jpg",
@@ -47,7 +49,8 @@
     "position": "Event Coordinator",
     "description": "Beatriz is a Sophomore pursuing a major in Electrical Engineering and a minor in German. She joined Purdue IEEE during her first semester at Purdue which was Spring 2015. Since then, she has held the position of Event Coordinator. Before coming to the United States, she was part of IEEE Technological University of Panama where she first was introduced to the IEEE community. Apart from engineering, Bea enjoys meeting new people, learning about different cultures, and reading.",
     "committees": "<a href=\"/partieee/\">Aerial Robotics</a>"
-  },
+  }],
+  "technical":[
   {
     "name": "Matt Molo",
     "image": "/images/officers/2014_Matt_Molo.jpg",
@@ -59,7 +62,7 @@
     "name": "Aditya Vaidyam",
     "image": "/images/officers/2015_Aditya_Vaidyam.jpg",
     "position": "Engineering in Medicine and Biology Society (EMBS) Co-chair",
-    "description": "Aditya Vaidyam is a Junior in Neurobiology &amp; Physiology, as well as Computer Science, that joined Purdue IEEE in Fall 2014. He co-founded and currently co-chairs the Engineering in Medicine and Biology Society, and is passionate about neuroscience and medicine. He aims to study medicine and focus on primary care, while infusing engineering techniques into its practice. Outside of academics, Aditya enjoys both listening to and producing music, cycling, programming, home automation, and playing video games. Aditya is scheduled to graduate Spring 2017.",
+    "description": "Aditya Vaidyam is a Junior in Neurobiology & Physiology, as well as Computer Science, that joined Purdue IEEE in Fall 2014. He co-founded and currently co-chairs the Engineering in Medicine and Biology Society, and is passionate about neuroscience and medicine. He aims to study medicine and focus on primary care, while infusing engineering techniques into its practice. Outside of academics, Aditya enjoys both listening to and producing music, cycling, programming, home automation, and playing video games. Aditya is scheduled to graduate Spring 2017.",
     "committees": "<a href=\"/embs/\">EMBS</a>"
   },
   {
@@ -74,7 +77,7 @@
     "image": "/images/officers/2015_Dane_Rudy.jpg",
     "position": "Orbital Committee Chair",
     "description": "Dane Rudy is a Junior from Hudson, Wisconsin majoring in Mechanical Engineering and minoring in Global Engineering Studies. He joined IEEE as a member of ROV in the Spring of 2015. Dane is passionate about the space industry and this has led him to founding IEEE Orbital. As Project Manager for IEEE Orbital, he is in charge of motivating and managing the team both logistically and technically. He is an Eagle Scout and in his free time he enjoys rock climbing, backpacking, sailing, and playing soccer. Dane is scheduled to graduate Spring 2017.",
-    "committees": "<a href=\"http://www.purdueorbital.com/\">Orbital<i class=\"material-icons\" style=\"font-size: 16px; margin-left: 5px;\">exit_to_app</i></a>"
+    "committees": "<a href=\"http://www.purdueorbital.com/\">Orbital<i class=\"bi bi-box-arrow-up\"></i></a>"
   },
   {
     "name": "John Courtney",
@@ -88,13 +91,14 @@
     "image": "/images/officers/2014_Kyle_Rakos.jpg",
     "position": "Remotely Operated underwater Vehicle (ROV) Committee Chair",
     "description": "Kyle Rakos is a Junior in Computer Engineering. He joined IEEE at the beginning of his freshman year by taking on the role of Sponsorship Coordinator of the Purdue IEEE ROV Team. His technical and administrative passions continue to grow as he took on role of the Industrial Relations Head of IEEE and Captain of the ROV team. During these roles he interacts with companies on behalf of IEEE and organizes the ROV team in the MATE International ROV Competition. Feeling the desire to improve upon his 15th Place finish the previous season, he is devoting all his time to being the Team Captain for ROV. He also enjoys playing sports and is interested in space.",
-    "committees": "<a href=\"/rov/\">ROV</a>, <a href=\"http://www.purdueorbital.com/\">Orbital<i class=\"material-icons\" style=\"font-size: 16px; margin-left: 5px;\">exit_to_app</i></a>"
+    "committees": "<a href=\"/rov/\">ROV</a>, <a href=\"http://www.purdueorbital.com/\">Orbital<i class=\"bi bi-box-arrow-up\"></i></a>"
   },
   {
     "name": "Sanay Shah",
     "image": "/images/officers/2016_Sanay_Shah.jpg",
     "position": "Interim Remotely Operated underwater Vehicle (ROV) Committee Chair",
-    "description": "Sanay Shah is a Sophomore in Industrial Engineering. He joined IEEE at the beginning of his freshman year as a Mechanical Team member on the Purdue IEEE ROV Team. His technical and administrative passions continue to grow as he started the Manufacturing Advisory Board with other veteran members on the Mechanical Team and became Acting Captain of the ROV team for the Spring 2016 semester. He serves an advisory role in all manufacturing decisions on the Mechanical Team and organizes the entire ROV team to compete in the MATE International ROV Competition in his respective roles. He is channeling the team\u2019s energy to achieve the best competition finish in recent years. He has had internships at RSS Grinders &amp; Automation as a machinist operating manual and CNC machinery. He also enjoys playing and watching sports and is a huge fan of The Chicago Blackhawks.",
+    "description": "Sanay Shah is a Sophomore in Industrial Engineering. He joined IEEE at the beginning of his freshman year as a Mechanical Team member on the Purdue IEEE ROV Team. His technical and administrative passions continue to grow as he started the Manufacturing Advisory Board with other veteran members on the Mechanical Team and became Acting Captain of the ROV team for the Spring 2016 semester. He serves an advisory role in all manufacturing decisions on the Mechanical Team and organizes the entire ROV team to compete in the MATE International ROV Competition in his respective roles. He is channeling the team\u2019s energy to achieve the best competition finish in recent years. He has had internships at RSS Grinders & Automation as a machinist operating manual and CNC machinery. He also enjoys playing and watching sports and is a huge fan of The Chicago Blackhawks.",
     "committees": "<a href=\"/rov/\">ROV</a>"
   }
 ]
+}

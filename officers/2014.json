@@ -1,4 +1,5 @@
-[
+{
+  "elected":[
   {
     "name": "Matt Molo",
     "image": "/images/officers/2014_Matt_Molo.jpg",
@@ -33,7 +34,8 @@
     "position": "Secretary",
     "description": "Reid is a Senior in Elementary Education here at Purdue University. He first joined the Purdue IEEE chapter in the Fall of 2010. During his tenure with the club he has been a member of MARS, ROV, and the Learning Committee (now defunct) as well as the chair of the Racing committee and Computer Society. While he was in the Electrical Engineering program, he participated in the co-op program with Gulfstream Aerospace. As Secretary, he records the happenings of the different committees and advises the committee chairs.",
     "committees": "<a href=\"/learning/\">Learning</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/racing/\">Racing</a>, <a href=\"/rov/\">ROV</a>, MARS"
-  },
+  }],
+  "cornerstone":[
   {
     "name": "Kyle Rakos",
     "image": "/images/officers/2014_Kyle_Rakos.jpg",
@@ -63,3 +65,4 @@
     "committees": "<a href=\"/racing/\">Racing</a>"
   }
 ]
+}

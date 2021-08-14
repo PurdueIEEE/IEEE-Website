@@ -24,6 +24,11 @@
             <div class="container-fluid pt-5 mt-5 mb-3 pb-3">
                 <p class="display-3 fw-bold text-center">Executive Committee {{year}} - {{year+1}}</p>
             </div>
+            <div class="container-lg my-3">
+                <div class="btn-group d-flex flex-wrap" role="group" aria-label="Officer Year">
+                    <button type="button" v-for="y in createYears()" v-bind:class="buttonClasses(y)" v-on:click="handleYearChange(y)">{{y}}-{{((y+1)%100).toString().padStart(2, "0")}}</button>
+                </div>
+            </div>
             <div class="container-fluid" style="background: #A3BFD8;">
                 <div class="d-flex flex-column color container-lg">
                     <div v-for="officer in elected" v-bind:officer="officer" class="p-4">
@@ -75,17 +80,12 @@
                     </div>
                 </div>
             </div>
-            <div class="container-lg mt-3">
-                <div class="btn-group d-flex flex-wrap" role="group" aria-label="Officer Year">
-                    <button type="button" v-for="y in createYears()" v-bind:class="buttonClasses(y)" v-on:click="handleYearChange(y)">{{y}}-{{((y+1)%100).toString().padStart(2, "0")}}</button>
-                </div>
-            </div>
         </main>
 
        <ieee-footer></ieee-footer>
     </div>
     <script src="/assets/bootstrap.bundle.min.js"></script>
-    <script src="/assets//vue2.js"></script>
+    <script src="/assets/vue2.min.js"></script>
     <script src="/assets/include.js"></script>
     </body>
 </html>

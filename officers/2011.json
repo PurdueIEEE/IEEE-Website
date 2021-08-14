@@ -1,4 +1,5 @@
-[
+{
+  "elected":[
   {
     "name": "Seth Baklor",
     "image": "/images/officers/2011_Seth_Baklor.jpg",
@@ -7,3 +8,4 @@
     "committees": "<a href=\"/rov/\">ROV</a>"
   }
 ]
+}

@@ -1,4 +1,5 @@
-[
+{
+  "elected":[
   {
     "name": "Spencer Julian",
     "image": "/images/officers/2012_Spencer_Julian.jpg",
@@ -26,7 +27,8 @@
     "position": "Secretary",
     "description": "Thor is a Junior in Computer Engineering. In addition to his role as secretary, he is the Treasurer of IEEE Computer Society and President of PLUG (Purdue Linux Users' Group).",
     "committees": "<a href=\"/csociety/\">Computer Society</a>"
-  },
+  }],
+  "cornerstone":[
   {
     "name": "Eugene Anane-wae",
     "image": "",
@@ -63,3 +65,4 @@
     "committees": "<a href=\"/racing/\">Grand Prix</a>"
   }
 ]
+}

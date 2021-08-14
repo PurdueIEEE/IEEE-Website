@@ -1,4 +1,5 @@
-[
+{
+  "elected":[
   {
     "name": "Anthony Cometa",
     "image": "/images/officers/.jpg",
@@ -7,3 +8,4 @@
     "committees": ""
   }
 ]
+}

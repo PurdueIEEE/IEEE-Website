@@ -1,9 +1,10 @@
-[
+{
+  "elected":[
   {
     "name": "Michael Hayashi",
     "image": "/images/officers/2013_Michael_Hayashi.jpg",
     "position": "President and Remotely Operated underwater Vehicle (ROV) Committee Chair",
-    "description": "Michael is a Junior in Electrical Engineering. Growing up in the Caterpillar community of Peoria, IL, Michael has known he wanted to be an electrical engineer since childhood. He is a first-generation Boilermaker who loves the opportunities Purdue has given him. While maintaining a broad interest in electrical engineering, Michael's areas of interest lie with VLSI &amp; Circuit Design and Microelectronics &amp; Nanotechnology. Outside of academics, he enjoys reading, jogging, and video games. Michael first became active with IEEE in Spring 2012 through his participation on the ROV team. Now in his third year at Purdue, Michael has devoted much of his time to activities within the local IEEE student branch. As Captain of the ROV team, he leads the committee toward the creation of a vehicle for the 2014 MATE International ROV Competition. As President, Michael aims to promote the five main committees, improve communication and management, offer more social functions, and lead outreach for greater awareness of IEEE.",
+    "description": "Michael is a Junior in Electrical Engineering. Growing up in the Caterpillar community of Peoria, IL, Michael has known he wanted to be an electrical engineer since childhood. He is a first-generation Boilermaker who loves the opportunities Purdue has given him. While maintaining a broad interest in electrical engineering, Michael's areas of interest lie with VLSI & Circuit Design and Microelectronics & Nanotechnology. Outside of academics, he enjoys reading, jogging, and video games. Michael first became active with IEEE in Spring 2012 through his participation on the ROV team. Now in his third year at Purdue, Michael has devoted much of his time to activities within the local IEEE student branch. As Captain of the ROV team, he leads the committee toward the creation of a vehicle for the 2014 MATE International ROV Competition. As President, Michael aims to promote the five main committees, improve communication and management, offer more social functions, and lead outreach for greater awareness of IEEE.",
     "committees": "<a href=\"/rov/\">ROV</a>, <a href=\"/csociety/\">Computer Society</a>"
   },
   {
@@ -33,7 +34,8 @@
     "position": "Secretary",
     "description": "Reid is a Senior in Elementary Education here at Purdue University. He first joined the Purdue IEEE chapter in the Fall of 2010. During his tenure with the club he has been a member of MARS, ROV, and the Learning Committee (now defunct) as well as the chair of the Racing committee and Computer Society. While he was in the Electrical Engineering program, he participated in the co-op program with Gulfstream Aerospace. As Secretary, he records the happenings of the different committees and advises the committee chairs.",
     "committees": "<a href=\"/learning/\">Learning</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/racing/\">Racing</a>, <a href=\"/rov/\">ROV</a>, MARS"
-  },
+  }],
+  "cornerstone":[
   {
     "name": "Julius Woo",
     "image": "/images/officers/2012_Julius_Woo.jpg",
@@ -63,3 +65,4 @@
     "committees": "<a href=\"/csociety/\">Computer Society</a>"
   }
 ]
+}

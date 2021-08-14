@@ -111,6 +111,7 @@ const vm = new Vue({
         this.elected = responseJSON.elected;
         this.cornerstone = responseJSON.cornerstone;
         this.technical = responseJSON.technical;
+        document.title = `${this.year} Officers | Purdue IEEE`;
       },
       handleYearChange: async function(year) {
         this.year = year;

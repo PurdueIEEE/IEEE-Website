@@ -1,21 +1,22 @@
-[
+{
+  "elected":[
   {
     "name": "Sanay Shah",
     "image": "/images/officers/2016_Sanay_Shah.jpg",
     "position": "President",
-    "description": "Sanay Shah is a senior in Industrial Engineering. He joined IEEE in Fall 2014 as a Mechanical Team member on the Purdue IEEE ROV Team. Since joining IEEE, Sanay has worked on the ROV Mechanical and Administrative teams, has been the ROV Captain during the Spring 2016 semester, Vice President during the 2016-2017 school year, and President during the 2017-2018 school year. His technical and administrative passions continue to grow as he focuses on the success of all the technical committees. As President, Sanay hopes to increase communication between student organizations and increase campus-wide collaborations. He also aims to work with all committees to develop camaraderie amongst the members. He has had internships at RSS Grinders &amp; Automation Inc. as a machinist operating manual and CNC machinery. He also enjoys playing and watching sports and is a huge fan of The Chicago Blackhawks.",
+    "description": "Sanay Shah is a senior in Industrial Engineering. He joined IEEE in Fall 2014 as a Mechanical Team member on the Purdue IEEE ROV Team. Since joining IEEE, Sanay has worked on the ROV Mechanical and Administrative teams, has been the ROV Captain during the Spring 2016 semester, Vice President during the 2016-2017 school year, and President during the 2017-2018 school year. His technical and administrative passions continue to grow as he focuses on the success of all the technical committees. As President, Sanay hopes to increase communication between student organizations and increase campus-wide collaborations. He also aims to work with all committees to develop camaraderie amongst the members. He has had internships at RSS Grinders & Automation Inc. as a machinist operating manual and CNC machinery. He also enjoys playing and watching sports and is a huge fan of The Chicago Blackhawks.",
     "committees": "<a href=\"/csociety/\">Computer Society</a>, <a href=\"/mtts\">MTT-S</a>, <a href=\"/rov/\">ROV</a>"
   },
   {
     "name": "Jessica Chin",
     "image": "/images/officers/2017_Jessica_Chin.jpg",
-    "position": "Vice President (Spring) &amp; Secretary (Fall)",
+    "position": "Vice President (Spring) & Secretary (Fall)",
     "description": "Jessica Chin is a sophomore majoring in Electrical Engineering. Since high school, Jessica has been involved with her FIRST robotics team and has always wanted to build an underwater robot. She decided to join Purdue IEEE in Fall 2016 as part of the ROV Committee. In ROV, Jessica is on the electrical team, where she works on the power and movement aspects of the ROV. In her spare time, Jessica enjoys playing tennis.",
     "committees": "<a href=\"/rov/\">ROV</a>"
   },
   {
     "name": "Brandon Stewart",
-    "image": "/images/officers/2016_Stewart_Brandon.jpg",
+    "image": "/images/officers/2016_Brandon_Stewart.jpg",
     "position": "Vice President (Fall)",
     "description": "Brandon is a junior in Computer Science. He joined IEEE in the Fall of 2015 on the ROV Team. He plans to pursue the Systems Programming and Computer Graphics and Visualization tracks in Computer Science. In his free time, he enjoys running, programming, and watching movies. As Secretary, he plans to promote stronger communication among teams and will focus on ensuring members are informed of IEEE events.",
     "committees": "<a href=\"/csociety/\">Computer Society</a>, <a href=\"/rov/\">ROV</a>"
@@ -33,11 +34,12 @@
     "position": "Secretary (Spring)",
     "description": "Efe Tas is a junior in Computer Engineering with an interest in Digital Signal Processing. He joined IEEE in the Fall of 2017 and became a member of the Computer Society. For the Spring of 2018 Efe will be the IEEE Secretary, and he looks forward to being able to contribute to the IEEE community and its media outlooks. Efe plans to work with the Quantum Computing Technology. In his free time Efe enjoys playing video games, running long distances, or reading a nice book.",
     "committees": "<a href=\"/csociety/\">Computer Society</a>"
-  },
+  }],
+  "cornerstone":[
   {
     "name": "Ellie Topi",
     "image": "/images/officers/2017_Ellie_Topi.jpg",
-    "position": "Growth and Engagement Head &amp; Purdue Aerial Robotics Team IEEE Captain",
+    "position": "Growth and Engagement Head & Purdue Aerial Robotics Team IEEE Captain",
     "description": " Ellie is a senior in Mechanical Engineering Technology. She joined Aerial Robotics in Fall 2016. She is passionate about organizing leadership and promoting interconnection of different projects. As the Captain, she aims to lead the team toward their goal of designing, building, and delivering a custom UAS to the AUVSI SUAS competition. In her spare time, she enjoys baking, crafting, and playing with aluminum.",
     "committees": "<a href=\"/partieee/\">PARTIEEE</a>"
   },
@@ -68,7 +70,8 @@
     "position": "Social Committee Head",
     "description": "Yash is a senior in Multidisciplinary Engineering. He joined IEEE in the fall of 2014 to work on the Aerial Robotics committee. He hopes to combine his engineering knowledge with a business background. As Social Head, he hopes to create an opportunity for any student to join and feel welcome in IEEE, and have the opportunity to meet new people and provide them with several engaging activities to participate in. In his free time, he is a movie buff and enjoys cooking, playing and watching sports, and playing video games.",
     "committees": "<a href=\"/mtts\">MTT-S</a>, <a href=\"/partieee/\">PARTIEEE</a>"
-  },
+  }],
+  "technical":[
   {
     "name": "Raghav Malik",
     "image": "/images/officers/2017_Raghav_Malik.jpg",
@@ -86,14 +89,14 @@
   {
     "name": "Zach Vander Missen",
     "image": "/images/officers/2017_Zach_Vander_Missen.jpg",
-    "position": "IEEE Microwave Theory &amp; Techniques Society (MTT-S) Chair (Fall)",
+    "position": "IEEE Microwave Theory & Techniques Society (MTT-S) Chair (Fall)",
     "description": "Zach Vander Missen is a second-year graduate student in Electrical and Computer Engineering. He first joined IEEE in Spring 2014 as a member of IEEE Computer Society. He hopes to continue the work of building up MTT-S in the coming year. Zach's research areas are RF and Microwave systems. He also enjoys playing in various ensembles with Purdue Bands and Orchestras.",
     "committees": "<a href=\"/mtts/\">MTT-S</a>, <a href=\"/csociety/\">Computer Society</a>"
   },
   {
     "name": "Rayane Chatrieux",
     "image": "/images/officers/2018_Ray_Chatrieux.jpg",
-    "position": "IEEE Microwave Theory &amp; Techniques Society (MTT-S) Chair (Spring)",
+    "position": "IEEE Microwave Theory & Techniques Society (MTT-S) Chair (Spring)",
     "description": "Ray is an EE Undergraduate since 2015, graduating in May 2018, interests in EE: Low-power and high-performance circuit design, memory circuits. His hobbies include: Judo, chess, Selected video games.",
     "committees": "<a href=\"/mtts/\">MTT-S</a>"
   },
@@ -119,3 +122,4 @@
     "committees": "<a href=\"/rov/\">ROV</a>"
   }
 ]
+}

@@ -1,16 +1,17 @@
-[
+{
+  "elected":[
   {
     "name": "Aditya Vaidyam",
     "image": "/images/officers/2015_Aditya_Vaidyam.jpg",
     "position": "President",
-    "description": "Aditya Vaidyam is a Senior in Neurobiology &amp; Physiology, as well as Computer Science, that joined Purdue IEEE in Fall 2014. He co-founded Purdue's Engineering in Medicine and Biology Society in 2015. He aims to study medicine and focus on primary care, while infusing engineering techniques into its practice. Outside of academics, Aditya enjoys both listening to and producing music, cycling, programming, home automation, and playing video games. Aditya is scheduled to graduate Spring 2017.",
+    "description": "Aditya Vaidyam is a Senior in Neurobiology & Physiology, as well as Computer Science, that joined Purdue IEEE in Fall 2014. He co-founded Purdue's Engineering in Medicine and Biology Society in 2015. He aims to study medicine and focus on primary care, while infusing engineering techniques into its practice. Outside of academics, Aditya enjoys both listening to and producing music, cycling, programming, home automation, and playing video games. Aditya is scheduled to graduate Spring 2017.",
     "committees": "<a href=\"/embs/\">EMBS</a>"
   },
   {
     "name": "Sanay Shah",
     "image": "/images/officers/2016_Sanay_Shah.jpg",
     "position": "Vice President",
-    "description": "Sanay Shah is a Junior in Industrial Engineering. He joined IEEE in Fall 2014 as a Mechanical Team member on the Purdue IEEE ROV Team. Since joining IEEE, Sanay has worked on the ROV Mechanical and Administrative teams, as well as being the ROV Captain during the Spring 2016 semester. His technical and administrative passions continue to grow as he focuses on on the success of all the technical committees. As Vice President, Sanay hopes to increase communication between committees to improve technical knowledge of all members. He also aims to work with other committees to build a friendlier campus wide atmosphere. He has had internships at RSS Grinders &amp; Automation Inc. as a machinist operating manual and CNC machinery. He also enjoys playing and watching sports and is a huge fan of The Chicago Blackhawks.",
+    "description": "Sanay Shah is a Junior in Industrial Engineering. He joined IEEE in Fall 2014 as a Mechanical Team member on the Purdue IEEE ROV Team. Since joining IEEE, Sanay has worked on the ROV Mechanical and Administrative teams, as well as being the ROV Captain during the Spring 2016 semester. His technical and administrative passions continue to grow as he focuses on on the success of all the technical committees. As Vice President, Sanay hopes to increase communication between committees to improve technical knowledge of all members. He also aims to work with other committees to build a friendlier campus wide atmosphere. He has had internships at RSS Grinders & Automation Inc. as a machinist operating manual and CNC machinery. He also enjoys playing and watching sports and is a huge fan of The Chicago Blackhawks.",
     "committees": "<a href=\"/rov/\">ROV</a>"
   },
   {
@@ -26,7 +27,8 @@
     "position": "Secretary",
     "description": "Brandon is a Sophomore in Computer Science. He joined IEEE in the Fall of 2015 on the ROV Team. He plans to pursue the Systems Programming and Computer Graphics and Visualization tracks in Computer Science. In his free time, he enjoys running, programming, and watching movies. As Secretary, he plans to promote stronger communication among teams and will focus on ensuring members are informed of IEEE events.",
     "committees": "<a href=\"/csociety/\">Computer Society</a>, <a href=\"/rov/\">ROV</a>"
-  },
+  }],
+  "cornerstone":[
   {
     "name": "Yash Nain",
     "image": "/images/officers/2016_Yash_Nain.jpg",
@@ -47,7 +49,8 @@
     "position": "Social Committee Head",
     "description": "Rodolfo is a Senior in Electrical Engineering. He joined Purdue IEEE in the Fall of 2014 to be part of the ROV team. He attributes the IEEE Purdue Chapter as his main source of technical knowledge and is still learning a lot from the organization to this day. Rodolfo is very excited to prepare social activities to unite students within IEEE and all fields of engineering and careers. In his free time, Rodolfo likes discovering new music, watching movies and hanging out with his friends. He\u2019s always looking for new, fun activities he can put together for the organization, so if you have any send them his way.",
     "committees": "<a href=\"/rov/\">ROV</a>"
-  },
+  }],
+  "technical":[
   {
     "name": "Matt Molo",
     "image": "/images/officers/2014_Matt_Molo.jpg",
@@ -73,13 +76,13 @@
     "name": "Hayley Chan",
     "image": "/images/officers/2017_Hayley_Chan.png",
     "position": "Engineering in Medicine and Biology Society (EMBS) Chair (Spring)",
-    "description": "Hayley Chan is a Senior in Health &amp; Disease and joined Purdue IEEE in Spring 2015. She hopes to pursue a career in medicine, with a focus on surgery or pathology. In her free time, Hayley enjoys both cooking and eating, doodling, and playing video games. She is scheduled to graduate Spring 2017.",
+    "description": "Hayley Chan is a Senior in Health & Disease and joined Purdue IEEE in Spring 2015. She hopes to pursue a career in medicine, with a focus on surgery or pathology. In her free time, Hayley enjoys both cooking and eating, doodling, and playing video games. She is scheduled to graduate Spring 2017.",
     "committees": "<a href=\"/embs/\">EMBS</a>"
   },
   {
     "name": "Michael Hayashi",
     "image": "/images/officers/2016_Michael_Hayashi.jpg",
-    "position": "IEEE Microwave Theory &amp; Techniques Society (MTT-S) Chair",
+    "position": "IEEE Microwave Theory & Techniques Society (MTT-S) Chair",
     "description": "Michael is a Graduate Student in Electrical Engineering currently working on his Master's degree. Growing up in the Caterpillar community of Peoria, IL, Michael has known he wanted to be an electrical engineer since childhood. He is a first-generation Boilermaker who loves the opportunities Purdue has given him. Michael has surveyed a wide range of topics in electrical engineering including Fields and Optics, Microelectronics and Nanotechnology, and some Computer Engineering. His current research is in Power and Energy Systems concerning the analysis and mitigation of common-mode current in hybrid vehicle drives. Outside of academics, he enjoys reading, jogging, and video games. Michael first became active with IEEE in Spring 2012 through his participation on the ROV team. Emerging from post-presidency retirement from Purdue IEEE leadership, Michael took it upon himself to expand the MTT-S Chapter at Purdue in his sixth year on campus. He also volunteers with the Central Indiana Section of IEEE, where he is Section Vice Chair and Educational Activities Chair after passing on the role of Section Student Representative.",
     "committees": "Conference, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/committees/old_learning/\">Learning</a>, <a href=\"/mtts/\">IEEE MTT-S</a>, <a href=\"/partieee/\">PARTIEEE</a>, <a href=\"/rov/\">ROV</a>"
   },
@@ -94,7 +97,7 @@
     "name": "Joey Williamson",
     "image": "/images/officers/2017_Joey_Williamson.jpg",
     "position": "Purdue Aerial Robotics Team IEEE Captain (Spring)",
-    "description": " Joey is a Sophomore in Aerospace Engineering. He joined IEEE in Fall 2015 as an Aeromech Team member with PARTIEEE, later becoming the Aeromech Team Lead. Joey began serving as PARTIEEE's Captain starting with the Spring 2017 semester. Since he was young he has been passionate about everything aerospace related, and his professional interests span nearly everything within the aerospace &amp; defense industry. As the Captain of PARTIEEE he aims to continue leading the team toward their goal of designing, building, and delivering a custom UAS to the AUVSI SUAS competition. In his free time he enjoys making music, playing video games, and keeping up current aviation and spaceflight news.\n                <p><a href=\"/partieee/\">PARTIEEE</a></p>\n",
+    "description": " Joey is a Sophomore in Aerospace Engineering. He joined IEEE in Fall 2015 as an Aeromech Team member with PARTIEEE, later becoming the Aeromech Team Lead. Joey began serving as PARTIEEE's Captain starting with the Spring 2017 semester. Since he was young he has been passionate about everything aerospace related, and his professional interests span nearly everything within the aerospace & defense industry. As the Captain of PARTIEEE he aims to continue leading the team toward their goal of designing, building, and delivering a custom UAS to the AUVSI SUAS competition. In his free time he enjoys making music, playing video games, and keeping up current aviation and spaceflight news.\n                <p><a href=\"/partieee/\">PARTIEEE</a></p>\n",
     "committees": "<a href=\"/partieee/\">PARTIEEE</a>"
   },
   {
@@ -119,3 +122,4 @@
     "committees": "<a href=\"/rov/\">ROV</a>"
   }
 ]
+}

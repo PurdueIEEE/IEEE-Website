@@ -1,4 +1,5 @@
-[
+{
+  "elected":[
   {
     "name": "Jessica Chin",
     "image": "/images/officers/2018_Chin_Jessica.jpg",
@@ -33,7 +34,8 @@
     "position": "Secretary",
     "description": "Erik is a senior in Computer Engineering. He joined ROV in spring 2015. In the fall of 2015 he switched to Aerial Robotics, and was a member of the software team before becoming Vice Captain for the 2017-2018 season. He strives for excellence in everything he does, and will bring this to the role of Secretary during the 2018-2019 school year. In his free time, Erik enjoys getting outside or playing board games.",
     "committees": "<a href=\"/partieee/\">Aerial Robotics</a>, <a href=\"/software\">Software Saturdays</a>"
-  },
+  }],
+  "cornerstone":[
   {
     "name": "Alex Zhang",
     "image": "/images/officers/2018_Zhang_Alex.jpg",
@@ -82,7 +84,8 @@
     "position": "Social Head",
     "description": "Eric is a sophomore in Computer Engineering with a minor in poetry. He joined ROV as a freshman when his older brother told him to and never regretted it. Except during Saturday morning meetings when he should still be sleeping. Eric enjoys bringing people together, either by spontaneous excursion or a well organized event and can’t wait to make IEEE more cohesive as a whole as Social Head.",
     "committees": "<a href=\"/rov/\">ROV</a>, <a href=\"/software/\">Software Saturdays</a>, <a href=\"/social/\">Social</a>"
-  },
+  }],
+  "technical":[
   {
     "name": "Christopher Potter",
     "image": "/images/officers/2018_Potter_Christopher.jpg",
@@ -140,3 +143,4 @@
     "committees": "<a href=\"/rov/\">ROV</a>, <a href=\"/software/\">Software Saturdays</a>"
   }
 ]
+}
