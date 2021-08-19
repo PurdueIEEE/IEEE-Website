@@ -21,6 +21,7 @@
         <ieee-header head="Purdue IEEE" page="Officers" v-on:init="handleInit"></ieee-header>
 
         <main>
+            <!-- officer_header -->
             <div class="container-fluid pt-5 mt-5 mb-3 pb-3">
                 <p class="display-3 fw-bold text-center">Executive Committee {{year}} - {{year+1}}</p>
             </div>
@@ -35,9 +36,12 @@
                     </div>
                 </div>
             </div>
+            <!-- /officer_header -->
+            <!-- officer_elected_block -->
             <div class="container-fluid bg-ieee-40">
                 <div class="d-flex flex-column color container-lg">
                     <div v-for="officer in elected" v-bind:officer="officer" class="p-4">
+                        <!-- officer_elected_card -->
                         <div class="row align-items-center justify-content-center">
                             <div class="col-md-2">
                                 <img class="rounded-3 mx-auto d-block img-fluid mb-3" v-bind:src="officer.image" alt="">
@@ -49,12 +53,16 @@
                                 <p class="fs-5"><span v-html="officer.committees" class="officer-link"></span></p>
                             </div>
                         </div>
+                        <!-- /officer_elected_card -->
                     </div>
                 </div>
             </div>
+            <!-- /offcer_elected_block -->
+            <!-- officer_cornerstone_block -->
             <div class="container-fluid">
                 <div class="d-flex flex-column color container-lg">
                     <div v-for="officer in cornerstone" v-bind:officer="officer" class="p-4">
+                        <!-- officer_cornerstone_card -->
                         <div class="row align-items-center justify-content-center">
                             <div class="col-md-2">
                                 <img class="rounded-3 mx-auto d-block img-fluid mb-3" v-bind:src="officer.image" alt="">
@@ -66,12 +74,16 @@
                                 <p class="fs-5"><span v-html="officer.committees" class="officer-link"></span></p>
                             </div>
                         </div>
+                        <!-- /officer_cornerstone_card -->
                     </div>
                 </div>
             </div>
+            <!-- /officer_cornerstone_block -->
+            <!-- officer_technical_block -->
             <div class="container-fluid bg-ieee-40">
                 <div class="d-flex flex-column color container-lg">
                     <div v-for="officer in technical" v-bind:officer="officer" class="p-4">
+                        <!-- officer_technical_card -->
                         <div class="row align-items-center justify-content-center">
                             <div class="col-md-2">
                                 <img class="rounded-3 mx-auto d-block img-fluid mb-3" v-bind:src="officer.image" alt="">
@@ -83,9 +95,11 @@
                                 <p class="fs-5"><span v-html="officer.committees" class="officer-link"></span></p>
                             </div>
                         </div>
+                        <!-- officer_technical_card -->
                     </div>
                 </div>
             </div>
+            <!-- officer_technical_block -->
         </main>
 
        <ieee-footer></ieee-footer>
