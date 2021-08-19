@@ -122,8 +122,7 @@ const vm = new Vue({
       },
       buttonClasses: function(year) {
         return {
-          btn:true, 
-          'btn-ieee':true, 
+          'dropdown-item':true,
           'active':(year==this.year)
         }
       }
