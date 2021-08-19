@@ -22,7 +22,7 @@ Vue.component('ieee-header', {
                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarlinks_about">
                     <li><a class="dropdown-item" href="/about">About IEEE</a></li>
                     <li><a class="dropdown-item" href="/officers">Officers</a></li>
-                    <li><a class="dropdown-item" href="#">Annual Award Winners</a></li>
+                    <li><a class="dropdown-item" href="/awardwinners">Annual Award Winners</a></li>
                     <li><a class="dropdown-item" href="#">Students of the Week</a></li>
                     <li><a class="dropdown-item" href="/constitution">Constitution</a></li>
                 </ul>
@@ -55,7 +55,7 @@ Vue.component('ieee-header', {
               </li>
               <!-- /navbarlinks_committees -->
               <li class="nav-item">
-                <a class="nav-link" href="#">Join</a>
+                <a class="nav-link" href="/join">Join</a>
               </li>
             </ul>
           </div>
