@@ -102,6 +102,8 @@ const vm = new Vue({
       elected: [],
       cornerstone: [],
       technical: [],
+      mailinglistEmail: "",
+      mailinglistSubmit: false,
     },
     methods: {
       // Literally all of these are just used for the officers page
@@ -125,6 +127,10 @@ const vm = new Vue({
           'dropdown-item':true,
           'active':(year==this.year)
         }
+      },
+      submitEmail: function() {
+        // This will need to be added...
+        //this.mailinglistSubmit=true;
       }
     }
 });
