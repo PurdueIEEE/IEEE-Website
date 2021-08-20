@@ -22,7 +22,7 @@ Vue.component('ieee-header', {
                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarlinks_about">
                     <li><a class="dropdown-item" href="/about">About IEEE</a></li>
                     <li><a class="dropdown-item" href="/officers">Officers</a></li>
-                    <li><a class="dropdown-item" href="/awardwinners">Annual Award Winners</a></li>
+                    <li><a class="dropdown-item" href="/awardees">Annual Award Winners</a></li>
                     <li><a class="dropdown-item" href="#">Students of the Week</a></li>
                     <li><a class="dropdown-item" href="/constitution">Constitution</a></li>
                 </ul>
@@ -91,46 +91,4 @@ Vue.component('ieee-footer',{
         <!-- /footer -->
     </footer>
     `
-});
-
-const vm = new Vue({
-    el: '#app',
-    data: {
-      year: 2021,
-      maxYear: 2021,
-      startYear: 2008,
-      elected: [],
-      cornerstone: [],
-      technical: [],
-      mailinglistEmail: "",
-      mailinglistSubmit: false,
-    },
-    methods: {
-      // Literally all of these are just used for the officers page
-      handleInit: async function() {
-        let response = await fetch(`/officers/${this.year}.json`);
-        let responseJSON = await response.json();
-        this.elected = responseJSON.elected;
-        this.cornerstone = responseJSON.cornerstone;
-        this.technical = responseJSON.technical;
-        document.title = `${this.year} Officers | Purdue IEEE`;
-      },
-      handleYearChange: async function(year) {
-        this.year = year;
-        await this.handleInit();
-      },
-      createYears: function() {
-        return new Array(this.maxYear - this.startYear + 1).fill(this.startYear).map((n,i)=>n+i);
-      },
-      buttonClasses: function(year) {
-        return {
-          'dropdown-item':true,
-          'active':(year==this.year)
-        }
-      },
-      submitEmail: function() {
-        // This will need to be added...
-        //this.mailinglistSubmit=true;
-      }
-    }
 });
