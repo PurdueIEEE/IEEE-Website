@@ -23,7 +23,7 @@ Vue.component('ieee-header', {
                     <li><a class="dropdown-item" href="/about">About IEEE</a></li>
                     <li><a class="dropdown-item" href="/officers">Officers</a></li>
                     <li><a class="dropdown-item" href="/awardees">Annual Award Winners</a></li>
-                    <li><a class="dropdown-item" href="#">Students of the Week</a></li>
+                    <li><a class="dropdown-item" href="/studentwinners">Students of the Week</a></li>
                     <li><a class="dropdown-item" href="/constitution">Constitution</a></li>
                 </ul>
               </li>
