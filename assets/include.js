@@ -50,7 +50,7 @@ Vue.component('ieee-header', {
                     <li><a class="dropdown-item" href="#">ROV</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><div class="dropdown-header py-1">Events</div></li>
-                    <li><a class="dropdown-item" href="#">Software Saturdays</a></li>
+                    <li><a class="dropdown-item" href="/software">Software Saturdays</a></li>
                 </ul>
               </li>
               <!-- /navbarlinks_committees -->
