@@ -29,7 +29,7 @@ Vue.component('ieee-header', {
               </li>
               <!-- /navbarlinks_about -->
                <li class="nav-item">
-                <a class="nav-link" href="#">Calender</a>
+                <a class="nav-link" href="/calendar">Calendar</a>
               </li>
               <!-- navbarlinks_committees -->
               <li class="nav-item dropdown">
