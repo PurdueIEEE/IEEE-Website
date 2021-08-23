@@ -26,6 +26,18 @@
     background: #A3BFD8;
 }
 
+.list-group-item.active {
+    background: #A3BFD8;
+    border-color: #749FC4;
+    color: black;
+}
+
+.list-group-item.active.hover {
+    background: #A3BFD8;
+    border-color: #749FC4;
+    color: white;
+}
+
 .hero-image {
     /*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/exec-2021-22.jpg');*/
     height: 100%;
