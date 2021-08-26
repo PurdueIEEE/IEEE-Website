@@ -36,7 +36,7 @@ Vue.component('ieee-header', {
                 <a class="nav-link dropdown-toggle" href="#" id="navbarlinks_committees" role="button" data-bs-toggle="dropdown" aria-expanded="false">Committees</a>
                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarlinks_committees">
                     <li><div class="dropdown-header py-1">Cornerstone</div></li>
-                    <li><a class="dropdown-item" href="#">Learning</a></li>
+                    <li><a class="dropdown-item" href="/learning">Learning</a></li>
                     <li><a class="dropdown-item" href="#">Industrial Relations</a></li>
                     <li><a class="dropdown-item" href="#">Social</a></li>
                     <li><a class="dropdown-item" href="#">Growth & Engagement</a></li>
