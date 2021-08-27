@@ -1,7 +1,7 @@
 // Header and Navbar
 Vue.component('ieee-header', {
     mounted: function() {
-        document.title = `${this.page} | Purdue IEEE`;
+        document.title = this.page != '' ? `${this.page} | Purdue IEEE` : "Purdue IEEE";
         if(document.title == 'Officers | Purdue IEEE') this.$emit('init'); // This is SUCH A SHITTY way to let the root element know it is the officers page
     },
     props: ['head', 'page'],
