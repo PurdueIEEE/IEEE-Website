@@ -47,7 +47,7 @@ Vue.component('ieee-header', {
                     <li><a class="dropdown-item" href="/embs">EMBS</a></li>
                     <li><a class="dropdown-item" href="#">MTT-S</a></li>
                     <li><a class="dropdown-item" href="#">Racing</a></li>
-                    <li><a class="dropdown-item" href="#">ROV</a></li>
+                    <li><a class="dropdown-item" href="/rov">ROV</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><div class="dropdown-header py-1">Events</div></li>
                     <li><a class="dropdown-item" href="/software">Software Saturdays</a></li>
