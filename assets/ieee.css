@@ -26,6 +26,10 @@
     background: #A3BFD8;
 }
 
+.bg-purdue {
+    background-color: #CFB991;
+}
+
 .list-group-item.active {
     background: #A3BFD8;
     border-color: #749FC4;
