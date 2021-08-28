@@ -15,6 +15,7 @@ Bootstrap (5.0.2) is the CSS library and is mostly unmodified (accordion header 
 
 ## Key Formatting Notes
 
+* _Entire Site_: PLEASE MAKE SURE INDIVIDUAL PAGES ARE <= 1MB! CROP AND RESCALE IMAGES TO REACH THIS GOAL!
 * `/`: committee cover images must be 500x100px with a 250-300 character descriptor
 * `/awardees`: awardee images must be 300x300px (not every old image follows this)
 * `/studentwinners`: awardee images must be 300x300px
