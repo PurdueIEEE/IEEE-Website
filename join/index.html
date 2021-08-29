@@ -60,8 +60,11 @@
                         <div id="emailHelp" class="form-text" v-on:>Enter your email to join the IEEE mailing list.</div>
                         <button type="submit" class="btn btn-success mt-3">Submit</button>
                     </div>
-                    <div class="mt-3 mb-1 text-danger text-center" v-if="mailinglistSubmit">
-                        This feature is currently unsupported!
+                    <div class="mt-3 mb-1 text-success text-center" v-if="mailinglistSubmitGood">
+                        {{mailinglistSubmitGoodMsg}}
+                    </div>
+                    <div class="mt-3 mb-1 text-danger text-center" v-if="mailinglistSubmitFail">
+                        {{mailinglistSubmitFailMsg}}
                     </div>
                 </form>
             </div>
