@@ -12,7 +12,10 @@ const vm = new Vue({
         fetch('https://purdueieee.org/DirectoryServices/directories.php', {
           method: 'post',
           mode: 'no-cors',
-          headers: new Headers({'content-type': 'application/x-www-form-urlencoded; charset=UTF-8','Accept': '*/*',}),
+          headers: new Headers(
+            {
+              'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+            }),
           body: encodeURI(`email=${this.mailinglistEmail}&list[]=ieee-announcements`).replace('@', '%40'),
         })
         .then((response) => {
