@@ -16,7 +16,7 @@ let info_sessions = [
     {date:{month: 9,day: 9},time:{hour: 18,minute: 0},committee:'Computer Society',location:'EE 117'},
     {date:{month: 9,day: 9},time:{hour: 18,minute: 0},committee:'EMBS',location:'EE 222'},
     {date:{month: 9,day: 9},time:{hour: 19,minute: 0},committee:'MTT-S',location:'<a href="https://discord.gg/kZNkKXM">IEEE Q&amp;A Discord [MTT-S]</a>'},
-    {date:{month: 9,day: 11},time:{hour: 15,minute: 30},committee:'Software Saturdays',location:'PHYS 112'},
+    {date:{month: 9,day: 11},time:{hour: 15,minute: 30},committee:'Software Saturdays',location:'<a href="https://purdue-edu.zoom.us/j/99675779158?pwd=Vklib29nS1BCYVpXaG5wMkRlUnpTQT09">WALC 1087 and Zoom</a>'},
 ]
 
 let table = document.getElementById('infosessions_tbody');
