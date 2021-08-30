@@ -10,6 +10,8 @@ const vm = new Vue({
     methods: {
       submitEmail: function() {
         lists = ['ieee-announcements']
+        this.mailinglistSubmitGood = false;
+        this.mailinglistSubmitFail = false;
 
         // CORS sucks and this may break at any time...
         fetch('https://purdueieee.org/DirectoryServices/directories.php', {
