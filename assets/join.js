@@ -18,7 +18,13 @@ const vm = new Vue({
           body: encodeURI(`email=${this.mailinglistEmail}&list[]=ieee-announcements`).replace('@', '%40'), // properly encode form data
         })
         .then((response) => {
-          return response.text(); // Endpoint returns HTML
+          if (response.ok) {
+            return response.text(); // Endpoint returns HTML
+          }
+          // Response completed but is not ok
+          return new Promise((resolve, reject) => {
+            reject('Request not OK');
+          });
         })
         .then((data) => {
           // We are ignoring the HTML returned by the site but this can be changed 
