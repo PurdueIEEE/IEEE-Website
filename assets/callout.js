@@ -7,7 +7,7 @@ let info_sessions = [
     {date:{month: 9,day: 1},time:{hour: 18,minute: 30},committee:'Purdue IEEE',location:'PHYS 112'},
     {date:{month: 9,day: 2},time:{hour: 18,minute: 30},committee:'Purdue IEEE',location:'PHYS 112'},
     {date:{month: 9,day: 5},time:{hour: 16,minute: 0},committee:'Learning',location:'<a href="https://discord.gg/kZNkKXM">IEEE Q&amp;A Discord [Learning]</a>'},
-    {date:{month: 9,day: 8},time:{hour: 18,minute: 30},committee:'ROV',location:'POTR 234'},
+    {date:{month: 9,day: 8},time:{hour: 18,minute: 30},committee:'ROV',location:'POTR 234',join_page:'https://purdueieee.org/rov/join/'},
     {date:{month: 9,day: 8},time:{hour: 18,minute: 30},committee:'Aerial Robotics',location:'ARMS 1010'},
     {date:{month: 9,day: 8},time:{hour: 18,minute: 30},committee:'Racing',location:'LWSN B151'},
     {date:{month: 9,day: 9},time:{hour: 18,minute: 30},committee:'Social',location:'PHYS 112'},
@@ -36,7 +36,11 @@ for (session of info_sessions) {
         row += `<th scope="row">${prevdate}</th>`;
     }
 
-    row += `<td>${session.committee}</td>`;
+    if ("join_page" in session) {
+        row += `<td><a href = "${session.join_page}">${session.committee}</a></td>`;
+    } else {
+        row += `<td>${session.committee}</td>`;
+    }
     row += `<td>${session.time.hour > 12 ? session.time.hour - 12 : session.time.hour}:${session.time.minute.toString().padStart(2, "0")} ${session.time.hour > 12 ? 'PM' : 'AM'}</td>`;
     row += `<td>${session.location}</td>`;
     row += '</tr>';
