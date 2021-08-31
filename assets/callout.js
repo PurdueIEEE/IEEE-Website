@@ -10,11 +10,11 @@ let info_sessions = [
     {date:{month: 9,day: 8},time:{hour: 18,minute: 30},committee:'ROV',location:'POTR 234',join_page:'https://purdueieee.org/rov/join/'},
     {date:{month: 9,day: 8},time:{hour: 18,minute: 30},committee:'Aerial Robotics',location:'ARMS 1010'},
     {date:{month: 9,day: 8},time:{hour: 18,minute: 30},committee:'Racing',location:'LWSN B151'},
+    {date:{month: 9,day: 9},time:{hour: 18,minute: 0},committee:'EMBS',location:'EE 222'},
     {date:{month: 9,day: 9},time:{hour: 18,minute: 30},committee:'Social',location:'PHYS 201'},
     {date:{month: 9,day: 9},time:{hour: 18,minute: 30},committee:'Industrial Relations',location:'PHYS 201'},
     {date:{month: 9,day: 9},time:{hour: 18,minute: 30},committee:'Growth &amp; Engagement',location:'PHYS 201'},
     {date:{month: 9,day: 9},time:{hour: 18,minute: 30},committee:'Computer Society',location:'EE 117'},
-    {date:{month: 9,day: 9},time:{hour: 18,minute: 0},committee:'EMBS',location:'EE 222'},
     {date:{month: 9,day: 9},time:{hour: 19,minute: 30},committee:'MTT-S',location:'<a href="https://discord.gg/kZNkKXM">IEEE Q&amp;A Discord [MTT-S]</a>'},
     {date:{month: 9,day: 11},time:{hour: 15,minute: 30},committee:'Software Saturdays',location:'<a href="https://purdue-edu.zoom.us/j/99675779158?pwd=Vklib29nS1BCYVpXaG5wMkRlUnpTQT09">WALC 1087 and Zoom</a>'},
 ]
