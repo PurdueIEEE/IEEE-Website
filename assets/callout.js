@@ -25,7 +25,7 @@ let prevdate = '';
 
 for (session of info_sessions) {
     // TODO add timezone support
-    date_i.setHours(session.time.hour+12, session.time.minute, 0, 0);
+    date_i.setHours(session.time.hour, session.time.minute, 0, 0);
     date_i.setMonth(session.date.month-1, session.date.day);
     row = `<tr ${ date <= date_i ? '' : 'class="text-decoration-line-through"'}>`;
 
