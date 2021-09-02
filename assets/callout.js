@@ -12,7 +12,7 @@ let info_sessions = [
     {date:{month: 9,day: 8},time:{hour: 18,minute: 30},committee:'Racing',location:'LWSN B151'},
     {date:{month: 9,day: 9},time:{hour: 18,minute: 0},committee:'EMBS',location:'EE 222'},
     {date:{month: 9,day: 9},time:{hour: 18,minute: 30},committee:'Computer Society',location:'EE 117'},
-    {date:{month: 9,day: 11},time:{hour: 15,minute: 30},committee:'Software Saturdays',location:'<a href="https://purdue-edu.zoom.us/j/99675779158?pwd=Vklib29nS1BCYVpXaG5wMkRlUnpTQT09">WALC 1087 and Zoom</a>'},
+    {date:{month: 9,day: 11},time:{hour: 15,minute: 30},committee:'Software Saturdays',location:'<a href="https://purdue-edu.zoom.us/j/99675779158?pwd=Vklib29nS1BCYVpXaG5wMkRlUnpTQT09">HAMP 1252 and Zoom</a>'},
     {date:{month: 9,day: 14},time:{hour: 18,minute: 30},committee:'Learning',location:'PHYS 201'},
     {date:{month: 9,day: 14},time:{hour: 18,minute: 30},committee:'Social',location:'PHYS 201'},
     {date:{month: 9,day: 14},time:{hour: 18,minute: 30},committee:'Industrial Relations',location:'PHYS 201'},
