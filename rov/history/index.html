@@ -13,7 +13,7 @@
         <meta name="description" content="The official website of the Purdue IEEE Student Branch">
         <meta name="author" content="Purdue IEEE">
 
-        <title>Purdue IEEE</title>
+        <title>ROV History - Purdue IEEE</title>
 
     </head>
     <body>
@@ -21,23 +21,11 @@
         <ieee-header head="ROV" page="ROV"></ieee-header>
 
         <main>
-            <div class="pt-5 mt-5 container-lg">
-                <div class="row">
-                    <div class="col-md-3">
-                        <ul class="list-group list-group-flush">
-                            <a class="list-group-item" href="/rov/">Home</a>
-                            <a class="list-group-item" href="/rov/updates/">Updates</a>
-                            <a class="list-group-item active" href="/rov/history/">History</a>
-                            <a class="list-group-item" href="/rov/sponsors/">Sponsors</a>
-                            <a class="list-group-item" href="/rov/join/">Join ROV</a>
-                        </ul>
-                    </div>
-                    <div class="col-md-9 text-center">
-                        <img src="../images/rov_logo.jpg" alt="ROV Logo" width="300" height="auto" >
-                        <p class="display-4 fw-bold">Remotely Operated underwater Vehicle (ROV) Team</p>
-                    </div>
-                </div>
-            </div>
+            <link rel="import" href="/rov/sidebar.html">
+            <script>
+                let current = "rov-main-sidelink";
+                document.getElementById(current).classList.add("active");
+            </script>
 
             <div class="container-lg p-3">
                 <p class="fs-1 text-center">ROV Team History</p>
