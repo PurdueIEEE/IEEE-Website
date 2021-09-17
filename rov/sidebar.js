@@ -1,4 +1,4 @@
-<div class="pt-5 mt-5 container-lg">
+let content = `<div class="pt-5 mt-5 container-lg">
     <div class="row">
         <div class="col-md-3">
             <ul class="list-group list-group-flush">
@@ -11,8 +11,10 @@
             </ul>
         </div>
         <div class="col-md-9 text-center">
-            <img src="./images/rov_logo.jpg" alt="ROV Logo" width="300" height="auto" >
+            <img src="/rov/images/rov_logo.jpg" alt="ROV Logo" width="300" height="auto" >
             <p class="display-4 fw-bold">Remotely Operated underwater Vehicle (ROV) Team</p>
         </div>
     </div>
-</div>
+</div>`
+
+document.getElementById("insert-rov-sidebar").innerHTML = content;

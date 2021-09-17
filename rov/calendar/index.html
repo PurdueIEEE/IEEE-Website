@@ -21,9 +21,10 @@
         <ieee-header head="Purdue IEEE" page="Calendar"></ieee-header>
 
         <main>
-            <link rel="import" href="/rov/sidebar.html">
+            <div id="insert-rov-sidebar"></div>
+            <script src="/rov/sidebar.js"></script>
             <script>
-                let current = "rov-main-sidelink";
+                let current = "rov-calendar-sidelink";
                 document.getElementById(current).classList.add("active");
             </script>
 
@@ -35,7 +36,7 @@
                     <div class="px-3 mx-3 my-2 rounded" style="background-color: #865A5A;">Workspace</div>
                 </div>
 
-                <calendar></calendar>
+                <div id="rov-calendar-content"></div>
 
             </div>
         </main>
@@ -45,6 +46,6 @@
     <script src="/assets/external/bootstrap.bundle.min.js"></script>
     <script src="/assets/external/vue2.min.js"></script>
     <script src="/assets/include.js"></script>
-    <script src="/assets/calendar.js"></script>
+    <script type="module" src="/rov/calendar/calendar.js"></script>
     </body>
 </html>

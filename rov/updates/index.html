@@ -21,9 +21,10 @@
         <ieee-header head="ROV" page="ROV"></ieee-header>
 
         <main>
-            <link rel="import" href="/rov/sidebar.html">
+            <div id="insert-rov-sidebar"></div>
+            <script src="/rov/sidebar.js"></script>
             <script>
-                let current = "rov-main-sidelink";
+                let current = "rov-updates-sidelink";
                 document.getElementById(current).classList.add("active");
             </script>
 
