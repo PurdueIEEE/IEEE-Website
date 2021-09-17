@@ -10,7 +10,7 @@ const all_cal = [
     { name: 'rov 2021-22', color: 'AB8B00', src: 'bu5n2uj8dnmc46thuh0tvblkpc@group.calendar.google.com'},
     { name: 'software saturdays', color: '333333', src: 'd606i7l0ahpasvr7gl3abatfi0@group.calendar.google.com'},
     { name: 'workspace reservations', color: '865A5A', src: 'vuk1tocl97vaod7ej5de08e9dc@group.calendar.google.com'},
-]
+];
 export default all_cal;
 
 Vue.component('calendar', {
