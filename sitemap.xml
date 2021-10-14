@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://purdueieee.org/</loc>
+  <lastmod>2021-08-30T02:03:46+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/about/</loc>
+  <lastmod>2021-08-28T19:15:48+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/join/</loc>
+  <lastmod>2021-08-29T21:46:02+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/calendar/</loc>
+  <lastmod>2021-08-23T04:05:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/csociety/</loc>
+  <lastmod>2021-08-28T19:53:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/embs/</loc>
+  <lastmod>2021-08-28T19:15:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/mtt-s/</loc>
+  <lastmod>2021-08-28T19:53:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/partieee/</loc>
+  <lastmod>2021-08-28T19:15:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/rov/</loc>
+  <lastmod>2021-08-28T19:20:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/racing/</loc>
+  <lastmod>2021-08-28T19:53:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/software/</loc>
+  <lastmod>2021-08-28T19:15:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/embs/projects/</loc>
+  <lastmod>2021-08-28T16:47:40+00:00</lastmod>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/embs/presentations/</loc>
+  <lastmod>2021-08-28T03:26:40+00:00</lastmod>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/partieee/about/</loc>
+  <lastmod>2021-08-25T03:30:16+00:00</lastmod>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/partieee/sponsorship/</loc>
+  <lastmod>2021-08-25T03:30:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/partieee/media/</loc>
+  <lastmod>2021-08-26T00:50:35+00:00</lastmod>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/rov/updates/</loc>
+  <lastmod>2021-08-28T19:15:48+00:00</lastmod>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/rov/history/</loc>
+  <lastmod>2021-08-30T02:03:46+00:00</lastmod>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/rov/sponsors/</loc>
+  <lastmod>2021-08-28T19:15:48+00:00</lastmod>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/rov/join/</loc>
+  <lastmod>2021-08-30T02:55:14+00:00</lastmod>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/software/attendee/</loc>
+  <lastmod>2021-08-28T19:15:48+00:00</lastmod>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/software/mentor/</loc>
+  <lastmod>2021-08-28T19:15:48+00:00</lastmod>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>https://purdueieee.org/software/history/</loc>
+  <lastmod>2021-08-28T19:15:48+00:00</lastmod>
+  <priority>0.4</priority>
+</url>
+
+
+</urlset>

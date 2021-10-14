@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="/assets/external/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/external/bootstrap-icons.css">
+        <link href="/assets/ieee.css" rel="stylesheet">
+        <link rel="icon" href="/favicon.ico"/>
+
+        <meta name="description" content="The official website of the Purdue IEEE Student Branch">
+        <meta name="author" content="Purdue IEEE">
+
+        <title>Purdue IEEE</title>
+
+    </head>
+    <body>
+    <div id="app">
+        <ieee-header head="Purdue IEEE" page="Officers" v-on:init="handleInit"></ieee-header>
+
+        <main>
+            <!-- officer_header -->
+            <div class="container-fluid pt-5 mt-5 mb-3 pb-3">
+                <p class="display-3 fw-bold text-center">Executive Committee {{year}} - {{year+1}}</p>
+            </div>
+            <div class="container-lg my-3 text-center">
+                <div class="d-inline-flex align-items-center">
+                    <label class="display-5 mx-3" for="officerYear">Select Year:</label>
+                    <div class="dropdown" name="officerYear">
+                        <button class="btn btn-ieee dropdown-toggle fs-4" type="button" id="officerYearDropdown" data-bs-toggle="dropdown" aria-expanded="false">{{year}} - {{year+1}}</button>
+                        <ul class="dropdown-menu" aria-labelledby="officerYearDropdwon">
+                            <li v-for="y in createYears()" v-bind:class="buttonClasses(y)" v-on:click="handleYearChange(y)">{{y}}-{{((y+1)%100).toString().padStart(2, "0")}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /officer_header -->
+            <!-- officer_elected_block -->
+            <div class="container-fluid bg-ieee-40">
+                <div class="d-flex flex-column color container-lg">
+                    <div v-for="officer in elected" v-bind:officer="officer" class="p-4">
+                        <!-- officer_elected_card -->
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-md-2">
+                                <img class="rounded-3 mx-auto d-block img-fluid mb-3" v-bind:src="officer.image" alt="">
+                            </div>
+                            <div class="col-md-10">
+                                <p class="fs-3 fw-bold">{{officer.name}}</p>
+                                <p class="fs-4">{{officer.position}}</p>
+                                <p class="fs-5">{{officer.description}}</p>
+                                <p class="fs-5"><span v-html="officer.committees" class="officer-link"></span></p>
+                            </div>
+                        </div>
+                        <!-- /officer_elected_card -->
+                    </div>
+                </div>
+            </div>
+            <!-- /offcer_elected_block -->
+            <!-- officer_cornerstone_block -->
+            <div class="container-fluid">
+                <div class="d-flex flex-column color container-lg">
+                    <div v-for="officer in cornerstone" v-bind:officer="officer" class="p-4">
+                        <!-- officer_cornerstone_card -->
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-md-2">
+                                <img class="rounded-3 mx-auto d-block img-fluid mb-3" v-bind:src="officer.image" alt="">
+                            </div>
+                            <div class="col-md-10">
+                                <p class="fs-3 fw-bold">{{officer.name}}</p>
+                                <p class="fs-4">{{officer.position}}</p>
+                                <p class="fs-5">{{officer.description}}</p>
+                                <p class="fs-5"><span v-html="officer.committees" class="officer-link"></span></p>
+                            </div>
+                        </div>
+                        <!-- /officer_cornerstone_card -->
+                    </div>
+                </div>
+            </div>
+            <!-- /officer_cornerstone_block -->
+            <!-- officer_technical_block -->
+            <div class="container-fluid bg-ieee-40">
+                <div class="d-flex flex-column color container-lg">
+                    <div v-for="officer in technical" v-bind:officer="officer" class="p-4">
+                        <!-- officer_technical_card -->
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-md-2">
+                                <img class="rounded-3 mx-auto d-block img-fluid mb-3" v-bind:src="officer.image" alt="">
+                            </div>
+                            <div class="col-md-10">
+                                <p class="fs-3 fw-bold">{{officer.name}}</p>
+                                <p class="fs-4">{{officer.position}}</p>
+                                <p class="fs-5">{{officer.description}}</p>
+                                <p class="fs-5"><span v-html="officer.committees" class="officer-link"></span></p>
+                            </div>
+                        </div>
+                        <!-- officer_technical_card -->
+                    </div>
+                </div>
+            </div>
+            <!-- officer_technical_block -->
+        </main>
+
+       <ieee-footer></ieee-footer>
+    </div>
+    <script src="/assets/external/bootstrap.bundle.min.js"></script>
+    <script src="/assets/external/vue2.min.js"></script>
+    <script src="/assets/include.js"></script>
+    <script src="/assets/officers.js"></script>
+    </body>
+</html>

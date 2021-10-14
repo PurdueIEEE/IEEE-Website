@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 622.3 254.4"
+   style="enable-background:new 0 0 622.3 254.4;"
+   xml:space="preserve"
+   sodipodi:docname="slack_logo.svg"
+   inkscape:version="1.0.1 (3bc2e81, 2020-09-07)"><metadata
+   id="metadata209"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs207" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1733"
+   inkscape:window-height="891"
+   id="namedview205"
+   showgrid="false"
+   inkscape:zoom="2.1147357"
+   inkscape:cx="311.15"
+   inkscape:cy="127.2"
+   inkscape:window-x="0"
+   inkscape:window-y="360"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+<style
+   type="text/css"
+   id="style162">
+	.st0{fill:#E01E5A;}
+	.st1{fill:#36C5F0;}
+	.st2{fill:#2EB67D;}
+	.st3{fill:#ECB22E;}
+</style>
+<g
+   id="g202"
+   transform="matrix(1.2327097,0,0,1.2327097,-72.471558,-28.465527)">
+	<g
+   id="g174">
+		<path
+   d="m 221.5,161.5 6.2,-14.4 c 6.7,5 15.6,7.6 24.4,7.6 6.5,0 10.6,-2.5 10.6,-6.3 -0.1,-10.6 -38.9,-2.3 -39.2,-28.9 -0.1,-13.5 11.9,-23.9 28.9,-23.9 10.1,0 20.2,2.5 27.4,8.2 l -5.8,14.7 c -6.6,-4.2 -14.8,-7.2 -22.6,-7.2 -5.3,0 -8.8,2.5 -8.8,5.7 0.1,10.4 39.2,4.7 39.6,30.1 0,13.8 -11.7,23.5 -28.5,23.5 -12.3,0 -23.6,-2.9 -32.2,-9.1"
+   id="path164" />
+		<path
+   d="m 459.4,141.9 c -3.1,5.4 -8.9,9.1 -15.6,9.1 -9.9,0 -17.9,-8 -17.9,-17.9 0,-9.9 8,-17.9 17.9,-17.9 6.7,0 12.5,3.7 15.6,9.1 l 17.1,-9.5 c -6.4,-11.4 -18.7,-19.2 -32.7,-19.2 -20.7,0 -37.5,16.8 -37.5,37.5 0,20.7 16.8,37.5 37.5,37.5 14.1,0 26.3,-7.7 32.7,-19.2 z"
+   id="path166" />
+		<rect
+   x="290.79999"
+   y="64.5"
+   width="21.4"
+   height="104.7"
+   id="rect168" />
+		<polygon
+   points="531.7,169.2 559.1,169.2 526.8,131.9 556.7,97.1 530.5,97.1 506.3,126 506.3,64.5 484.9,64.5 484.9,169.2 506.3,169.2 506.3,137.8 "
+   id="polygon170" />
+		<path
+   d="m 375.8,142.1 c -3.1,5.1 -9.5,8.9 -16.7,8.9 -9.9,0 -17.9,-8 -17.9,-17.9 0,-9.9 8,-17.9 17.9,-17.9 7.2,0 13.6,4 16.7,9.2 z m 0,-45 v 8.5 c -3.5,-5.9 -12.2,-10 -21.3,-10 -18.8,0 -33.6,16.6 -33.6,37.4 0,20.8 14.8,37.6 33.6,37.6 9.1,0 17.8,-4.1 21.3,-10 v 8.5 h 21.4 v -72 z"
+   id="path172" />
+	</g>
+	<g
+   id="g200">
+		<g
+   id="g180">
+			<path
+   class="st0"
+   d="m 89.2,142 c 0,7.3 -5.9,13.2 -13.2,13.2 -7.3,0 -13.2,-5.9 -13.2,-13.2 0,-7.3 5.9,-13.2 13.2,-13.2 h 13.2 z"
+   id="path176" />
+			<path
+   class="st0"
+   d="m 95.8,142 c 0,-7.3 5.9,-13.2 13.2,-13.2 7.3,0 13.2,5.9 13.2,13.2 v 33 c 0,7.3 -5.9,13.2 -13.2,13.2 -7.3,0 -13.2,-5.9 -13.2,-13.2 z"
+   id="path178" />
+		</g>
+		<g
+   id="g186">
+			<path
+   class="st1"
+   d="m 109,89 c -7.3,0 -13.2,-5.9 -13.2,-13.2 0,-7.3 5.9,-13.2 13.2,-13.2 7.3,0 13.2,5.9 13.2,13.2 V 89 Z"
+   id="path182" />
+			<path
+   class="st1"
+   d="m 109,95.7 c 7.3,0 13.2,5.9 13.2,13.2 0,7.3 -5.9,13.2 -13.2,13.2 H 75.9 c -7.3,0 -13.2,-5.9 -13.2,-13.2 0,-7.3 5.9,-13.2 13.2,-13.2 z"
+   id="path184" />
+		</g>
+		<g
+   id="g192">
+			<path
+   class="st2"
+   d="m 161.9,108.9 c 0,-7.3 5.9,-13.2 13.2,-13.2 7.3,0 13.2,5.9 13.2,13.2 0,7.3 -5.9,13.2 -13.2,13.2 h -13.2 z"
+   id="path188" />
+			<path
+   class="st2"
+   d="m 155.3,108.9 c 0,7.3 -5.9,13.2 -13.2,13.2 -7.3,0 -13.2,-5.9 -13.2,-13.2 V 75.8 c 0,-7.3 5.9,-13.2 13.2,-13.2 7.3,0 13.2,5.9 13.2,13.2 z"
+   id="path190" />
+		</g>
+		<g
+   id="g198">
+			<path
+   class="st3"
+   d="m 142.1,161.8 c 7.3,0 13.2,5.9 13.2,13.2 0,7.3 -5.9,13.2 -13.2,13.2 -7.3,0 -13.2,-5.9 -13.2,-13.2 v -13.2 z"
+   id="path194" />
+			<path
+   class="st3"
+   d="m 142.1,155.2 c -7.3,0 -13.2,-5.9 -13.2,-13.2 0,-7.3 5.9,-13.2 13.2,-13.2 h 33.1 c 7.3,0 13.2,5.9 13.2,13.2 0,7.3 -5.9,13.2 -13.2,13.2 z"
+   id="path196" />
+		</g>
+	</g>
+</g>
+</svg>

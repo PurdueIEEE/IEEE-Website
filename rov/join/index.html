@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="/assets/external/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/external/bootstrap-icons.css">
+        <link href="/assets/ieee.css" rel="stylesheet">
+        <link rel="icon" href="/favicon.ico"/>
+
+        <meta name="description" content="The official website of the Purdue IEEE Student Branch">
+        <meta name="author" content="Purdue IEEE">
+
+        <title>ROV Join - Purdue IEEE</title>
+
+    </head>
+    <body>
+    <div id="app">
+        <ieee-header head="ROV" page="ROV"></ieee-header>
+
+        <main>
+            <div id="insert-rov-sidebar"></div>
+            <script src="/rov/sidebar.js"></script>
+            <script>
+                let current = "rov-join-sidelink";
+                document.getElementById(current).classList.add("active");
+            </script>
+
+            <div class="container-fluid bg-purdue mt-3 pt-3">
+                <div class="container-lg p-3">
+                    <div class="row">
+                        <div class="col">
+                            <p class="fs-1 text-center">Join ROV</p>
+                            <p class="fs-5">
+                                The ROV Fall 20201 Info Session was held September 8th from 6:30pm to 8:00pm in POTR 234.
+                            </p>
+                            <!--<p class="fs-5">
+                                The ROV team brings together expertise in electronics, mechanics, and software in order to
+                                create an unrivaled vehicle. We strive to finish first place in the world, and we are
+                                therefore looking for dedicated and talented members to help us achieve this goal! If you
+                                enjoy being a part of a fast-paced team and learn quickly, look no further.
+                            </p>
+                            <p class="fs-5">
+                                Applications for the Fall 2021 semester are open. <a class="link-dark" href="https://docs.google.com/forms/d/e/1FAIpQLSeHTzK96ZjXl_XZN23u8v8So9GWsLoonXExf_j3SFtM51gZBg/viewform?usp=sf_link" target="_blank">Applications</a> must be filled out by 11:59
+                                pm on September 10th. If you have any questions please reach out to Katherine Sandys at
+                                <a class="link-dark" href="mailto:rov@purdueieee.org">rov@purdueieee.org</a>.
+                            </p>-->
+                            <p class="fs-5">
+                                At this time, the ROV team is not accepting any new members. Please check back next semester 
+                                for other opportunities.
+                            </p>
+                        </div>
+                        <div class="col">
+                            <iframe src="https://www.youtube.com/embed/oLKrYt-nZQg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="100%" height="350" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+       <ieee-footer></ieee-footer>
+    </div>
+    <script src="/assets/external/bootstrap.bundle.min.js"></script>
+    <script src="/assets/external/vue2.min.js"></script>
+    <script src="/assets/include.js"></script>
+    <script src="/assets/base.js"></script>
+    </body>
+</html>
