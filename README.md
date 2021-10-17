@@ -1,10 +1,12 @@
-# IEEE-Website  
+# IEEE-Website
+
+[![Deploy](https://deploy.purdueieee.org/status?repo=PurdueIEEE_IEEE-Website)](https://purdueieee.org)
 
 [purdueieee.org](https://purdueieee.org) for deployment.
 
 [old.purdueieee.org](https://old.purdueieee.org) for the former site, archival purposes only (code visible at tag `old-final`).
 
-Fork this repository and make a pull request for website updates.  
+Fork this repository and make a pull request for website updates.
 Contact ieee-infrastructure@purdueieee.org for any questions.
 
 ## Basic Tech Layout
