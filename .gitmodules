@@ -1,3 +1,7 @@
 [submodule "DirectoryServices"]
 	path = DirectoryServices
 	url = git@github.com:PurdueIEEE/DirectoryServices.git
+[submodule "constitution/Constitution"]
+	path = constitution/Constitution
+	url = https://github.com/PurdueIEEE/Constitution.git
+	branch = master
