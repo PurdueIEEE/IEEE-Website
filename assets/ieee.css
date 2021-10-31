@@ -30,6 +30,10 @@
     background-color: #CFB991;
 }
 
+.link-dark:hover {
+    color: #464646;
+}
+
 .list-group-item.active {
     background: #A3BFD8;
     border-color: #749FC4;
@@ -81,7 +85,7 @@ footer {
 
 
 @media screen and (min-width: 950px) {
-    
+
     @keyframes toBW {
         0%    { -webkit-filter: grayscale(0%) brightness(100%); filter: grayscale(0%) brightness(100%); }
         25%   { -webkit-filter: grayscale(25%) brightness(87%); filter: grayscale(25%) brightness(87%); }
@@ -104,7 +108,7 @@ footer {
         display: block;
     }
 
-    .igrid-img-container:hover .igrid-img{ 
+    .igrid-img-container:hover .igrid-img{
         animation: toBW 0.35s;
         -webkit-filter: grayscale(100%) brightness(50%);
         filter: grayscale(100%) brightness(50%);
