@@ -46,8 +46,15 @@
   {
     "name": "Ethan Welp",
     "image": "/images/officers/2021_Ethan_Welp.jpg",
-    "position": "Learning Head",
+    "position": "Learning Head (till October)",
     "description": "Ethan is a junior in Computer Engineering and is part of the ROV team. He has been involved with Learning since 2020 and likes to go running and play piano.",
+    "committees": "<a href=\"/learning/\">Learning</a>"
+  },
+  {
+    "name": "Sebastian Gruenwald",
+    "image": "/images/officers/2020_Gruenwald_Sebastian.jpg",
+    "position": "Learning Head (from October)",
+    "description": "Sebastian is a junior majoring in Civil Engineering with a minor in Engineering Public Policy. He joined IEEE in Fall 2019 as part of the ROV team. In his free time, Sebastian enjoys working out, reading transportation maps, and fashion.",
     "committees": "<a href=\"/learning/\">Learning</a>"
   },
   {
