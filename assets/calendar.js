@@ -1,4 +1,5 @@
 // Future person: These hex codes are specific and limited by Google
+//                Also, ROV calendars can be limited to only the current year and past year
 const all_cal = [
     { name: 'ieee', color: '2952A3', src: 'd5lo1ojucvmelsk9a54kndq1g8@group.calendar.google.com'},
     { name: 'computer society', color: '1B887A', src: 'mmi9atsgvigdbhnsf783vtlcv8@group.calendar.google.com'},
