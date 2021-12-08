@@ -15,6 +15,12 @@ Vue.component('studentwinners-header',{
                     </ul>
                 </div>
             </div>
+            <br><br>
+            <p class="fs-2 text-center">
+                IEEE Students of the Week are Purdue IEEE Members who have gone above and beyond
+                in one particular committee. We recognize all their hard work and celebrate them
+                for being extraordinary!
+            </p>
         </div>
     </div>
     `,
