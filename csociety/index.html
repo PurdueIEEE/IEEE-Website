@@ -5,9 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link href="/assets/external/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/external/bootstrap.min.css">
         <link rel="stylesheet" href="/assets/external/bootstrap-icons.css">
-        <link href="/assets/ieee.css" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/ieee.css">
         <link rel="icon" href="/favicon.ico"/>
 
         <meta name="description" content="The official website of the Purdue IEEE Student Branch">
@@ -15,12 +15,27 @@
 
         <title>Purdue IEEE</title>
 
+        <script src="/assets/external/bootstrap.bundle.min.js"></script>
+        <script src="/assets/external/vue2.min.js"></script>
+        <script src="/assets/include.js"></script>
+
     </head>
     <body>
     <div id="app">
         <ieee-header head="Computer Society" page="Computer Society"></ieee-header>
 
         <main>
+
+            <noscript>
+                <br>
+                <div class="container-lg lead fs-2 text-center">
+                Hi there! Your browser does not allow JavaScript to run on this site. You may have a degraded experience
+                navigating around our website. You can view the contents of any script on this site at our GitHub,
+                <a href="https://github.com/PurdueIEEE/IEEE-Website" target="_blank">https://github.com/PurdueIEEE/IEEE-Website</a>.
+                </div>
+                <br>
+            </noscript>
+
             <div class="pt-5 mt-5 container-lg">
                 <div class="row">
                     <div class="col-md-3">
@@ -30,7 +45,7 @@
                     </div>
                     <div class="col-md-9 text-center">
                         <img src="./images/csociety_logo.png" alt="Computer Society Logo" width="300" height="auto">
-                        <p class="display-3 fw-bold">Computer Society</p>                      
+                        <p class="display-3 fw-bold">Computer Society</p>
                     </div>
                 </div>
             </div>
@@ -39,10 +54,10 @@
                 <div class="container-lg">
                     <p class="fs-2">Advancing Computer Science and Engineering</p>
                     <p class="fs-5 text-start">
-                        The IEEE Computer Society focuses on projects and other events to explore the world of modern Computing. Both software 
-                        and hardware topics are covered whether it be creating a program using C or Python or exploring hardware with 
-                        RaspberryPis or digital circuit design. Members will gain valuable skills to help them succeed in any field due 
-                        to the ever increasing reliance on computers. The topics we cover are guided by all members and we are always 
+                        The IEEE Computer Society focuses on projects and other events to explore the world of modern Computing. Both software
+                        and hardware topics are covered whether it be creating a program using C or Python or exploring hardware with
+                        RaspberryPis or digital circuit design. Members will gain valuable skills to help them succeed in any field due
+                        to the ever increasing reliance on computers. The topics we cover are guided by all members and we are always
                         open to new ideas and members.
                     </p>
                     <p class="fs-5 text-center m-0">Contact us at <a class="link-dark fw-bold" href="mailto:csociety-info@purdueieee.org">csociety-info@purdueieee.org</a> with questions.</p>
@@ -84,9 +99,7 @@
 
        <ieee-footer></ieee-footer>
     </div>
-    <script src="/assets/external/bootstrap.bundle.min.js"></script>
-    <script src="/assets/external/vue2.min.js"></script>
-    <script src="/assets/include.js"></script>
+
     <script src="/assets/base.js"></script>
     </body>
 </html>

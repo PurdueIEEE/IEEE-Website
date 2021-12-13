@@ -5,15 +5,19 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link href="/assets/external/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/external/bootstrap.min.css">
         <link rel="stylesheet" href="/assets/external/bootstrap-icons.css">
-        <link href="/assets/ieee.css" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/ieee.css">
         <link rel="icon" href="/favicon.ico"/>
 
         <meta name="description" content="The official website of the Purdue IEEE Student Branch">
         <meta name="author" content="Purdue IEEE">
 
-        <title>ROV Sponsors - Purdue IEEE</title>
+        <title>Purdue IEEE</title>
+
+        <script src="/assets/external/bootstrap.bundle.min.js"></script>
+        <script src="/assets/external/vue2.min.js"></script>
+        <script src="/assets/include.js"></script>
 
     </head>
     <body>
@@ -21,6 +25,17 @@
         <ieee-header head="ROV" page="ROV"></ieee-header>
 
         <main>
+
+            <noscript>
+                <br>
+                <div class="container-lg lead fs-2 text-center">
+                Hi there! Your browser does not allow JavaScript to run on this site. You may have a degraded experience
+                navigating around our website. You can view the contents of any script on this site at our GitHub,
+                <a href="https://github.com/PurdueIEEE/IEEE-Website" target="_blank">https://github.com/PurdueIEEE/IEEE-Website</a>.
+                </div>
+                <br>
+            </noscript>
+
             <div id="insert-rov-sidebar"></div>
             <script src="/rov/sidebar.js"></script>
             <script>
@@ -79,9 +94,7 @@
 
        <ieee-footer></ieee-footer>
     </div>
-    <script src="/assets/external/bootstrap.bundle.min.js"></script>
-    <script src="/assets/external/vue2.min.js"></script>
-    <script src="/assets/include.js"></script>
+
     <script src="/assets/base.js"></script>
     </body>
 </html>

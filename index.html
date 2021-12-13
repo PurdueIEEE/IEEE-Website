@@ -5,15 +5,19 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link href="/assets/external/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/external/bootstrap.min.css">
         <link rel="stylesheet" href="/assets/external/bootstrap-icons.css">
-        <link href="/assets/ieee.css" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/ieee.css">
         <link rel="icon" href="/favicon.ico"/>
 
         <meta name="description" content="The official website of the Purdue IEEE Student Branch">
         <meta name="author" content="Purdue IEEE">
 
         <title>Purdue IEEE</title>
+
+        <script src="/assets/external/bootstrap.bundle.min.js"></script>
+        <script src="/assets/external/vue2.min.js"></script>
+        <script src="/assets/include.js"></script>
 
     </head>
     <body>
@@ -36,7 +40,17 @@
             </div>
             <!-- /index_hero -->
 
-            <!-- infosessions 
+            <noscript>
+                <br>
+                <div class="container-lg lead fs-2 text-center">
+                Hi there! Your browser does not allow JavaScript to run on this site. You may have a degraded experience
+                navigating around our website. You can view the contents of any script on this site at our GitHub,
+                <a href="https://github.com/PurdueIEEE/IEEE-Website" target="_blank">https://github.com/PurdueIEEE/IEEE-Website</a>.
+                </div>
+                <br>
+            </noscript>
+
+            <!-- infosessions
             <div class="container-lg mb-5">
                 <div class="p-3 bg-light rounded shadow text-center">
                     <p class="display-6">Fall 2021 Callout</p>
@@ -66,7 +80,7 @@
                     <p class="fa-4">Our General Election is on DOW, MM/DD at HH:MM PM in LOCATION.</p>
                     <a class="fa-4" href="#">Election Information</a>
                     <div id="elections">
-                        
+
                     </div>
                 </div>
             </div>
@@ -101,8 +115,8 @@
                         <div class="card">
                             <picture>
                                 <source srcset="/images/home/csociety.webp" type="image/webp">
-                                <img src="/images/home/csociety.png" class="card-img-top" alt="" width="500" height="auto" loading="lazy"> 
-                            </picture>                            
+                                <img src="/images/home/csociety.png" class="card-img-top" alt="" width="500" height="auto" loading="lazy">
+                            </picture>
                             <div class="card-body">
                             <h5 class="card-title">Computer Society</h5>
                             <p class="card-text">The IEEE Computer Society focuses on projects and other events to explore the world of modern Computing. Members will gain valuable skills through both hardware and software projects to help them succeed in any field while meeting other passionate Purdue students to learn with.</p>
@@ -116,7 +130,7 @@
                         <div class="card">
                             <picture>
                                 <source srcset="/images/home/embs.webp" type="image/webp">
-                                <img src="/images/home/embs.png" class="card-img-top" alt="" width="500" height="auto" loading="lazy"> 
+                                <img src="/images/home/embs.png" class="card-img-top" alt="" width="500" height="auto" loading="lazy">
                             </picture>
                             <div class="card-body">
                             <h5 class="card-title">EMBS</h5>
@@ -134,7 +148,7 @@
                         <div class="card">
                             <picture>
                                 <source srcset="/images/home/mtt-s.webp" type="image/webp">
-                                <img src="/images/home/mtt-s.png" class="card-img-top" alt="" width="500" height="auto" loading="lazy"> 
+                                <img src="/images/home/mtt-s.png" class="card-img-top" alt="" width="500" height="auto" loading="lazy">
                             </picture>
                             <div class="card-body">
                             <h5 class="card-title">MTT-S</h5>
@@ -149,7 +163,7 @@
                             <div class="card">
                                 <picture>
                                     <source srcset="/images/home/aerial.webp" type="image/webp">
-                                    <img src="/images/home/aerial.png" class="card-img-top" alt="" width="500" height="auto" loading="lazy"> 
+                                    <img src="/images/home/aerial.png" class="card-img-top" alt="" width="500" height="auto" loading="lazy">
                                 </picture>
                                 <div class="card-body">
                                 <h5 class="card-title">Aerial Robotics</h5>
@@ -167,7 +181,7 @@
                         <div class="card">
                             <picture>
                                 <source srcset="/images/home/rov.webp" type="image/webp">
-                                <img src="/images/home/rov.png" class="card-img-top" alt="" width="500" height="auto" loading="lazy"> 
+                                <img src="/images/home/rov.png" class="card-img-top" alt="" width="500" height="auto" loading="lazy">
                             </picture>
                             <div class="card-body">
                             <h5 class="card-title">ROV</h5>
@@ -182,7 +196,7 @@
                             <div class="card">
                                 <picture>
                                     <source srcset="/images/home/racing.webp" type="image/webp">
-                                    <img src="/images/home/racing.png" class="card-img-top" alt="" width="500" height="auto" loading="lazy"> 
+                                    <img src="/images/home/racing.png" class="card-img-top" alt="" width="500" height="auto" loading="lazy">
                                 </picture>
                                 <div class="card-body">
                                 <h5 class="card-title">Racing</h5>
@@ -200,7 +214,7 @@
                         <div class="card">
                             <picture>
                                 <source srcset="/images/home/software.webp" type="image/webp">
-                                <img src="/images/home/software.png" class="card-img-top" alt="" width="500" height="auto" loading="lazy"> 
+                                <img src="/images/home/software.png" class="card-img-top" alt="" width="500" height="auto" loading="lazy">
                             </picture>
                             <div class="card-body">
                             <h5 class="card-title">Software Saturdays</h5>
@@ -217,9 +231,7 @@
 
        <ieee-footer></ieee-footer>
     </div>
-    <script src="/assets/external/bootstrap.bundle.min.js"></script>
-    <script src="/assets/external/vue2.min.js"></script>
-    <script src="/assets/include.js"></script>
+
     <script src="/assets/base.js"></script>
     <script src="assets/callout.js"></script>
     </body>
