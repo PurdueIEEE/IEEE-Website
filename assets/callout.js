@@ -4,11 +4,10 @@ let date = new Date();
 let date_i = new Date();
 
 let info_sessions = [
-    {date:{month: 9,day: 1},time:{hour: 18,minute: 30},committee:'Purdue IEEE',location:'PHYS 112'},
-    {date:{month: 9,day: 2},time:{hour: 18,minute: 30},committee:'Purdue IEEE',location:'PHYS 112'},
-    {date:{month: 9,day: 7},time:{hour: 19,minute: 30},committee:'MTT-S',location:'<a href="https://discord.gg/kZNkKXM">IEEE Q&amp;A Discord [MTT-S]</a>'},
-    {date:{month: 9,day: 8},time:{hour: 18,minute: 0},committee:'Aerial Robotics',location:'ARMS 1010'},
-    {date:{month: 9,day: 8},time:{hour: 18,minute: 30},committee:'ROV',location:'POTR 234',join_page:'https://purdueieee.org/rov/join/'},
+    {date:{month: 1, day: 19},time:{hour: 18,minute: 30},committee:'Purdue IEEE',location:'BHEE 129'},
+    {date:{month: 1,day: 24},time:{hour: 18,minute: 0},committee:'Aerial Robotics',location:'ARMS 1010'},
+    {date:{month: 1,day: 26},time:{hour: 18,minute: 30},committee:'ROV',location:'POTR 234',join_page:'https://purdueieee.org/rov/join/'}
+    /*{date:{month: 9,day: 7},time:{hour: 19,minute: 30},committee:'MTT-S',location:'<a href="https://discord.gg/kZNkKXM">IEEE Q&amp;A Discord [MTT-S]</a>'},
     {date:{month: 9,day: 8},time:{hour: 18,minute: 30},committee:'Racing',location:'LWSN B151'},
     {date:{month: 9,day: 9},time:{hour: 18,minute: 0},committee:'EMBS',location:'EE 222'},
     {date:{month: 9,day: 9},time:{hour: 18,minute: 30},committee:'Computer Society',location:'EE 117'},
@@ -16,7 +15,7 @@ let info_sessions = [
     {date:{month: 9,day: 14},time:{hour: 18,minute: 30},committee:'Learning',location:'PHYS 201'},
     {date:{month: 9,day: 14},time:{hour: 18,minute: 30},committee:'Social',location:'PHYS 201'},
     {date:{month: 9,day: 14},time:{hour: 18,minute: 30},committee:'Industrial Relations',location:'PHYS 201'},
-    {date:{month: 9,day: 14},time:{hour: 18,minute: 30},committee:'Growth &amp; Engagement',location:'PHYS 201'},
+    {date:{month: 9,day: 14},time:{hour: 18,minute: 30},committee:'Growth &amp; Engagement',location:'PHYS 201'},*/
 ]
 
 let table = document.getElementById('infosessions_tbody');

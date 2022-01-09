@@ -17,9 +17,16 @@
   {
     "name": "Joseph Choi",
     "image": "/images/officers/2021_Joseph_Choi.jpg",
-    "position": "Vice President of Member Involvement",
+    "position": "Vice President of Member Involvement (August to December)",
     "description": "Joseph is a senior who is majoring in Mechanical Engineering. He joined IEEE in 2018 as part of EMBS and takes interest in bio-mechanics and 3D modelling. When he has free time he can be found fencing, running, or playing video games.",
     "committees": "<a href=\"/embs/\">EMBS</a>"
+  },
+  {
+    "name": "Kaitlyn Yu",
+    "image": "/images/officers/2021_Kaitlyn_Yu.jpg",
+    "position": "Growth & Engagement Head (August to December), Vice President of Member Involvement (from January)",
+    "description": "Kaitlyn is a sophomore studying Electrical Engineering. She is a part of ROV and Growth & Engagement since 2019. Outside of IEEE, she enjoys cooking, running, and recently bouldering.",
+    "committees": "<a href=\"/rov/\">ROV</a>, <a href=\"/growth/\">Growth & Engagement</a>"
   },
   {
     "name": "Chris Laszlo",
@@ -37,25 +44,32 @@
   }],
   "cornerstone":[
   {
-    "name": "Kaitlyn Yu",
-    "image": "/images/officers/2021_Kaitlyn_Yu.jpg",
-    "position": "Growth & Engagement Head",
-    "description": "Kaitlyn is a sophomore studying Electrical Engineering. She is a part of ROV and Growth & Engagement since 2019. Outside of IEEE, she enjoys cooking, running, and recently bouldering.",
-    "committees": "<a href=\"/rov/\">ROV</a>, <a href=\"/growth/\">Growth & Engagement</a>"
+    "name": "Alex Taylor",
+    "image": "/images/officers/2022_Alex_Taylor.jpg",
+    "position": "Growth & Engagement Head (from January)",
+    "description": "Alex is a sophomore in Computer Engineering. In addition to the cornerstone committees, Alex is part of the Electrical subteam of Aerial Robotics and Computer Society. In his free time, he likes video games, animation, and scouring Wikipedia for interesting articles.",
+    "committees": "<a href=\"/growth/\">Growth & Engagement</a>, <a href=\"/partieee/\">Aerial Robotics</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/learning/\">Learning</a>"
   },
   {
     "name": "Ethan Welp",
     "image": "/images/officers/2021_Ethan_Welp.jpg",
-    "position": "Learning Head (till October)",
+    "position": "Learning Head (August till October)",
     "description": "Ethan is a junior in Computer Engineering and is part of the ROV team. He has been involved with Learning since 2020 and likes to go running and play piano.",
     "committees": "<a href=\"/learning/\">Learning</a>"
   },
   {
     "name": "Sebastian Gruenwald",
     "image": "/images/officers/2020_Gruenwald_Sebastian.jpg",
-    "position": "Learning Head (from October)",
+    "position": "Learning Head (October to December)",
     "description": "Sebastian is a junior majoring in Civil Engineering with a minor in Engineering Public Policy. He joined IEEE in Fall 2019 as part of the ROV team. In his free time, Sebastian enjoys working out, reading transportation maps, and fashion.",
     "committees": "<a href=\"/learning/\">Learning</a>"
+  },
+  {
+    "name": "Vivek Panchagnula",
+    "image": "/images/officers/2022_Vivek_Panchagnula.jpg",
+    "position": "Learning Head (from January)",
+    "description": "Vivek Panchagnula is a freshman in First Year Engineering. He loves creating in any way possible, whether it be a 3D model, a fun new piece of software, or a drawing. When he's not working on homework or studying, he likes to go on jogs, go rollerblading, or play video games with friends.",
+    "committees": "<a href=\"/learning/\">Learning</a>, <a href=\"/partieee/\">Aerial Robotics</a>, <a href=\"/growth/\">Growth & Engagement</a>"
   },
   {
     "name": "Siwen (Alice) Hu",
@@ -118,7 +132,7 @@
     "name": "Hadi Ahmed",
     "image": "/images/officers/2021_Hadi_Ahmed.jpg",
     "position": "Software Saturdays Chair",
-    "description": "Hadi is a junior studying Computer Engineering. He joined Software Saturdays in 2019, and is excited to help Purdue students practice and learn web development. He is a member of the Archery Club and loves photography and anything outdoors.",
+    "description": "Hadi is a junior studying Computer Engineering. He joined Software Saturdays in 2019, and is excited to help Purdue students practice and learn web development. In addition to Software Saturdays, he is IEEE Webmaster and loves the outdoors.",
     "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"/partieee/\">Aerial Robotics</a>, <a href=\"/csociety/\">Computer Society</a>"
   }
 ]
