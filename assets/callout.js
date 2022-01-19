@@ -7,7 +7,7 @@ let info_sessions = [
     {date:{month:1,day:19},time:{hour:18,minute:30},committee:'Purdue IEEE',location:'BHEE 129'},
     {date:{month:1,day:24},time:{hour:18,minute:00},committee:'Aerial Robotics',location:'ARMS 1010'},
     {date:{month:1,day:25},time:{hour:18,minute:30},committee:'EMBS',location:'BHEE 224'},
-    {date:{month:1,day:26},time:{hour:18,minute:30},committee:'Racing',location:'Discord'},
+    {date:{month:1,day:26},time:{hour:18,minute:30},committee:'Racing',location:'<a href="https://discord.gg/qUmscXNQBU">IEEE Racing Discord</a>'},
     {date:{month:1,day:26},time:{hour:18,minute:30},committee:'ROV',location:'POTR 234'},
     {date:{month:1,day:26},time:{hour:19,minute:00},committee:'MTT-S',location:'<a href="https://discord.gg/kZNkKXM">IEEE Q&amp;A Discord [MTT-S]</a>'},
     {date:{month:1,day:27},time:{hour:20,minute:00},committee:'Computer Society',location:'BHEE 222'},
