@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="/assets/external/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/external/bootstrap-icons.css">
+        <link rel="stylesheet" href="/assets/ieee.css">
+        <link rel="icon" href="/favicon.ico"/>
+
+        <meta name="description" content="The official website of the Purdue IEEE Student Branch">
+        <meta name="author" content="Purdue IEEE">
+
+        <title>Purdue IEEE</title>
+
+        <script src="/assets/external/bootstrap.bundle.min.js"></script>
+        <script src="/assets/external/vue2.min.js"></script>
+        <script src="/assets/include.js"></script>
+
+    </head>
+    <body>
+    <div id="app">
+        <ieee-header head="MTT-S" page="MTT-S"></ieee-header>
+
+        <main>
+
+            <noscript>
+                <br>
+                <div class="container-lg lead fs-2 text-center">
+                Hi there! Your browser does not allow JavaScript to run on this site. You may have a degraded experience
+                navigating around our website. You can view the contents of any script on this site at our GitHub,
+                <a href="https://github.com/PurdueIEEE/IEEE-Website" target="_blank">https://github.com/PurdueIEEE/IEEE-Website</a>.
+                </div>
+                <br>
+            </noscript>
+
+            <div class="pt-5 mt-5 container-lg">
+                <div class="row">
+                    <div class="col-md-3">
+                        <ul class="list-group list-group-flush">
+                            <a class="list-group-item" href="/mtt-s/">Home</a>
+                            <a class="list-group-item active" href="/mtt-s/projects/">Projects</a>
+                        </ul>
+                    </div>
+                    <div class="col-md-9 text-center">
+                        <img src="./images/mtt-s_logo.jpg" alt="MTT-S Logo" width="300" height="auto">
+                        <p class="display-3 fw-bold">Microwave Theory and Techniques Society</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-1 p-5 container-fluid bg-ieee-40">
+                <div class="container-lg">
+                    <p class="display-6 text-center">Current Project</p>
+                    <div class="d-flex flex-wrap justify-content-center align-items-center text-center">
+                        <div class="m-2 rounded bg-light p-3 shadow">
+                            <img style="width: auto; height: 200px;" src="" alt="Spin Radar System">
+                            <p class="fs-4">Spin Radar System</p>
+                            <p class="fs-5">
+                                For this semester MTT-S is creating a radar system for the Spin Scooters using the Acconeer's XM122 Radar sensors.
+                                The intent of this radar system is to display obstacles in the rider's blind spots and notify them before a collision occurs.
+                                The radar sensor will detect objects within 5 meters of the XM122 radar sensor and then objects will be displayed on
+                                an LCD screen, once the radar is too close to an obstacle, the buzzer and LED will signal the rider to be careful and
+                                slow down. We hope that through this project, the members of MTT-S would be able to understand how microwave signals
+                                are received and transmitted using the radar sensors and display as well as gain more knowledge about microprocessors
+                                and its functionality. Furthermore, this project hopes to decrease the number of scooter accidents on campus. In future
+                                semesters if the club wishes to continue building the radar system, we hope to have a similar implementation for bicycles
+                                and even for cars.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-1 p-5 container-lg">
+                <p class="display-6 text-center">Past Projects</p>
+                <div class="d-flex flex-wrap justify-content-center align-items-center text-center">
+                    <div class="m-2 rounded bg-light p-3 shadow">
+                        <img class="rounded" style="width: auto; height: 200px;" src="" alt="RailFUN Prototype Image">
+                        <p class="fs-4">RailFUN and FM Radio Workshop</p>
+                        <p class="fs-5">
+                            In addition to working on the power amplifier and wireless harvester to prepare for IMS (International Microwave Symposium),
+                            we worked on an electromagnetically powered projectile launcher. This involved three main tasks including circuit design, mechanical design,
+                            and CAD design. We also worked on a FM radio workshop where we designed PCB and worked with radio signal logics to make personal FM radios.
+                        </p>
+                    </div>
+                    <div class="m-2 rounded bg-light p-3 shadow">
+                        <img class="rounded" style="width: auto; height: 200px; padding: 5px;" src="../images/mini-fm-radio.png" alt="Mini FM Radio Transmitter">
+                        <p class="fs-4">Microwaves in Internet Delivery</p>
+                        <p class="fs-5">
+                            Purdue IEEE MTT-S spent the year focusing on competing for a second time in a row at the area's largest conference, IMS
+                            (International Microwave Symposium), in their student design competitions. Moreover, the officers as well as some of the more-involved
+                            members spent the fall semester developing a workshop for an FM transmitter. This included tasks such as circuit design, PCB layout,
+                            and documentation. Every Thursday, members learned about various topics such as classes of power amplifiers, modulation schemes, and RF
+                            front end components. Knowledge gained on these topics will help out as the club prepares to compete in the IMS student design competitions
+                            next summer. <a href="https://www.youtube.com/watch?v=_bBvMSWGK2I" target="_blank">Check out our demo video!</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+       <ieee-footer></ieee-footer>
+    </div>
+
+    <script src="/assets/base.js"></script>
+    </body>
+</html>
