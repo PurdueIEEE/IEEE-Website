@@ -82,12 +82,12 @@ Vue.component('ieee-footer',{
                 <a href="https://twitter.com/purdueieee" target="_blank" class="link-dark"><i class="bi bi-twitter fs-1 mx-2" width="50"></i></a>
                 <!-- <a href="https://www.facebook.com/groups/purdueieee/" target="_blank" class="link-dark"><i class="bi bi-facebook fs-1 mx-2"></i></a> -->
                 <a href="https://www.youtube.com/channel/UCJwFwlur0e2fgwf97eV7INw" target="_blank" class="link-dark"><i class="bi bi-youtube fs-1 mx-2"></i></a>
-                <a href="https://discord.gg/kZNkKXM" target="_blank" class="link-dark"><i class="bi bi-discord fs-1 mx-2"></i></a>
                 <a href="https://purdueieee.slack.com/signup" target="_blank" class="link-dark"><i class="bi bi-slack fs-1 mx-2"></i></a>
                 <a href="https://github.com/PurdueIEEE" target="_blank" class="link-dark"><i class="bi bi-github fs-1 mx-2"></i></a>
                 </div>
             </div>
-            <p class="text-center fs-5 my-0"><a href="https://github.com/PurdueIEEE/IEEE-Website" target="_blank" class="link-dark text-decoration-none">View page on GitHub<a></p>
+            <p class="text-center fs-5 my-0"><a href="https://github.com/PurdueIEEE/IEEE-Website" target="_blank" class="link-dark">View page on GitHub</a> |
+            <a href="mailto:webmaster@purdueieee.org" target="_blank" class="link-dark">Email the webmaster</a></p>
             <p class="text-center fs-5 fw-bold">Copyright © {{this.year}} Purdue IEEE</p>
         </div>
         <!-- /footer -->
