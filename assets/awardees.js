@@ -3,7 +3,7 @@ Vue.component('awardees-header',{
     template: `
     <div>
         <div class="container-fluid pt-5 mt-5">
-            <p class="display-3 fw-bold text-center">{{year}} Annual Award Winners</p>
+            <h1 class="display-3 fw-bold text-center">{{year}} Annual Award Winners</h1>
         </div>
         <div class="container-lg my-3 text-center">
             <div class="d-inline-flex align-items-center">

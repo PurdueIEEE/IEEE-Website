@@ -20,6 +20,7 @@ Bootstrap (5.0.2) is the CSS library. Bootstrap also uses a JS library for dropd
 ## Key Formatting Notes
 
 * _Entire Site_: PLEASE MAKE SURE INDIVIDUAL PAGES ARE <= 1MB! CROP AND RESCALE IMAGES TO REACH THIS GOAL!
+* _Entire Site_: Try to reach AA WCAG accessibility compliance, as seen on [the A11LY project site](https://www.a11yproject.com/checklist/)
 * `/`: committee cover images must be 500x100px with a 250-310 character descriptor
 * `/awardees`: awardee images must be 300x300px (not every old image follows this)
 * `/studentwinners`: awardee images must be 300x300px

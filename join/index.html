@@ -29,9 +29,9 @@
             <div class="pt-5 my-5 container-lg">
                 <div class="row flex-wrap-reverse text-center">
                     <div class="col-lg-9">
-                        <p class="display-3 fw-bold">Joining Purdue IEEE is easier than ever!</p>
+                        <h1 class="display-3 fw-bold">Joining Purdue IEEE is easier than ever!</h1>
                         <p class="fs-4">To join, simply attend any committee meeting and pay dues. For a list of committees, see the home page. For a list of meetings, see the calendar.</p>
-                        <p class="fs-4">We recommend joining our Slack and Discord to stay in contact. </p>
+                        <p class="fs-4">We recommend joining our Slack to stay in contact.</p>
                     </div>
                     <div class="col-lg-3">
                         <img src="/images/pieee_logo.png" class="img-fluid" width="500" height="500" alt="Purdue IEEE Logo">
@@ -52,26 +52,18 @@
 
             <!-- join_communicate -->
             <div class="container-fluid mt-4 p-5 text-center bg-ieee-40">
-                <p class="display-4 fw-bold">Connect With Us</p>
-                <p class="fs-4">Purdue IEEE mainly uses Slack and Discord to communicate with its members. Join with a free account today and get started with Purdue IEEE. Both platforms can be downloaded from the Apple App Store or Google Play Store.</p>
-                <div class="row">
-                    <div class="col">
-                        <img src="/images/join/discord_logo.svg" alt="Discord Logo" width="auto" height="100" style="max-width: 100%;">
-                        <p class="fs-5">Discord is how Purdue IEEE holds most calls and virtual events - including info sessions.</p>
-                        <p class="fs-5"><a class="link-dark" href="https://discord.gg/kZNkKXM" target="_blank">https://discord.gg/kZNkKXM</a></p>
-                    </div>
-                    <div class="col">
-                        <img src="/images/join/slack_logo.svg" alt="Slack Logo" width="auto" height="100">
-                        <p class="fs-5">Slack is how Purdue IEEE members talk and share the great things we work on.</p>
-                        <p class="fs-5"><a class="link-dark" href="https://purdueieee.slack.com/signup" target="_blank">https://purdueieee.slack.com/signup</a></p>
-                    </div>
+                <h2 class="display-4 fw-bold">Connect With Us</h2>
+                <p class="fs-4">Purdue IEEE mainly uses Slack to communicate with its members. Join with a free account today and get started with Purdue IEEE. Slack can be downloaded from the Apple App Store or Google Play Store.</p>
+                <div>
+                    <img src="/images/join/slack_logo.svg" alt="Slack Logo" height="100">
+                    <p class="fs-5"><a class="link-dark" href="https://purdueieee.slack.com/signup" target="_blank">https://purdueieee.slack.com/signup</a></p>
                 </div>
 
                 <p class="fs-4 mt-3">We also have a mailing list for updates you can join: just enter your email to stay informed. We will only use your email for club-wide announcements.</p>
                 <form class="container-lg mx-auto text-start bg-light p-3 rounded" v-on:submit.prevent="submitEmail">
                     <div class="mb-3 mx-auto col-md-6">
                         <label for="emailSubmit" class="form-label">Email Address</label>
-                        <input type="email" class="form-control" id="emailSubmit" aria-describedby="emailHelp" required placeholder="user@example.com" v-model.trim="mailinglistEmail">
+                        <input type="email" class="form-control" id="emailSubmit" aria-describedby="emailHelp" required placeholder="user@example.com" v-model.trim="mailinglistEmail" autocomplete="email">
                         <div id="emailHelp" class="form-text" v-on:>Enter your email to join the IEEE mailing list.</div>
                         <button type="submit" class="btn btn-success mt-3">Submit</button>
                     </div>
@@ -85,8 +77,8 @@
             </div>
             <!-- /join_communicate -->
             <!-- join_dues -->
-            <div class="container-lg mt-4" id="dues">
-                <p class="display-4 text-center">Dues</p>
+            <div class="container-lg my-4" id="dues">
+                <h2 class="display-4 text-center">Dues</h2>
                 <p class="fs-5">
                     Purdue IEEE Student Branch requires payment of dues for membership<sup class="fw-bold">1</sup>. Payment of annual dues gives access to IEEE resources, such as:
                 </p>
@@ -97,8 +89,8 @@
                     <li>Recognition for contributed work with final projects</li>
                 </ul>
                 <p class="fs-5">Annual dues for the 2021-22 academic year are <span class="fw-bold">$15</span>.</p>
-                <p class="fs-5">This year, you can choose to either pay with physical cash or pay digitally. To pay with physical cash, please go to EE 014, and leave your email and dues with a Treasurer-authorized attendant or IEEE officer inside the office. There are two options for paying digitally: Venmo or Paypal. For security reasons, we have pinned guidance on how to do this in the #IEEE channel in our <a href="https://purdueieee.slack.com" target="_blank" class="link-secondary">Slack</a>. </p>
-                <p class="fs-5">Upon paying dues, you will receive a Google Forms link that leads to a 1-minute survey. Filling out the requested information in the survey will officially register you in our membership database. Please contact the Treasurer at <a href="mailto:ieee-treas@purdueieee.org" class="link-secondary">IEEE-Treas@purdueieee.org</a> if you have any dues-related questions.</p>
+                <p class="fs-5">This year, you can choose to either pay with physical cash or pay digitally. To pay with physical cash, please go to BHEE 014, and leave your email and dues with a Treasurer-authorized attendant or IEEE officer inside the office. There are two options for paying digitally: Venmo or Paypal. For security reasons, we have pinned guidance on how to do this in the #IEEE channel in our <a href="https://purdueieee.slack.com" target="_blank" class="link-secondary">Slack</a>. </p>
+                <p class="fs-5">Upon paying dues, you will receive a link that leads to a 1-minute survey. Filling out the requested information in the survey will officially register you in our membership database. Please contact the Treasurer at <a href="mailto:ieee-treas@purdueieee.org" class="link-secondary">IEEE-Treas@purdueieee.org</a> if you have any dues-related questions.</p>
                 <p><sup class="fw-bold">1</sup>If you are a graduate student with an active International IEEE Membership and wish to join the Purdue Student Branch, you are <span class="fw-bold">exempt</span> from the local dues! Please contact a Purdue IEEE officer to complete registration.</p>
             </div>
             <!-- /join_dues -->

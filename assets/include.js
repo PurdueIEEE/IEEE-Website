@@ -82,12 +82,12 @@ Vue.component('ieee-footer',{
                 <a href="https://twitter.com/purdueieee" target="_blank" class="link-dark"><i class="bi bi-twitter fs-1 mx-2" width="50"></i></a>
                 <!-- <a href="https://www.facebook.com/groups/purdueieee/" target="_blank" class="link-dark"><i class="bi bi-facebook fs-1 mx-2"></i></a> -->
                 <a href="https://www.youtube.com/channel/UCJwFwlur0e2fgwf97eV7INw" target="_blank" class="link-dark"><i class="bi bi-youtube fs-1 mx-2"></i></a>
-                <a href="https://discord.gg/kZNkKXM" target="_blank" class="link-dark"><i class="bi bi-discord fs-1 mx-2"></i></a>
                 <a href="https://purdueieee.slack.com/signup" target="_blank" class="link-dark"><i class="bi bi-slack fs-1 mx-2"></i></a>
                 <a href="https://github.com/PurdueIEEE" target="_blank" class="link-dark"><i class="bi bi-github fs-1 mx-2"></i></a>
                 </div>
             </div>
-            <p class="text-center fs-5 my-0"><a href="https://github.com/PurdueIEEE/IEEE-Website" target="_blank" class="link-dark text-decoration-none">View page on GitHub<a></p>
+            <p class="text-center fs-5 my-0"><a href="https://github.com/PurdueIEEE/IEEE-Website" target="_blank" class="link-dark">View page on GitHub</a> |
+            <a href="mailto:webmaster@purdueieee.org" target="_blank" class="link-dark">Email the webmaster</a></p>
             <p class="text-center fs-5 fw-bold">Copyright © {{this.year}} Purdue IEEE</p>
         </div>
         <!-- /footer -->
@@ -96,10 +96,14 @@ Vue.component('ieee-footer',{
 });
 
 // Google Analytics Tracker
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+// only send on actual deployment
+if (location.hostname === "purdueieee.org") {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-66463204-1', 'auto');
-ga('send', 'pageview');
+  ga('create', 'UA-66463204-1', 'auto');
+  ga('send', 'pageview');
+  console.log("GA logged");
+}

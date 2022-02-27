@@ -3,7 +3,7 @@ Vue.component('studentwinners-header',{
     template: `
     <div>
         <div class="container-fluid pt-5 mt-5">
-            <p class="display-3 fw-bold text-center">{{year}} Students of the Week</p>
+            <h1 class="display-3 fw-bold text-center">{{year}} Students of the Week</h1>
         </div>
         <div class="container-lg my-3 text-center">
             <div class="d-inline-flex align-items-center">
@@ -27,7 +27,7 @@ Vue.component('studentwinners-header',{
     data: function(){
         return {
             startYear: 2019,
-            maxYear: 2021,
+            maxYear: 2022,
         }
     },
     methods: {

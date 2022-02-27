@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="/assets/external/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/external/bootstrap-icons.css">
+        <link rel="stylesheet" href="/assets/ieee.css">
+        <link rel="icon" href="/favicon.ico"/>
+
+        <meta name="description" content="The official website of the Purdue IEEE Student Branch">
+        <meta name="author" content="Purdue IEEE">
+
+        <title>Purdue IEEE</title>
+
+        <script src="/assets/external/bootstrap.bundle.min.js"></script>
+        <script src="/assets/external/vue2.min.js"></script>
+        <script src="/assets/include.js"></script>
+
+    </head>
+    <body>
+    <div id="app">
+        <ieee-header head="Purdue IEEE" page="2022 Students of the Week"></ieee-header>
+
+        <main>
+
+            <noscript>
+                <br>
+                <div class="container-lg lead fs-2 text-center">
+                Hi there! Your browser does not allow JavaScript to run on this site. You may have a degraded experience
+                navigating around our website. You can view the contents of any script on this site at our GitHub,
+                <a href="https://github.com/PurdueIEEE/IEEE-Website" target="_blank">https://github.com/PurdueIEEE/IEEE-Website</a>.
+                </div>
+                <br>
+            </noscript>
+
+            <studentwinners-header year="2022"></studentwinners-header>
+
+            <!-- <div class="container-fluid pt-3">
+                <p class="display-5 fw-bold text-center">Fall</p>
+                <div class="d-flex flex-column color container-lg">
+
+                </div>
+            </div> -->
+
+            <div class="container-fluid pt-3 bg-ieee-40">
+                <p class="display-5 fw-bold text-center">Spring</p>
+                <div class="d-flex flex-column color container-lg ">
+
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-md-3">
+                            <img class="rounded-3 mx-auto d-block img-fluid mb-3" src="/images/studentwinners/2022_Diego_Montes.jpg" alt="Diego Montes Headshot">
+                        </div>
+                        <div class="col-md-9">
+                            <p class="fs-3 fw-bold">Diego Montes</p>
+                            <p class="fs-4">Week of January 31</p>
+                            <p class="fs-5">Diego Montes is a junior in Computer Engineering and the Software Lead for Aerial Robotics.
+                                He is interested in deep learning and software engineering. He hopes that this year's computer vision
+                                software will help the Aerial Robotics team place highly at the AUVSI-SUAS 2022 competition. Outside of PART,
+                                Diego enjoys playing soccer, traveling, and hiking.</p>
+                        </div>
+                    </div>
+
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-md-3">
+                            <img class="rounded-3 mx-auto d-block img-fluid mb-3" src="/images/studentwinners/2022_Harrison_Das_Pham_Piaseczny.jpg" alt="01/24 Group Shot">
+                            <p><b>Not Pictured:</b> Shayak Chatterjee, Alex Taylor</p>
+                        </div>
+                        <div class="col-md-9">
+                            <p class="fs-3 fw-bold">Shayak Chatterjee, Alex Taylor, Kyler Harrison, Gaurab Das, Khoi Pham, Adam Piaseczny</p>
+                            <p class="fs-4">Week of January 24</p>
+                            <p class="fs-5">Shayak Chatterjee is a sophomore in Mechanical Engineerig. He loves reading sci-fi novels and listening to Linkin Park. <br><br>
+                                Alex Taylor a sophomore in Computer Engineering. He has interests in game development, animation, and education. <br><br>
+                                Kyler Harrison is a junior in Physics who likes computers and science, sometimes at the same time. <br><br>
+                                Gaurab Das is a freshman in FYE. He currently serves as the Workshop coordinator for Computer Society, and loves playing basketball and reading books. <br><br>
+                                Khoi Pham is a freshman in FYE. He wears a silver bracelet on his left wrist, and he used it to distinguish left from right until high school. <br><br>
+                                Adam Piaseczny is a sophomore in Computer Engineering. He enjoys exploring new areas on his bike whenever he has time.<br><br>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+
+       <ieee-footer></ieee-footer>
+    </div>
+
+    <script src="/assets/studentwinners.js"></script>
+    </body>
+</html>

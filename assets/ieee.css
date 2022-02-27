@@ -158,6 +158,18 @@ footer {
     color: #565e64;
 }
 
+.responsive-table {
+    width: 100%
+}
+
+@media screen and (min-width: 960px) {
+    .responsive-table {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .debug {
     outline: 2px solid red;
 }
