@@ -14,10 +14,10 @@ const vm = new Vue({
         this.mailinglistSubmitFail = false;
 
         // CORS sucks and this may break at any time...
-        fetch('https://purdueieee.org/DirectoryServices/directories.php', {
+        fetch('https://lists.purdueieee.org/subscribe/ieee-announcements', {
           method: 'post',
           headers: new Headers({'content-type': 'application/x-www-form-urlencoded; charset=UTF-8','Accept': '*/*',}),
-          body: encodeURI(`email=${this.mailinglistEmail}&list[]=ieee-announcements`).replace('@', '%40'), // properly encode form data
+          body: encodeURI(`email=${this.mailinglistEmail}&fullname=&pw=&pw-conf=&digest=0&email-button=Subscribe`).replace('@', '%40'), // properly encode form data
         })
         .then((response) => {
           if (response.ok) {
@@ -29,7 +29,7 @@ const vm = new Vue({
           });
         })
         .then((data) => {
-          // We are ignoring the HTML returned by the site but this can be changed 
+          // We are ignoring the HTML returned by the site but this can be changed
           //   in the ~~future~~ if we reimplement the other lists besides IEEE-A
           this.mailinglistSubmitGoodMsg = "You have been subscribed to IEEE-Announcements!\nCheck your email to confirm.";
           this.mailinglistSubmitGood = true;
