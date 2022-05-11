@@ -1,0 +1,21 @@
+name: deploy-ieee-website
+on:
+  push:
+    branches:
+      master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: "Install SSH Private Key"
+        run: |
+          mkdir ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_github
+          chmod 600 ~/.ssh/id_github
+      - name: "Add SSH Known Hosts"
+        run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+      - name: "Deploy Site"
+        run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} -i ~/.ssh/id_github "cd ${{ secrets.DEPLOY_DIRECTORY }}/IEEE-Website; git pull;"
+      - name: "Clean SSH Key"
+        run: rm ~/.ssh/id_github

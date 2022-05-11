@@ -1,6 +1,0 @@
-# Prevent Prying Eyes from Viewing Directory Contents
-Options All -Indexes
-
-# Handle Error 404 with a Special Page
-ErrorDocument 404 /404.html
-RedirectMatch 404 /\.git

@@ -1,7 +1,5 @@
 # IEEE-Website
 
-[![Deploy](https://deploy.purdueieee.org/status?repo=PurdueIEEE_IEEE-Website)](https://purdueieee.org)
-
 [purdueieee.org](https://purdueieee.org) for deployment.
 
 [old.purdueieee.org](https://old.purdueieee.org) for the former site, archival purposes only (code visible at tag `old-final`).
