@@ -1,0 +1,111 @@
+{
+  "elected":[
+  {
+    "name": "Varun Gannavarapu",
+    "image": "",
+    "position": "President",
+    "description": "",
+    "committees": ""
+  },
+  {
+    "name": "Hadi Ahmed",
+    "image": "",
+    "position": "Vice President of Technical Committees",
+    "description": "",
+    "committees": ""
+  },
+  {
+    "name": "Vivek Panchagnula",
+    "image": "",
+    "position": "Vice President of Member Involvement",
+    "description": "",
+    "committees": ""
+  },
+  {
+    "name": "Ulysses Hennelly",
+    "image": "",
+    "position": "Treasurer",
+    "description": "",
+    "committees": ""
+  },
+  {
+    "name": "Paul Teter",
+    "image": "",
+    "position": "Secretary",
+    "description": "",
+    "committees": ""
+  }],
+  "cornerstone":[
+  {
+    "name": "Alex Taylor",
+    "image": "",
+    "position": "Growth & Engagement Head",
+    "description": "",
+    "committees": ""
+  },
+  {
+    "name": "Hunter Haglid",
+    "image": "",
+    "position": "Learning Head",
+    "description": "",
+    "committees": ""
+  },
+  {
+    "name": "Viet Khoi Pham Khac",
+    "image": "",
+    "position": "Social Head",
+    "description": "",
+    "committees": ""
+  }],
+  "technical":[
+  {
+    "name": "Matthieu Opdyke",
+    "image": "",
+    "position": "Aerial Robotics Chair",
+    "description": "",
+    "committees": ""
+  },
+  {
+    "name": "Garaub Das",
+    "image": "",
+    "position": "Computer Society Chair",
+    "description": "",
+    "committees": ""
+  },
+  {
+    "name": "Alec Lucas",
+    "image": "",
+    "position": "EMBS Chair",
+    "description": "",
+    "committees": ""
+  },
+  {
+    "name": "N/A",
+    "image": "",
+    "position": "MTT-S Chair",
+    "description": "",
+    "committees": ""
+  },
+  {
+    "name": "Shivansh Chauhan",
+    "image": "",
+    "position": "Racing Chair",
+    "description": "",
+    "committees": ""
+  },
+  {
+    "name": "Peter Salisbury",
+    "image": "",
+    "position": "ROV Captain",
+    "description": "",
+    "committees": ""
+  },
+  {
+    "name": "Jon Denton",
+    "image": "",
+    "position": "Software Saturdays Chair",
+    "description": "",
+    "committees": ""
+  }
+]
+}
