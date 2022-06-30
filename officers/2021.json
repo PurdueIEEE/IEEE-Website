@@ -48,7 +48,7 @@
     "image": "/images/officers/2022_Alex_Taylor.jpg",
     "position": "Growth & Engagement Head (from January)",
     "description": "Alex is a sophomore in Computer Engineering. In addition to the cornerstone committees, Alex is part of the Electrical subteam of Aerial Robotics and Computer Society. In his free time, he likes video games, animation, and scouring Wikipedia for interesting articles.",
-    "committees": "<a href=\"/growth/\">Growth & Engagement</a>, <a href=\"/partieee/\">Aerial Robotics</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/learning/\">Learning</a>"
+    "committees": "<a href=\"/growth/\">Growth & Engagement</a>, <a href=\"/part/\">Aerial Robotics</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/learning/\">Learning</a>"
   },
   {
     "name": "Ethan Welp",
@@ -69,7 +69,7 @@
     "image": "/images/officers/2022_Vivek_Panchagnula.jpg",
     "position": "Learning Head (from January)",
     "description": "Vivek Panchagnula is a freshman in First Year Engineering. He loves creating in any way possible, whether it be a 3D model, a fun new piece of software, or a drawing. When he's not working on homework or studying, he likes to go on jogs, go rollerblading, or play video games with friends.",
-    "committees": "<a href=\"/learning/\">Learning</a>, <a href=\"/partieee/\">Aerial Robotics</a>, <a href=\"/growth/\">Growth & Engagement</a>"
+    "committees": "<a href=\"/learning/\">Learning</a>, <a href=\"/part/\">Aerial Robotics</a>, <a href=\"/growth/\">Growth & Engagement</a>"
   },
   {
     "name": "Siwen (Alice) Hu",
@@ -91,7 +91,7 @@
     "image": "/images/officers/2021_Matthieu_Opdyke.jpg",
     "position": "Aerial Robotics Chair",
     "description": "Matthieu is a junior in Aerospace Engineering and has been a member of PART since 2019. He loves watching soccer, playing tennis, and supporting Purdue Basketball.",
-    "committees": "<a href=\"/partieee/\">Aerial Robotics</a>"
+    "committees": "<a href=\"/part/\">Aerial Robotics</a>"
   },
   {
     "name": "Ryan Rask",
@@ -133,7 +133,7 @@
     "image": "/images/officers/2021_Hadi_Ahmed.jpg",
     "position": "Software Saturdays Chair",
     "description": "Hadi is a junior studying Computer Engineering. He joined Software Saturdays in 2019, and is excited to help Purdue students practice and learn web development. In addition to Software Saturdays, he is IEEE Webmaster and loves the outdoors.",
-    "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"/partieee/\">Aerial Robotics</a>, <a href=\"/csociety/\">Computer Society</a>"
+    "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"/part/\">Aerial Robotics</a>, <a href=\"/csociety/\">Computer Society</a>"
   }
 ]
 }
