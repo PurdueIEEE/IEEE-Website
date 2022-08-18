@@ -21,7 +21,7 @@ Vue.component('awardees-header',{
     data: function(){
         return {
             startYear: 2017,
-            maxYear: 2021,
+            maxYear: 2022,
         }
     },
     methods: {
