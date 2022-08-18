@@ -2,35 +2,35 @@
   "elected":[
   {
     "name": "Varun Gannavarapu",
-    "image": "",
+    "image": "/images/avatar_placeholder.png",
     "position": "President",
     "description": "Varun is a senior double majoring in Electrical Engineering and Computer Science with a minor in proof-based mathematics. Outside of IEEE, he enjoys playing guitar, reading, and going to the gym.",
     "committees": ""
   },
   {
     "name": "Hadi Ahmed",
-    "image": "",
+    "image": "/images/avatar_placeholder.png",
     "position": "Vice President of Technical Committees",
     "description": "Hadi is a senior in Computer Engineering and the former chair of Software Saturdays, as well as a member of the Computer Society and electrical lead for Aerial Robotics. He also serves as the lead for IEEE Infrastructure. He enjoys archery, hiking, photography, and reading. He loves computers and everything connected to them.",
     "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"/part/\">Aerial Robotics</a>, <a href=\"/csociety/\">Computer Society</a>"
   },
   {
     "name": "Vivek Panchagnula",
-    "image": "",
+    "image": "/images/avatar_placeholder.png",
     "position": "Vice President of Member Involvement",
     "description": "Vivek Panchagnula is a sophomore in Computer Engineering. He joined IEEE in Fall 2021 as part of the Cornerstones and Aerial Robotics team. In his free time, he likes to go on jogs, visit natural preserves, or play video games with friends. He is passionate about creating and enjoys 3D modeling and software development.",
     "committees": "<a href=\"/learning/\">Learning</a>, <a href=\"/part/\">Aerial Robotics</a>, <a href=\"/growth/\">Growth & Engagement</a>"
   },
   {
     "name": "N/A",
-    "image": "",
+    "image": "/images/avatar_placeholder.png",
     "position": "Treasurer",
     "description": "",
     "committees": ""
   },
   {
     "name": "Paul Teter",
-    "image": "",
+    "image": "/images/avatar_placeholder.png",
     "position": "Secretary",
     "description": "Paul is a Junior in Computer Engineering and a member of the Aerial Robotics team since 2021. He enjoys biking and playing board games, and is passionate about cooking. In his free time he sometimes models and prints various items on his 3D printer.",
     "committees": "<a href=\"/part/\">Aerial Robotics</a>"
@@ -38,21 +38,21 @@
   "cornerstone":[
   {
     "name": "Alex Taylor",
-    "image": "",
+    "image": "/images/avatar_placeholder.png",
     "position": "Growth & Engagement Head",
     "description": "Alex is a junior in Computer Engineering, and Head of Growth & Engagement. He also is involved with the Computer Society. He loves animation, music, video games, and local PA politics (despite how much it poisons him).",
     "committees": "<a href=\"/growth/\">Growth & Engagement</a>, <a href=\"/part/\">Aerial Robotics</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/learning/\">Learning</a>"
   },
   {
     "name": "Hunter Haglid",
-    "image": "",
+    "image": "/images/avatar_placeholder.png",
     "position": "Learning Head",
     "description": "Hunter is a senior in Computer Science and Mathematics and is the software lead for the IEEE ROV Team. His interests include computer vision, machine learning, and autonomous systems.",
     "committees": "<a href=\"/rov/\">ROV</a>"
   },
   {
     "name": "Viet Khoi Pham Khac",
-    "image": "",
+    "image": "/images/avatar_placeholder.png",
     "position": "Social Head",
     "description": "Khoi is a sophomore in Computer Engineering and a member of the Computer Society. He does photography in his free time, and collects card decks from around the world (he currently has 25 decks).",
     "committees": "<a href=\"/csociety/\">Computer Society</a>, <a href=\"/social/\">Social</a>"
@@ -60,49 +60,49 @@
   "technical":[
   {
     "name": "Matthieu Opdyke",
-    "image": "",
+    "image": "/images/avatar_placeholder.png",
     "position": "Aerial Robotics Captain",
     "description": "Matthieu is a senior in Aerospace Engineering and has been a member of PART since 2019. He loves watching soccer, playing tennis, and supporting Purdue Basketball.",
     "committees": "<a href=\"/part/\">Aerial Robotics</a>"
   },
   {
     "name": "Lizzie O'Brien",
-    "image": "",
+    "image": "/images/avatar_placeholder.png",
     "position": "Computer Society Chair",
     "description": "Lizzie is a Junior in Electrical Engineering and has been an active member of IEEE Computer Society since Fall 2021. She is also involved in other clubs on campus such as Kappa Delta Sorority, Theme Park Engineering Design (TPED), and Higher Ground Dance Company.",
     "committees": "<a href=\"/csociety/\">Computer Society</a>"
   },
   {
     "name": "Alec Lucas",
-    "image": "",
+    "image": "/images/avatar_placeholder.png",
     "position": "EMBS Chair",
     "description": "Alec is a Senior in Materials Engineering and the chair of EMBS. He is in a fraternity on campus (ATO), and attends the Smash Ultimate tournaments sometimes. He likes chess and mentors incoming freshmen in the Honors Engineering program. He's also applying to grad school to get a PhD in MSE this fall.",
     "committees": "<a href=\"/embs/\">EMBS</a>"
   },
   {
     "name": "N/A",
-    "image": "",
+    "image": "/images/avatar_placeholder.png",
     "position": "MTT-S Chair",
     "description": "",
     "committees": ""
   },
   {
     "name": "Shivansh Chauhan",
-    "image": "",
+    "image": "/images/avatar_placeholder.png",
     "position": "Racing Chair",
     "description": "",
     "committees": ""
   },
   {
     "name": "Peter Salisbury",
-    "image": "",
+    "image": "/images/avatar_placeholder.png",
     "position": "ROV Captain",
     "description": "Peter is a senior double majoring in Mechanical Engineering and Applied Physics Honors from Dayton, OH. He has been a member of ROV since 2019 and enjoys soccer, ultimate, music and space travel (from the ground, so far).",
     "committees": "<a href=\"/rov/\">ROV</a>"
   },
   {
     "name": "Jon Denton",
-    "image": "",
+    "image": "/images/avatar_placeholder.png",
     "position": "Software Saturdays Chair",
     "description": "",
     "committees": ""
