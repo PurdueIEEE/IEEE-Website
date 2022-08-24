@@ -8,6 +8,7 @@ let info_sessions = [
     {date:{month:8,day:31},time:{hour:18,minute:30},committee:'Aerial Robotics (Session 1)',location:'ARMS B061'},
     {date:{month:8,day:31},time:{hour:18,minute:30},committee:'ROV',location:'POTR 234, EE 020'},
     {date:{month:9,day:01},time:{hour:18,minute:30},committee:'Aerial Robotics (Session 2)',location:'ARMS B071'},
+    {date:{month:9,day:06},time:{hour:18,minute:30},committee:'Cornerstones',location:'BHEE 224'},
     {date:{month:9,day:07},time:{hour:18,minute:30},committee:'EMBS',location:'BHEE 222'},
     {date:{month:9,day:08},time:{hour:19,minute:30},committee:'Computer Society',location:'BHEE 222'},
     /*{date:{month:8,day:26},time:{hour:18,minute:30},committee:'Racing',location:'<a href="https://discord.gg/qUmscXNQBU">IEEE Racing Discord</a>'},
