@@ -162,11 +162,19 @@ footer {
     width: 100%
 }
 
+.responsive-text {
+    text-align: center;
+}
+
 @media screen and (min-width: 960px) {
     .responsive-table {
         width: 75%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .responsive-text {
+        text-align: start;
     }
 }
 
