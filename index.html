@@ -31,11 +31,11 @@
                     <img class="d-block mx-auto mb-4 rounded" src="/images/pieee_logo.png" alt="Purdue IEEE Logo" width="100" height="100">
                     <h1 class="display-5 fw-bold">Purdue IEEE</h1>
                     <div class="px-5 mx-auto">
-                        <p class="lead mb-4">Purdue IEEE is a student branch of the Institute of Electrical and Electronics Engineers. IEEE is one of the largest professional organizations in the world, with 423,000 members in 160 countries.</p>
+                        <p class="lead mb-4">Purdue IEEE is a student branch for one of the largest professional organizations in the world, with 423,000 members in 160 countries.</p>
                         <p class="lead mb-4">IEEE's core purpose is to foster technological innovation and excellence for the benefit of humanity. Here at Purdue, we are dedicated to technical and professional development in line with this purpose.</p>
-                        <p class="lead mb-4">Our multidisciplinary committees do everything from building robots and programming AI to community engagement and learning workshops. No matter your major, we have something for everyone!</p>
+                        <p class="lead mb-4">Our multidisciplinary committees do everything from creating Artificial Intelligence to building robots to professional outreach. No matter your major, we have something for everyone!</p>
                         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                            <a href="/about" type="button" class="btn btn-ieee btn-lg px-4 gap-3">Learn More about IEEE<a>
+                            <a href="/about" type="button" class="btn btn-ieee btn-lg px-4 gap-3">Learn More about IEEE</a>
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                     <p class="fs-3 responsive-text">— IEEE Mission Statement</p>
                 </div>
             </div>
-            <div class="row mt-3 pb-3 justify-content-center">
+            <div class="row mt-3 pb-3 justify-content-center fade-in">
                 <div class="col-md-2 text-center my-1">
                     <div class="mx-auto">
                         <p class="display-4 fw-bold my-1">1903</p>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="col-md-2 text-center my-1">
                     <div class="mx-auto">
-                        <p class="display-4 fw-bold my-1">$30,000</p>
+                        <p class="display-4 fw-bold my-1">$50,000</p>
                         <p class="fs-3 my-1">Raised Annually</p>
                     </div>
                 </div>
@@ -136,9 +136,9 @@
         </div>
         <!-- /index about header -->
 
-        <div class="container-lg mb-5">
+        <div class="container-lg mb-5" id="about_container">
             <!-- about_para1 -->
-            <div class="row align-items-center">
+            <div class="row align-items-center fade-in">
                 <div class="col-md-8 mb-3">
                     <h2 class="display-6 fw-bold">At Purdue, we strive to be the best.</h2>
                     <p class="fs-4">Whether creating drones, designing radio transmitters, or pioneering next-gen biotech, Purdue engineers excel.</p>
@@ -154,7 +154,7 @@
             <!-- /about_para1 -->
             <br><hr class="mx-auto" style="height: 3px;"><br>
             <!-- about_para2 -->
-            <div class="row align-items-center">
+            <div class="row align-items-center fade-in">
                 <div class="col-md-5 mb-3">
                     <picture>
                         <source srcset="/images/home/about_2.webp" type="image/webp">
@@ -171,7 +171,7 @@
             <!-- /about_para2 -->
             <br><hr class="mx-auto" style="height: 3px;"><br>
             <!-- about_para3 -->
-            <div class="row align-items-center">
+            <div class="row align-items-center fade-in">
                 <div class="col-md-8 mb-3">
                     <h2 class="display-6 fw-bold">Connecting industry partners to talented engineers.</h2>
                     <p class="fs-4">Our alumni go on to utilize the skills they learn at some of the world's largest companies. We have alumni working in every sector of every industry, helping shape the future of technology.</p>
@@ -199,6 +199,24 @@
     </div>
 
     <script src="/assets/base.js"></script>
-    <script src="assets/callout.js"></script>
+    <script src="/assets/callout.js"></script>
+    <script>
+        let observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.5,
+        });
+
+        let targets = document.querySelectorAll(".fade-in");
+        targets.forEach(target => { observer.observe(target)});
+
+    </script>
     </body>
 </html>
