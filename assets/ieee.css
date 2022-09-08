@@ -1,31 +1,31 @@
 /* IEEE buttons */
 .btn-ieee {
     color: white;
-    background-color: #00629B;
-    border-color: #002855;
+    background-color: #004D97;
+    border-color: #001A33;
 }
 
 .btn-ieee:hover {
     color: white;
-    background-color: #002855;
-    border-color: #002855;
+    background-color: #001A33;
+    border-color: #001A33;
 }
 
 .btn-ieee:active {
     color: white;
-    background-color: #002855;
-    border-color: #002855;
+    background-color: #001A33;
+    border-color: #001A33;
 }
 
 .btn-ieee.active {
     color: white;
-    background-color: #002855;
-    border-color: #002855;
+    background-color: #001A33;
+    border-color: #001A33;
 }
 
 /* IEEE and Purdue backgrounds */
-.bg-ieee-40 {
-    background: #A3BFD8;
+.bg-pieee {
+    background: #BED4E9;
 }
 
 .bg-purdue {
@@ -39,14 +39,14 @@
 
 /* Fixes for menu links */
 .list-group-item.active {
-    background: #A3BFD8;
-    border-color: #749FC4;
+    background: #BED4E9;
+    border-color: #415277;
     color: black;
 }
 
 .list-group-item.active.hover {
-    background: #A3BFD8;
-    border-color: #749FC4;
+    background: #BED4E9;
+    border-color: #415277;
     color: white;
 }
 
