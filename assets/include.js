@@ -9,7 +9,7 @@ Vue.component('ieee-header', {
     <!-- navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-lg">
-          <a class="navbar-brand d-flex me-auto w-50" href="/"><img class="me-2" src="/images/IEEE-Kite.svg" alt="" width="30" height="30"> <span class="fw-bold">{{head}}</span></a>
+          <a class="navbar-brand d-flex me-auto w-50" href="/"><img class="me-2" src="/images/pieee-kite.svg" alt="" width="30" height="30"> <span class="fw-bold">{{head}}</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarlink" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
