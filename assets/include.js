@@ -9,7 +9,7 @@ Vue.component('ieee-header', {
     <!-- navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-lg">
-          <a class="navbar-brand d-flex me-auto w-50" href="/"><img class="me-2" src="/images/IEEE-Kite.svg" alt="" width="30" height="30"> <span class="fw-bold">{{head}}</span></a>
+          <a class="navbar-brand d-flex me-auto w-50" href="/"><img class="me-2" src="/images/pieee-kite.svg" alt="" width="30" height="30"> <span class="fw-bold">{{head}}</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarlink" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -81,6 +81,7 @@ Vue.component('ieee-footer',{
                 <a href="https://twitter.com/purdueieee" target="_blank" class="link-dark"><i class="bi bi-twitter fs-1 mx-2" width="50"></i></a>
                 <!-- <a href="https://www.facebook.com/groups/purdueieee/" target="_blank" class="link-dark"><i class="bi bi-facebook fs-1 mx-2"></i></a> -->
                 <a href="https://www.youtube.com/channel/UCJwFwlur0e2fgwf97eV7INw" target="_blank" class="link-dark"><i class="bi bi-youtube fs-1 mx-2"></i></a>
+                <a href="https://www.instagram.com/purdueieee" target="_blank" class="link-dark"><i class="bi bi-instagram fs-1 mx-2"></i></a>
                 <a href="https://purdueieee.slack.com/signup" target="_blank" class="link-dark"><i class="bi bi-slack fs-1 mx-2"></i></a>
                 <a href="https://github.com/PurdueIEEE" target="_blank" class="link-dark"><i class="bi bi-github fs-1 mx-2"></i></a>
                 </div>

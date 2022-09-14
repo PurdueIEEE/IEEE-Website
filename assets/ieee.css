@@ -1,51 +1,56 @@
+/* IEEE buttons */
 .btn-ieee {
     color: white;
-    background-color: #00629B;
-    border-color: #002855;
+    background-color: #004D97;
+    border-color: #001A33;
 }
 
 .btn-ieee:hover {
     color: white;
-    background-color: #002855;
-    border-color: #002855;
+    background-color: #001A33;
+    border-color: #001A33;
 }
 
 .btn-ieee:active {
     color: white;
-    background-color: #002855;
-    border-color: #002855;
+    background-color: #001A33;
+    border-color: #001A33;
 }
 
 .btn-ieee.active {
     color: white;
-    background-color: #002855;
-    border-color: #002855;
+    background-color: #001A33;
+    border-color: #001A33;
 }
 
-.bg-ieee-40 {
-    background: #A3BFD8;
+/* IEEE and Purdue backgrounds */
+.bg-pieee {
+    background: #BED4E9;
 }
 
 .bg-purdue {
     background-color: #CFB991;
 }
 
+/* fix for a dark link */
 .link-dark:hover {
     color: #464646;
 }
 
+/* Fixes for menu links */
 .list-group-item.active {
-    background: #A3BFD8;
-    border-color: #749FC4;
+    background: #BED4E9;
+    border-color: #415277;
     color: black;
 }
 
 .list-group-item.active.hover {
-    background: #A3BFD8;
-    border-color: #749FC4;
+    background: #BED4E9;
+    border-color: #415277;
     color: white;
 }
 
+/* Hero image (background image) */
 .hero-image {
     /*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/exec-2021-22.jpg');*/
     height: 100%;
@@ -60,6 +65,7 @@ footer {
     background-color: #CFB991;
 }
 
+/* image grid (about page */
 .igrid-row {
     display: flex;
     flex-wrap: wrap;
@@ -150,24 +156,13 @@ footer {
     }
 }
 
+/* officer links */
 .officer-link a {
     color: #6c757d;
 }
 
 .officer-link a:hover {
     color: #565e64;
-}
-
-.responsive-table {
-    width: 100%
-}
-
-@media screen and (min-width: 960px) {
-    .responsive-table {
-        width: 75%;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 
 .hr-break {
@@ -178,6 +173,48 @@ footer {
     opacity: 0;
 }
 
+/* better responsive text and tables */
+.responsive-table {
+    width: 100%
+}
+
+.responsive-text {
+    text-align: center;
+}
+
+@media screen and (min-width: 960px) {
+    .responsive-table {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .responsive-text {
+        text-align: start;
+    }
+}
+
+/* animations */
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+    will-change: auto;
+}
+
+.fade-in.is-visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media screen and (prefers-reduced-motion: reduce), (update: slow) {
+    * {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+    }
+}
+
+/* debug */
 .debug {
     outline: 2px solid red;
 }
