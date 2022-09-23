@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="/assets/external/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/external/bootstrap-icons.css">
+        <link rel="stylesheet" href="/assets/ieee.css">
+        <link rel="icon" href="/favicon.ico"/>
+
+        <meta name="description" content="The official website of the Purdue IEEE Student Branch">
+        <meta name="author" content="Purdue IEEE">
+
+        <title>Purdue IEEE</title>
+
+        <script src="/assets/external/bootstrap.bundle.min.js"></script>
+        <script src="/assets/external/vue2.min.js"></script>
+        <script src="/assets/include.js"></script>
+
+    </head>
+    <body>
+    <div id="app">
+        <ieee-header head="Purdue IEEE" page="Member Information"></ieee-header>
+
+        <main>
+            <div class="my-5 pt-5 container-lg text-center">
+                <h1 class="display-3 fw-bold">Information for Members</h1>
+                <br>
+                <p class="fs-3">
+                    The following information is relevant to members who utilize the Purdue IEEE SSO system.
+                    If you don't know if you are a user of the Purdue IEEE SSO system, this page may not be for you.
+                    Currently, the SSO system is utilized by Boiler Books, the ROV team, and PART.
+                </p>
+            </div>
+
+            <noscript>
+                <br>
+                <div class="container-lg lead fs-2 text-center">
+                Hi there! Your browser does not allow JavaScript to run on this site. You may have a degraded experience
+                navigating around our website. You can view the contents of any script on this site at our GitHub,
+                <a href="https://github.com/PurdueIEEE/IEEE-Website" target="_blank">https://github.com/PurdueIEEE/IEEE-Website</a>.
+                </div>
+                <br>
+            </noscript>
+
+            <div class="container-fluid bg-pieee py-3">
+                <div class="container-lg text-center">
+                    <h2 class="display-6 fw-bold">What is the Purdue IEEE SSO system?</h2>
+                    <p class="fs-3">
+                        The Purdue IEEE SSO system is a way to unify any services committees use into a single login,
+                        with a shared account used to authenticate into multiple hosted services. You use SSO logins
+                        all the time at Purdue - BoilerKey is a type of SSO system used for Purdue University services.
+                        Here at Purdue IEEE, we use a similar system, but customized to fit our needs.
+                    </p>
+
+                    <h2 class="display-6 fw-bold">How do I create an account?</h2>
+                    <p class="fs-3">
+                        You only need to create an account if you need to use the SSO system for your committee. Once
+                        you attempt to login, you will notice a login page labeled with "Purdue IEEE SSO". Click the
+                        "Register" button on the bottom of the form to create an account. It will ask you some personal
+                        information and to confirm your email. Once you do these steps, you're done!
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-lg text-center text-center my-5">
+                <h2 class="display-6 fw-bold">How do I modify any of my details?</h2>
+                <p class="fs-3">
+                    You can view and access your account details at any time by accessing
+                    <a href="https://sso.purdueieee.org/realms/Purdue-IEEE/account/#/" target="_blank" class="link-primary">the SSO account portal</a>.
+                    Please note that some fields, like your username, are not able to be modified. Further, modifying fields like your email <em>may</em>
+                    cause your account to no longer link to any data on existing services.
+                </p>
+
+                <h2 class="display-6 fw-bold">I'm having problems!</h2>
+                <p class="fs-3">
+                    If you are having any issues, please reach out to the Infrastructure Lead on Slack or through email.
+                    We are here to help you! Contact us at <a href="mailto:ieee-infrastructure@purdueieee.org">ieee-infrastructure@purdueieee.org</a>
+                    and someone will get back to you shortly.
+                </p>
+            </div>
+
+        </main>
+
+       <ieee-footer></ieee-footer>
+    </div>
+
+    <script src="/assets/base.js"></script>
+    </body>
+</html>
