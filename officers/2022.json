@@ -5,14 +5,14 @@
     "image": "/images/officers/2022_Varun_Gannavarapu.jpg",
     "position": "President",
     "description": "Varun is a senior double majoring in Electrical Engineering and Computer Science with a minor in proof-based mathematics. Outside of IEEE, he enjoys playing guitar, reading, and going to the gym.",
-    "committees": ""
+    "committees": "<a href=\"/racing/\">Racing</a>"
   },
   {
     "name": "Hadi Ahmed",
     "image": "/images/officers/2022_Hadi_Ahmed.jpg",
     "position": "Vice President of Technical Committees",
     "description": "Hadi is a senior in Computer Engineering and the former chair of Software Saturdays, as well as a member of the Computer Society and electrical lead for Aerial Robotics. He also serves as the lead for IEEE Infrastructure. He enjoys archery, hiking, photography, and reading. He loves computers and everything connected to them.",
-    "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"/part/\">Aerial Robotics</a>, <a href=\"/csociety/\">Computer Society</a>"
+    "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"/part/\">Aerial Robotics</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/racing/\">Racing</a>"
   },
   {
     "name": "Vivek Panchagnula",
@@ -48,7 +48,7 @@
     "image": "/images/officers/2022_Hunter_Haglid.jpg",
     "position": "Learning Head",
     "description": "Hunter is a senior in Computer Science and Mathematics and is the software lead for the IEEE ROV Team. His interests include computer vision, machine learning, and autonomous systems.",
-    "committees": "<a href=\"/rov/\">ROV</a>"
+    "committees": "<a href=\"/rov/\">ROV</a>, <a href=\"/learning/\">Learning</a>"
   },
   {
     "name": "Viet Khoi Pham Khac",
@@ -84,7 +84,7 @@
     "image": "/images/officers/2019_Jiayu_Luo.jpg",
     "position": "MTT-S Chair",
     "description": "George is a first year master's student in Robotics and the chair of MTT-S. He was an undergraduate student of Purdue and an member of MTT-S for many years. He is also involved in many other activities such as Judo Club and Boiler Blade. He enjoys musicals, hiking, and cooking.",
-    "committees": "<a href=\"/mtts/\">MTT-S</a>"
+    "committees": "<a href=\"/mtts/\">MTT-S</a>, <a href=\"/racing/\">Racing</a>"
   },
   {
     "name": "Meenu Ramakrishnan",
