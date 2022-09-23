@@ -16,19 +16,14 @@ Vue.component('ieee-header', {
           <!-- navbarlinks -->
           <div class="collapse navbar-collapse" id="navbarlink">
             <ul class="navbar-nav ms-auto mb-2">
-                <!-- navbarlinks_about -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarlinks_about" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
-                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarlinks_about">
-                    <li><a class="dropdown-item" href="/about">About IEEE</a></li>
-                    <li><a class="dropdown-item" href="/officers">Officers</a></li>
-                    <li><a class="dropdown-item" href="/awardees">Annual Award Winners</a></li>
-                    <li><a class="dropdown-item" href="/studentwinners">Students of the Week</a></li>
-                    <li><a class="dropdown-item" href="/constitution">Constitution</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="/about">About Purdue IEEE</a>
               </li>
-              <!-- /navbarlinks_about -->
-               <li class="nav-item">
+              <li class="nav-item mx-3"></li>
+              <li class="nav-item">
+                <a class="nav-link" href="/officers">Officers</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="/calendar">Calendar</a>
               </li>
               <!-- navbarlinks_committees -->
@@ -53,6 +48,17 @@ Vue.component('ieee-header', {
                 </ul>
               </li>
               <!-- /navbarlinks_committees -->
+              <!-- navbarlinks_members -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarlinks_members" role="button" data-bs-toggle="dropdown" aria-expanded="false">Members</a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarlinks_members">
+                    <li><a class="dropdown-item" href="/members">Info for Members</li>
+                    <li><a class="dropdown-item" href="/awardees">Annual Award Winners</a></li>
+                    <li><a class="dropdown-item" href="/studentwinners">Students of the Week</a></li>
+                    <li><a class="dropdown-item" href="/constitution">Constitution</a></li>
+                </ul>
+              </li>
+              <!-- /navbarlinks_members -->
               <li class="nav-item">
                 <a class="nav-link" href="/join">Join</a>
               </li>
