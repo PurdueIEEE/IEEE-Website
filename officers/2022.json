@@ -5,35 +5,40 @@
     "image": "/images/officers/2022_Varun_Gannavarapu.jpg",
     "position": "President",
     "description": "Varun is a senior double majoring in Electrical Engineering and Computer Science with a minor in proof-based mathematics. Outside of IEEE, he enjoys playing guitar, reading, and going to the gym.",
-    "committees": "<a href=\"/racing/\">Racing</a>"
+    "committees": "<a href=\"/racing/\">Racing</a>",
+    "email": "president@purdueieee.org"
   },
   {
     "name": "Hadi Ahmed",
     "image": "/images/officers/2022_Hadi_Ahmed.jpg",
     "position": "Vice President of Technical Committees",
     "description": "Hadi is a senior in Computer Engineering and the former chair of Software Saturdays, as well as a member of the Computer Society and electrical lead for Aerial Robotics. He also serves as the lead for IEEE Infrastructure. He enjoys archery, hiking, photography, and reading. He loves computers and everything connected to them.",
-    "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"/part/\">Aerial Robotics</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/racing/\">Racing</a>"
+    "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"/part/\">Aerial Robotics</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/racing/\">Racing</a>",
+    "email": "vp@purdueieee.org"
   },
   {
     "name": "Vivek Panchagnula",
     "image": "/images/officers/2022_Vivek_Panchagnula_2.jpg",
     "position": "Vice President of Member Involvement",
     "description": "Vivek is a sophomore in Computer Engineering. He joined IEEE in Fall 2021 as part of the Cornerstones and Aerial Robotics team. In his free time, he likes to go on jogs, visit natural preserves, or play video games with friends. He is passionate about creating and enjoys 3D modeling and software development.",
-    "committees": "<a href=\"/learning/\">Learning</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/growth/\">Growth & Engagement</a>"
+    "committees": "<a href=\"/learning/\">Learning</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/growth/\">Growth & Engagement</a>",
+    "email": "vp@purdueieee.org"
   },
   {
     "name": "Amrutha Vaidyam",
     "image": "/images/officers/2022_Amrutha_Vaidyam.jpg",
     "position": "Treasurer",
     "description": "Amrutha Vaidyam is a sophomore majoring in Neurobiology & Physiology along with pursuing minors in Psychology and Computer Science. She is also the Vice Chair of the Engineering in Biology and Medicine Society. In her spare time she enjoys partaking in standup comedy, sketching, and more.",
-    "committees": "<a href=\"/embs/\">EMBS</a>"
+    "committees": "<a href=\"/embs/\">EMBS</a>",
+    "email": "treas@purdueieee.org"
   },
   {
     "name": "Paul Teter",
     "image": "/images/officers/2022_Paul_Teter.jpg",
     "position": "Secretary",
     "description": "Paul is a Junior in Computer Engineering and a member of the Aerial Robotics team since 2021. He enjoys biking and playing board games, and is passionate about cooking. In his free time he sometimes models and prints various items on his 3D printer.",
-    "committees": "<a href=\"/part/\">Aerial Robotics</a>"
+    "committees": "<a href=\"/part/\">Aerial Robotics</a>",
+    "email": "sec@purdueieee.org"
   }],
   "cornerstone":[
   {
@@ -41,21 +46,24 @@
     "image": "/images/officers/2022_Alex_Taylor_2.jpg",
     "position": "Growth & Engagement Head",
     "description": "Alex is a junior in Computer Engineering, and Head of Growth & Engagement. He also is involved with the Computer Society. He loves animation, music, video games, and local PA politics (despite how much it poisons him).",
-    "committees": "<a href=\"/growth/\">Growth & Engagement</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/learning/\">Learning</a>"
+    "committees": "<a href=\"/growth/\">Growth & Engagement</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/learning/\">Learning</a>",
+    "email":"growth@purdueieee.org"
   },
   {
     "name": "Hunter Haglid",
     "image": "/images/officers/2022_Hunter_Haglid.jpg",
     "position": "Learning Head",
     "description": "Hunter is a senior in Computer Science and Mathematics and is the software lead for the IEEE ROV Team. His interests include computer vision, machine learning, and autonomous systems.",
-    "committees": "<a href=\"/rov/\">ROV</a>, <a href=\"/learning/\">Learning</a>"
+    "committees": "<a href=\"/rov/\">ROV</a>, <a href=\"/learning/\">Learning</a>",
+    "email": "learning@purdueieee.org"
   },
   {
     "name": "Viet Khoi Pham Khac",
     "image": "/images/officers/2022_Khoi_Khac.jpg",
     "position": "Social Head",
     "description": "Khoi is a sophomore in Computer Engineering and a member of the Computer Society. He does photography in his free time, and collects card decks from around the world (he currently has 25 decks).",
-    "committees": "<a href=\"/csociety/\">Computer Society</a>, <a href=\"/social/\">Social</a>"
+    "committees": "<a href=\"/csociety/\">Computer Society</a>, <a href=\"/social/\">Social</a>",
+    "email": "social@purdueieee.org"
   }],
   "technical":[
   {
@@ -63,42 +71,48 @@
     "image": "/images/officers/2022_Matthieu_Opdyke.jpg",
     "position": "Aerial Robotics Captain",
     "description": "Matthieu is a senior in Aerospace Engineering and has been a member of PART since 2019. He loves watching soccer, playing tennis, and supporting Purdue Basketball.",
-    "committees": "<a href=\"/part/\">Aerial Robotics</a>"
+    "committees": "<a href=\"/part/\">Aerial Robotics</a>",
+    "email": "part@purdueieee.org"
   },
   {
     "name": "Lizzie O'Brien",
     "image": "/images/officers/2022_Lizzie_OBrien.jpg",
     "position": "Computer Society Chair",
     "description": "Lizzie is a Junior in Electrical Engineering and has been an active member of IEEE Computer Society since Fall 2021. She is also involved in other clubs on campus such as Kappa Delta Sorority, Theme Park Engineering Design (TPED), Women in Engineering Program Leadership Team, and Higher Ground Dance Company.",
-    "committees": "<a href=\"/csociety/\">Computer Society</a>"
+    "committees": "<a href=\"/csociety/\">Computer Society</a>",
+    "email": "csociety-info@purdueieee.org"
   },
   {
     "name": "Alec Lucas",
     "image": "/images/officers/2022_Alec_Lucas.jpg",
     "position": "EMBS Chair",
     "description": "Alec is a Senior in Materials Engineering and the chair of EMBS. He is in a fraternity on campus (ATO), and attends the Smash Ultimate tournaments sometimes. He likes chess and mentors incoming freshmen in the Honors Engineering program. He's also applying to grad school to get a PhD in MSE this fall.",
-    "committees": "<a href=\"/embs/\">EMBS</a>"
+    "committees": "<a href=\"/embs/\">EMBS</a>",
+    "email": "info-embs@purdueieee.org"
   },
   {
     "name": "George Luo",
     "image": "/images/officers/2019_Jiayu_Luo.jpg",
     "position": "MTT-S Chair",
     "description": "George is a first year master's student in Robotics and the chair of MTT-S. He was an undergraduate student of Purdue and an member of MTT-S for many years. He is also involved in many other activities such as Judo Club and Boiler Blade. He enjoys musicals, hiking, and cooking.",
-    "committees": "<a href=\"/mtts/\">MTT-S</a>, <a href=\"/racing/\">Racing</a>"
+    "committees": "<a href=\"/mtts/\">MTT-S</a>, <a href=\"/racing/\">Racing</a>",
+    "email": "mtt-s-info@purdueieee.org"
   },
   {
     "name": "Meenu Ramakrishnan",
     "image": "/images/officers/2022_Meenu_Ramakrishnan.jpg",
     "position": "Racing Chair",
     "description": "Meenu is a junior Data Science and Linguistics major. In her free time, she loves weightlifting, Indian classical dance, and reading.",
-    "committees": "<a href=\"/csociety/\">Computer Society</a>, <a href=\"/racing/\">Racing</a>"
+    "committees": "<a href=\"/csociety/\">Computer Society</a>, <a href=\"/racing/\">Racing</a>",
+    "email": "racing@purdueieee.org"
   },
   {
     "name": "Peter Salisbury",
     "image": "/images/officers/2022_Peter_Salisbury.jpg",
     "position": "ROV Captain",
     "description": "Peter is a senior double majoring in Mechanical Engineering and Applied Physics Honors from Dayton, OH. He has been a member of ROV since 2019 and enjoys soccer, ultimate, music and space travel (from the ground, so far).",
-    "committees": "<a href=\"/rov/\">ROV</a>"
+    "committees": "<a href=\"/rov/\">ROV</a>",
+    "email": "rov@purdueieee.org"
   }
 ]
 }
