@@ -32,7 +32,7 @@ Vue.component('studentwinners-header',{
     },
     methods: {
         createYears: function() {
-            return new Array(this.maxYear - this.startYear + 1).fill(this.startYear).map((n,i)=>n+i);
+            return new Array(this.maxYear - this.startYear + 1).fill(this.startYear).map((n,i)=>n+i).reverse();
         },
         handleYearChange: function(year) {
             window.location.href=`/studentwinners/${year}.html`;
