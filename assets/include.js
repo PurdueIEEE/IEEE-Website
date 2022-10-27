@@ -86,7 +86,7 @@ Vue.component('ieee-footer',{
                 <div class="col-md-6">
                 <a href="https://twitter.com/purdueieee" target="_blank" class="link-dark"><i class="bi bi-twitter fs-1 mx-2" width="50"></i></a>
                 <!-- <a href="https://www.facebook.com/groups/purdueieee/" target="_blank" class="link-dark"><i class="bi bi-facebook fs-1 mx-2"></i></a> -->
-                <a href="https://www.youtube.com/channel/UCJwFwlur0e2fgwf97eV7INw" target="_blank" class="link-dark"><i class="bi bi-youtube fs-1 mx-2"></i></a>
+                <a href="https://youtube.com/@PurdueIEEE" target="_blank" class="link-dark"><i class="bi bi-youtube fs-1 mx-2"></i></a>
                 <a href="https://www.instagram.com/purdueieee" target="_blank" class="link-dark"><i class="bi bi-instagram fs-1 mx-2"></i></a>
                 <a href="https://purdueieee.slack.com/signup" target="_blank" class="link-dark"><i class="bi bi-slack fs-1 mx-2"></i></a>
                 <a href="https://github.com/PurdueIEEE" target="_blank" class="link-dark"><i class="bi bi-github fs-1 mx-2"></i></a>
