@@ -4,16 +4,17 @@ let date = new Date();
 let date_i = new Date();
 
 let info_sessions = [
-    {date:{month:1,day:18},time:{hour:18,minute:30},committee:'Purdue IEEE',location:'BHEE 129'},
     {date:{month:1,day:17},time:{hour:18,minute:00},committee:'Aerial Robotics (Session 1)',location:'ARMS 1010'},
-    {date:{month:1,day:18},time:{hour:18,minute:0},committee:'Aerial Robotics (Session 2)',location:'ARMS 1010'},
+    {date:{month:1,day:18},time:{hour:18,minute:00},committee:'Aerial Robotics (Session 2)',location:'ARMS 1010'},
+    {date:{month:1,day:18},time:{hour:18,minute:30},committee:'Purdue IEEE',location:'BHEE 129'},
+    {date:{month:1,day:18},time:{hour:18,minute:30},committee:'Growth and Engagement',location:'BHEE 129'},
+
 
 
     /*
     {date:{month:8,day:31},time:{hour:18,minute:30},committee:'ROV',location:'POTR 234, EE 020'},
     {date:{month:9,day:06},time:{hour:17,minute:30},committee:'MTT-S/Racing',location:'BHEE 005'},
     {date:{month:9,day:06},time:{hour:18,minute:30},committee:'Cornerstones',location:'BHEE 224'},
-    {date:{month:9,day:07},time:{hour:18,minute:30},committee:'Aerial Robotics (Session 2)',location:'ARMS B071'},
     {date:{month:9,day:07},time:{hour:18,minute:30},committee:'EMBS',location:'BHEE 222'},
     {date:{month:9,day:08},time:{hour:19,minute:30},committee:'Computer Society',location:'BHEE 129'},
     {date:{month:9,day:12},time:{hour:17,minute:30},committee:'GRSS',location:'BHEE 005'},
