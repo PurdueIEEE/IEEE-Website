@@ -8,6 +8,8 @@ let info_sessions = [
     {date:{month:1,day:18},time:{hour:18,minute:00},committee:'Aerial Robotics (Session 2)',location:'ARMS 1010'},
     {date:{month:1,day:18},time:{hour:18,minute:30},committee:'Purdue IEEE',location:'BHEE 129'},
     {date:{month:1,day:18},time:{hour:18,minute:30},committee:'Growth and Engagement',location:'BHEE 129'},
+    {date:{month:1,day:23},time:{hour:18,minute:30},committee:'MTT-S',location:'BHEE 224'},
+
 
 
 
