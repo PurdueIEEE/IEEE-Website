@@ -11,7 +11,7 @@
   {
     "name": "Hadi Ahmed",
     "image": "/images/officers/2022_Hadi_Ahmed.jpg",
-    "position": "Vice President of Technical Committees",
+    "position": "Vice President of Technical Committees (August to December)",
     "description": "Hadi is a senior in Computer Engineering and the former chair of Software Saturdays, as well as a member of the Computer Society and electrical lead for Aerial Robotics. He also serves as the lead for IEEE Infrastructure. He enjoys archery, hiking, photography, and reading. He loves computers and everything connected to them.",
     "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"/part/\">Aerial Robotics</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/racing/\">Racing</a>",
     "email": "vp@purdueieee.org"
@@ -113,6 +113,13 @@
     "description": "Peter is a senior double majoring in Mechanical Engineering and Applied Physics Honors from Dayton, OH. He has been a member of ROV since 2019 and enjoys soccer, ultimate, music and space travel (from the ground, so far).",
     "committees": "<a href=\"/rov/\">ROV</a>",
     "email": "rov@purdueieee.org"
+  },
+  {
+    "name": "Adithya Chandrasekar",
+    "image": "/images/officers/2022_Adithya_Chandrasekar.jpg",
+    "position": "Software Saturdays Chair",
+    "description": "Adithya is a sophomore in Computer Science & Data Science and is also software lead for EMBS. He has an avid interest in software development, data analytics, and management & technology consulting. In his free time, he enjoys working on personal projects, trying new food, and reading manga.",
+    "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"/part/\">EMBS</a>"
   }
 ]
 }

@@ -19,7 +19,6 @@ let info_sessions = [
     /*
     {date:{month:1,day:19},time:{hour:19,minute:30},committee:'Computer Society',location:'BHEE 129'},
     {date:{month:9,day:06},time:{hour:17,minute:30},committee:'Racing',location:'BHEE 005'},
-    {date:{month:9,day:07},time:{hour:18,minute:30},committee:'EMBS',location:'BHEE 222'},
     {date:{month:9,day:12},time:{hour:17,minute:30},committee:'GRSS',location:'BHEE 005'},
     
 
