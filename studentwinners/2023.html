@@ -22,7 +22,7 @@
     </head>
     <body>
     <div id="app">
-        <ieee-header head="Purdue IEEE" page="Students of the Week"></ieee-header>
+        <ieee-header head="Purdue IEEE" page="2023 Students of the Week"></ieee-header>
 
         <main>
 
@@ -36,18 +36,32 @@
                 <br>
             </noscript>
 
-            <div class="pt-5 mt-5">
-                 <script>
-                     // Just a redirect to the page. Update this for the next year.
-                     window.location.replace("/studentwinners/2023.html")
-                 </script>
-                 <a href="/studentwinners/2023.html"><p class="display-3 text-center">Redirect Link for Current Year</p></a>
+            <studentwinners-header year="2023"></studentwinners-header>
+
+            <div class="container-fluid pt-3 bg-pieee">
+                <p class="display-5 fw-bold text-center">Spring</p>
+                <div class="d-flex flex-column color container-lg ">
+
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-md-3">
+                            <img class="rounded-3 mx-auto d-block img-fluid mb-3" src="/images/studentwinners/2023_Ethan_Kessel.jpg" alt="Ethan Kessel Shot">
+                        </div>
+                        <div class="col-md-9">
+                            <p class="fs-3 fw-bold">Ethan Kessel</p>
+                            <p class="fs-4">Week of January 9</p>
+                            <p class="fs-5">
+                                I'm Ethan Kessel and I'm a Junior in AAE from Tucson, AZ. Some of my hobbies include digital drawing and cooking, and I'm a big tech nerd. I've been working on implementing a custom USB 3.0 hub for sensor integration on the IEEE ROV team and learning a lot about high-speed circuit design in the process.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </main>
 
        <ieee-footer></ieee-footer>
     </div>
 
-    <script src="/assets/base.js"></script>
+    <script src="/assets/studentwinners.js"></script>
     </body>
 </html>

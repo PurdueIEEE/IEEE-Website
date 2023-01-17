@@ -113,6 +113,13 @@
     "description": "Peter is a senior double majoring in Mechanical Engineering and Applied Physics Honors from Dayton, OH. He has been a member of ROV since 2019 and enjoys soccer, ultimate, music and space travel (from the ground, so far).",
     "committees": "<a href=\"/rov/\">ROV</a>",
     "email": "rov@purdueieee.org"
+  },
+  {
+    "name": "Adithya Chandrasekar",
+    "image": "/images/officers/2022_Adithya_Chandrasekar.jpg",
+    "position": "Software Saturdays Chair (from January)",
+    "description": "Adithya is a sophomore in Computer Science & Data Science and is also software lead for EMBS. He has an avid interest in software development, data analytics, and management & technology consulting. In his free time, he enjoys working on personal projects, trying new food, and reading manga.",
+    "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"/part/\">EMBS</a>"
   }
 ]
 }

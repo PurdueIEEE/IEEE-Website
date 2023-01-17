@@ -27,7 +27,7 @@ Vue.component('studentwinners-header',{
     data: function(){
         return {
             startYear: 2019,
-            maxYear: 2022,
+            maxYear: 2023,
         }
     },
     methods: {
