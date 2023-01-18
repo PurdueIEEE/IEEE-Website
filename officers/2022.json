@@ -21,7 +21,7 @@
     "image": "/images/officers/2022_Aniruddh_Suresh.jpg",
     "position": "Vice President of Technical Committees (from January)",
     "description": "Ani is a sophomore pursuing Computer Engineering, and vice chair of Racing. In his free time he likes to bike, play bass, read comics and playing tennis. He also really loves cats and other pets.",
-    "committees": "<a href=\"/software/\">Racing</a>",
+    "committees": "<a href=\"/racing/\">Racing</a>",
     "email": "vp@purdueieee.org"
   },
   {
@@ -127,7 +127,8 @@
     "image": "/images/officers/2022_Adithya_Chandrasekar.jpg",
     "position": "Software Saturdays Chair (from January)",
     "description": "Adithya is a sophomore in Computer Science & Data Science and is also software lead for EMBS. He has an avid interest in software development, data analytics, and management & technology consulting. In his free time, he enjoys working on personal projects, trying new food, and reading manga.",
-    "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"/part/\">EMBS</a>"
+    "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"/embs/\">EMBS</a>",
+    "email": "software-saturdays@purdueieee.org"
   }
 ]
 }
