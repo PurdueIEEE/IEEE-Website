@@ -11,9 +11,17 @@
   {
     "name": "Hadi Ahmed",
     "image": "/images/officers/2022_Hadi_Ahmed.jpg",
-    "position": "Vice President of Technical Committees",
+    "position": "Vice President of Technical Committees (August to December)",
     "description": "Hadi is a senior in Computer Engineering and the former chair of Software Saturdays, as well as a member of the Computer Society and electrical lead for Aerial Robotics. He also serves as the lead for IEEE Infrastructure. He enjoys archery, hiking, photography, and reading. He loves computers and everything connected to them.",
     "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"/part/\">Aerial Robotics</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/racing/\">Racing</a>",
+    "email": "vp@purdueieee.org"
+  },
+  {
+    "name": "Aniruddh Suresh",
+    "image": "/images/officers/2022_Aniruddh_Suresh.jpg",
+    "position": "Vice President of Technical Committees (from January)",
+    "description": "Ani is a sophomore pursuing Computer Engineering, and vice chair of Racing. In his free time he likes to bike, play bass, read comics and playing tennis. He also really loves cats and other pets.",
+    "committees": "<a href=\"/software/\">Racing</a>",
     "email": "vp@purdueieee.org"
   },
   {
