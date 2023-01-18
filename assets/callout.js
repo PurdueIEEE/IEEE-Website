@@ -9,12 +9,11 @@ let info_sessions = [
     {date:{month:1,day:18},time:{hour:18,minute:30},committee:'Purdue IEEE',location:'BHEE 129'},
     {date:{month:1,day:18},time:{hour:18,minute:30},committee:'Cornerstones',location:'BHEE 129'},
     {date:{month:1,day:19},time:{hour:18,minute:00},committee:'EMBS',location:'BHEE 226'},
+    {date:{month:1,day:19},time:{hour:19,minute:30},committee:'Computer Society',location:'BHEE 224'},
     {date:{month:1,day:21},time:{hour:13,minute:00},committee:'ROV',location:'POTR 234'},
+    {date:{month:1,day:23},time:{hour:17,minute:30},committee:'Racing',location:'BHEE 005'},
     {date:{month:1,day:23},time:{hour:18,minute:30},committee:'MTT-S',location:'BHEE 224'},
     {date:{month:1,day:28},time:{hour:11,minute:30},committee:'Software Saturdays',location:'WALC 1018'},
-
-
-
 
     /*
     {date:{month:1,day:19},time:{hour:19,minute:30},committee:'Computer Society',location:'BHEE 129'},
