@@ -25,7 +25,7 @@
 /* animation */
 .fade-in-top {
     opacity: 0;
-    transform: translateY(20vh);
+    transform: translateY(5%);
     visibility: hidden;
     transition: opacity 0.6s ease-out, transform 1.2s ease-out;
     will-change: opacity, visibility;
@@ -38,7 +38,7 @@
 
 .fade-in-left {
     opacity: 0;
-    transform: translateX(20vh);
+    transform: translateX(5%);
     visibility: hidden;
     transition: opacity 0.6s ease-out, transform 1.2s ease-out;
     will-change: opacity, visibility;
@@ -51,7 +51,7 @@
 
 .fade-in-right {
     opacity: 0;
-    transform: translateX(-20vh);
+    transform: translateX(-5%);
     visibility: hidden;
     transition: opacity 0.6s ease-out, transform 1.2s ease-out;
     will-change: opacity, visibility;
