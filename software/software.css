@@ -1,0 +1,15 @@
+/* Couple of extra classes to avoid in-line styles */
+.purdue-text {
+    color: #CFB991;
+}
+.react-text {
+    color: #61DBFB;
+}
+
+.poke-text {
+    color: #ee1515;
+}
+
+.firebase-text {
+    color: #FF5733;
+}
