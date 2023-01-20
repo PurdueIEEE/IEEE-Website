@@ -31,6 +31,18 @@
         border-radius: 3rem;
         max-width: 576px;
     }
+
+    .sponsor-logo {
+        width: 50%;
+    }
+}
+
+.para-width {
+    max-width: 50rem;
+}
+
+.sponsor-logo {
+    width: 75%;
 }
 
 /* animation */
