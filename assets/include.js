@@ -17,9 +17,8 @@ Vue.component('ieee-header', {
           <div class="collapse navbar-collapse" id="navbarlink">
             <ul class="navbar-nav ms-auto mb-2">
               <li class="nav-item">
-                <a class="nav-link" href="/about">About Purdue IEEE</a>
+                <a class="nav-link" href="/about">About</a>
               </li>
-              <li class="nav-item mx-3"></li>
               <li class="nav-item">
                 <a class="nav-link" href="/officers">Officers</a>
               </li>
