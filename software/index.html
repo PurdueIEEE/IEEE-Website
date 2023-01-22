@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="/assets/external/bootstrap.min.css">
         <link rel="stylesheet" href="/assets/external/bootstrap-icons.css">
         <link rel="stylesheet" href="/assets/ieee.css">
+        <link rel="stylesheet" href="software.css">
         <link rel="icon" href="/favicon.ico"/>
 
         <meta name="description" content="The official website of the Purdue IEEE Student Branch">
@@ -21,7 +22,7 @@
 
     </head>
     <body>
-    <div id="app">
+    <div id="app" class="bg-dark">
         <ieee-header head="Software Saturdays" page="Software Saturdays"></ieee-header>
 
         <main>
@@ -36,96 +37,140 @@
                 <br>
             </noscript>
 
-            <div class="pt-5 mt-5 container-lg">
-                <!-- Session Information -->
-                <div class="alert alert-info text-center" role="alert">
-                    <!--<p class="fs-3 w-75 mx-auto">Learning Sessions for Spring 2022 will be in HAMP 1144 and on Zoom, every Saturday from 3:30pm to 5:30pm Eastern!</p>-->
-                    <!--<p class="fs-5 w-75 mx-auto"><a class="link-secondary" href="https://purdue-edu.zoom.us/j/92677324693?pwd=NDZpS3lnclFDV0FPcy82Z0NvbTMxUT09" target="_blank">Meeting Link</a> - ID: 926 7732 4693 - Password: software</p>-->
-                    <p class="fs-5 w75 mx-auto">There will not be a Software Saturdays Session for Fall 2022. Check back in Spring for more information!</p>
-                    <p class="fs-5 w-75 mx-auto">Please see the <b>Calendar</b> for more details on sessions, review hours, and project days.</p>
+            <div class="pt-5 container-lg">
+                 <!-- Main Logo -->
+                <div class="alert alert-secondary alert-dismissable fade show mt-5 mt-xxl-4" role="alert">
+                    <div class="d-flex flex-row justify-content-center align-items-center">
+                        <div class="col-md-auto mx-auto">
+                            <strong class="fs-3 text-center">Please register for Spring 2023 <a href="https://forms.gle/C5XQDh6ATyFnwfdX7" class="alert-link" target="_blank" type="link">at this form</a>.</strong>
+                        </div>
+                        <div class="col-md-auto">
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="container-fluid d-flex flex-row justify-content-center pt-3">
+                        <img src="./images/logo_white.png" class="mx-auto img-fluid" style="max-width: 400px;" alt="Software Saturdays Logo" >
+                    </div>
+
+                    <h1 class="display-1 fw-bold text-light">Software Saturdays</h1>
+                     <!-- Registration Buttons -->
+                    <div class="clearfix">
+                            <a href="https://forms.gle/C5XQDh6ATyFnwfdX7" target="_blank" type="button" class="btn bg-purdue btn-lg fs-2 float-center mt-3 mx-1 px-4" aria-label="link to spring 2023 student registration">S23 Student Registration</a>
+                            <a href="https://forms.gle/PNS4h3NUN37c7X7D7" target="_blank" type="button" class="btn btn-secondary btn-lg fs-2 float-center mt-3 mx-1 px-4" aria-label="link to spring 2023 mentor application">S23 Mentor Application</a>
+                    </div>
                 </div>
 
+             <!-- Basic Info -->
+            <div class="my-3 p-5 container-lg fade-in-left">
                 <div class="row">
-                    <div class="col-md-3">
-                        <ul class="list-group list-group-flush">
-                            <a class="list-group-item active" href="/software/">Home</a>
-                            <a class="list-group-item" href="/software/attendee/">Join as an Attendee</a>
-                            <a class="list-group-item" href="/software/mentor/">Join as a Mentor</a>
-                            <a class="list-group-item" href="/software/history/">Past Sessions</a>
-                        </ul>
+                    <div class="col-md-9">
+                        <h2 class="fs-1 text-light">Software Development <strong class="purdue-text">Simplified</strong>.</h2>
+                        <br/>
+                        <p class="fs-4 text-start text-light">
+                            Software Saturdays is a free 8-week course, sponsored by Purdue IEEE and the College of Engineering, covering the basics of a software development framework, rotating every semester. This program is for any Purdue student who is seeking to learn a new software development framework, spruce up their resume, or is just interested in software. Additionally, everyone can earn a <strong class="purdue-text">College of Engineering</strong> certification upon completion. These look great on LinkedIn pages and resumes alike.
+                        </p>
                     </div>
-                    <div class="col-md-9 text-center">
-                        <img src="./images/logo_white.jpg" alt="Software Saturdays Logo" width="300">
-                        <h1 class="display-3 fw-bold">Software Saturdays</h1>
-                        <p class="fs-4">Sponsored by the Purdue College of Engineering</p>
+                    <div class="col-md-3 d-flex align-items-center justify-content-center mt-3">
+                        <img class="img-fluid" src="./images/coe_white.png" alt="College of Engineering Logo">
                     </div>
                 </div>
             </div>
 
-            <div class="my-2 container-fluid bg-pieee">
-                <div class="container-lg p-5">
-
-                    <h2 class="fs-1">Teaching modern software tools to the modern Purdue engineer.</h2>
-                    <p class="fs-5 text-start">
-                        Purdue IEEE is partnering with the Purdue College of Engineering to offer Software Saturdays, a FREE course available to all Purdue students!
-                    </p>
-                    <p class="fs-5 text-start">
-                        Software Saturdays introduces software development and programming frameworks to our attendees through a project-based learning experience.
-                        We introduce concepts and projects that are useful regardless of major: in the 21st century, having basic programming knowledge is vital no matter your hobbies or jobs you pursue.
-                    </p>
-                    <p class="fs-5 text-start">
-                        Sponsored by the Purdue College of Engineering, we are able to offer an official Purdue College of Engineering certification for everyone who attends!
-                    </p>
-                </div>
-            </div>
-
-            <div class="my-2 p-5 container-lg">
+             <!-- Semester Info -->
+            <div class="my-2 p-5 container-fluid text-light fade-in-right">
                 <div class="row flex-wrap-reverse">
-                    <div class="col-md-10">
-                        <p class="fs-5 text-start">
-                            This semester, we are teaching Web Application Development through React.js, an ever-popular JavaScript framework. Even if you have no prior experience with React or web dev, our
-                            program will start from the basics - including HTML and CSS.
-                        </p>
-                        <p class="fs-5 text-start">
-                            The program consists of 7 weekly 2 hour learning sessions on Saturday (hence our name!) with weekly review and help hours. All this leads in our final project, a fully-featured Pokedex app using public APIs.
-                            This project is great on a resume or portfolio and will spark interest from recruiters and hiring managers!
+                    <div class="col-md-5">
+                        <img class="img-fluid" src="./images/react_logo.svg" alt="React Logo">
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="fs-1 text-light text-start">Spring 2023: <strong class="react-text">React</strong>.</h2>
+                        <br/>
+                        <p class="fs-4 text-start para-width">
+                            Join us to learn ReactJS in a series of 7 in-depth lessons. Covering the fundamentals of HTML, CSS, JS, and of course, <strong class="react-text">React</strong>. Put your skills to the test while building a full-stack web application using the <strong class="poke-text">Poke</strong>API and <strong class="firebase-text">Firebase</strong>. We currently have a beginner and intermediate track to support students at all points in their software development journey so even if your aren't too confident in your skills, still come check us out!
                         </p>
                     </div>
-                    <div class="col-md-2 align-self-center">
-                        <img class="img-fluid" src="images/react_logo.svg" alt="ReactJS Logo">
-                    </div>
-                </div>
-                <p class="fs-5 text-center">Contact us at <a class="link-dark fw-bold" href="mailto:software-saturdays@purdueieee.org">software-saturdays@purdueieee.org</a> with questions.</p>
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center text-center">
-                    <a href="/software/attendee/" type="button" class="btn btn-ieee btn-lg px-4 gap-3">Register Today!</a>
                 </div>
             </div>
 
-            <div class="my-2 p-5 container-fluid bg-purdue">
-                <div class="container-lg">
-                    <h3 class="text-center">Frequently Asked Questions:</h3>
-                    <ul class="fs-4">
-                        <li class="my-3"><span class="fw-bold">I am not in the College of Engineering, can I still join?</span><br>Of course, any Purdue student can join, regardless of major, college, or class standing!</li>
-                        <li class="my-3"><span class="fw-bold">How much time does this program require?</span><br>Aside from the two hour weekly learning session, most people spend only 1-2 hours reviewing material.</li>
-                        <li class="my-3"><span class="fw-bold">How much prior experience do I need?</span><br>Absolutely none. We teach you what you have to know! If you are familiar with web development, we do offer an intermediate track that may be more your style.</li>
-                        <li class="my-3"><span class="fw-bold">What is this certificate you mentioned?</span><br>Any attendee who completes our final project will recieve a digital certificate from the College of Engineering,
-                            with a QR code to verify your achievement.</li>
-                    </ul>
+            <!-- Our Mentors -->
+            <div class="mt-3 mb-5 container-fluid text-light fade-in-top">
+                <h2 class="text-center mb-3 text-center fs-1"><strong>Mentors</strong></h2>
+                <div class="d-flex flex-row justify-content-center">
+                    <!-- start mentor box -->
+                    <div class="bg-secondary p-5 extra-rounded text-center">
+                        <div class="d-flex flex-row justify-content-center">
+                            <img src="/images/officers/2022_Adithya_Chandrasekar.jpg" class="circle-img-frame mb-4" width="50%" alt="Photo of Adithya Chandrasekar">
+                        </div>
+                        <h3 class="fs-1">Adithya Chandrasekar</h3>
+                        <p class="fs-5"><strong>Software Saturdays Chair & Head Mentor</strong></p>
+                        <br>
+                        <span class="fs-4">Contact me: <br/> <a class="link-light fw-bold" href="mailto:software-saturdays@purdueieee.org">software-saturdays@purdueieee.org</a></span>
+                    </div>
+                    <!-- end mentor box -->
                 </div>
             </div>
 
-            <!--<div class="container-md text-center my-3">
-                <p class="fs-3">Leadership</p>
-                <hr class="w-50 mx-auto">
-                <img class="rounded-3" src="/images/avatar_placeholder.png" width="150">
-                <p class="fs-4 mt-2 mb-0">Jon Denton</p>
-                <p class="fs-5 my-0">Software Saturdays Chair</p>
-            </div>-->
+             <!-- FAQs -->
+            <div class="my-5 p-5 fs-3 container-lg text-start text-dark bg-purdue extra-rounded fade-in-left">
+                    <h2><strong>FAQs:</strong></h3>
+                    <strong>Q: I am not in the College of Engineering, can I still join?</strong> <br/>
+                    <small>A: Any Purdue student may join, regardless of major, college, or class standing.</small> <br/>
+                    <strong>Q: How much time does this program require?</strong> <br/>
+                    <small>A: Aside from the two hour weekly learning session, most people spend only 1-2 hours reviewing material.</small> <br/>
+                    <strong>Q: How much prior experience do I need?</strong> <br/>
+                    <small>A: Absolutely none. We will teach you what you have to know. If you are familiar with web development, we do offer an intermediate track that may be more your style.</small> <br/>
+                    <strong>Q: What is this certificate you mentioned?</strong> <br/>
+                    <small>A: Any attendee who completes our final project will recieve a digital certificate from the College of Engineering, with a QR code to verify your achievement.</small>
+            </div>
+
+             <!-- Contact -->
+            <div class="container-fluid my-5">
+                <p class="fs-1 text-center text-light">Anything else? Email us at <br/> <a class="purdue-text link-dark fw-bold" href="mailto:software-saturdays@purdueieee.org">software-saturdays@purdueieee.org</a>.</p>
+            </div>
         </main>
 
        <ieee-footer></ieee-footer>
     </div>
 
     <script src="/assets/base.js"></script>
+    <script>
+        let observer1 = new IntersectionObserver((entries, observer) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.5,
+        });
+
+        observer2 = new IntersectionObserver((entries, observer) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.2,
+        });
+
+        let targets_top = document.querySelectorAll(".fade-in-top");
+        targets_top.forEach(target => { observer2.observe(target)});
+
+        let targets_left = document.querySelectorAll(".fade-in-left");
+        targets_left.forEach(target => { observer1.observe(target)});
+
+        let targets_right = document.querySelectorAll(".fade-in-right");
+        targets_right.forEach(target => { observer1.observe(target)});
+
+    </script>
     </body>
 </html>
