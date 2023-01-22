@@ -22,20 +22,6 @@
     border-radius: 3rem;
 }
 
-.mentor-page {
-    border-radius: 3rem;
-    max-width: 100%;
-}
-@media (min-width: 576px) {
-    .mentor-page {
-        border-radius: 3rem;
-        max-width: 576px;
-    }
-
-    .sponsor-logo {
-        width: 50%;
-    }
-}
 /* animation */
 .fade-in-top {
     opacity: 0;
@@ -75,4 +61,3 @@
     transform: none;
     visibility: visible;
 }
-
