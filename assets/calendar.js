@@ -9,7 +9,7 @@ const all_cal = [
     { name: 'racing', color: '6B3304', src: 'cptv9quqhvbder77uuq0n7nsi8@group.calendar.google.com'},
     { name: 'rov 2021-22', color: 'AB8B00', src: 'bu5n2uj8dnmc46thuh0tvblkpc@group.calendar.google.com'},
     { name: 'rov 2022-23', color: 'AB8B00', src: 'bi0fe47ju9ih831e1l3ngko0c0@group.calendar.google.com'},
-    { name: 'software saturdays', color: '333333', src: '960044dcf9230f176ec79e6379870c397e572da6f6a91792f5470cc8fa668be3@group.calendar.google.com'},
+    { name: 'software saturdays', color: '333333', src: 'd606i7l0ahpasvr7gl3abatfi0@group.calendar.google.com'},
     { name: 'workspace reservations', color: '865A5A', src: 'vuk1tocl97vaod7ej5de08e9dc@group.calendar.google.com'},
 ];
 export default all_cal;
