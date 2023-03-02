@@ -9,19 +9,19 @@
     "email": "president@purdueieee.org"
   },
   {
-    "name": "Hadi Ahmed",
-    "image": "/images/officers/2022_Hadi_Ahmed.jpg",
-    "position": "Vice President of Technical Committees (August to December)",
-    "description": "Hadi is a senior in Computer Engineering and the former chair of Software Saturdays, as well as a member of the Computer Society and electrical lead for Aerial Robotics. He also serves as the lead for IEEE Infrastructure. He enjoys archery, hiking, photography, and reading. He loves computers and everything connected to them.",
-    "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"/part/\">Aerial Robotics</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/racing/\">Racing</a>",
-    "email": "vp@purdueieee.org"
-  },
-  {
     "name": "Aniruddh Suresh",
     "image": "/images/officers/2022_Aniruddh_Suresh.jpg",
     "position": "Vice President of Technical Committees (from January)",
     "description": "Ani is a sophomore pursuing Computer Engineering, and vice chair of Racing. In his free time he likes to bike, play bass, read comics and playing tennis. He also really loves cats and other pets.",
     "committees": "<a href=\"/racing/\">Racing</a>",
+    "email": "vp@purdueieee.org"
+  },
+  {
+    "name": "Hadi Ahmed",
+    "image": "/images/officers/2022_Hadi_Ahmed.jpg",
+    "position": "Vice President of Technical Committees (August to December)",
+    "description": "Hadi is a senior in Computer Engineering and the former chair of Software Saturdays, as well as a member of the Computer Society and electrical lead for Aerial Robotics. He also serves as the lead for IEEE Infrastructure. He enjoys archery, hiking, photography, and reading. He loves computers and everything connected to them.",
+    "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"/part/\">Aerial Robotics</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/racing/\">Racing</a>",
     "email": "vp@purdueieee.org"
   },
   {
@@ -33,11 +33,11 @@
     "email": "vp@purdueieee.org"
   },
   {
-    "name": "Amrutha Vaidyam",
-    "image": "/images/officers/2022_Amrutha_Vaidyam.jpg",
-    "position": "Treasurer",
-    "description": "Amrutha Vaidyam is a sophomore majoring in Neurobiology & Physiology along with pursuing minors in Psychology and Computer Science. She is also the Vice Chair of the Engineering in Biology and Medicine Society. In her spare time she enjoys partaking in standup comedy, sketching, and more.",
-    "committees": "<a href=\"/embs/\">EMBS</a>",
+    "name": "Dev Thakkar",
+    "image": "/images/officers/2022_Dev_Thakkar.jpg",
+    "position": "Treasurer (From February)",
+    "description": "Dev is a junior in computer engineering. Outside of classes, he loves watching soccer with his friends, playing ping pong, and is a total sneakerhead.",
+    "committees": "",
     "email": "treas@purdueieee.org"
   },
   {
@@ -91,9 +91,17 @@
     "email": "csociety-info@purdueieee.org"
   },
   {
+    "name": "Amrutha Vaidyam",
+    "image": "/images/officers/2022_Amrutha_Vaidyam.jpg",
+    "position": "EMBS Chair (from January), Treasurer (August to December)",
+    "description": "Amrutha Vaidyam is a sophomore majoring in Neurobiology & Physiology along with pursuing minors in Psychology and Computer Science. In her spare time she enjoys partaking in standup comedy, sketching, and more.",
+    "committees": "<a href=\"/embs/\">EMBS</a>",
+    "email": "info-embs@purdueieee.org"
+  },
+  {
     "name": "Alec Lucas",
     "image": "/images/officers/2022_Alec_Lucas.jpg",
-    "position": "EMBS Chair",
+    "position": "EMBS Chair (August to December)",
     "description": "Alec is a Senior in Materials Engineering and the chair of EMBS. He is in a fraternity on campus (ATO), and attends the Smash Ultimate tournaments sometimes. He likes chess and mentors incoming freshmen in the Honors Engineering program. He's also applying to grad school to get a PhD in MSE this fall.",
     "committees": "<a href=\"/embs/\">EMBS</a>",
     "email": "info-embs@purdueieee.org"
