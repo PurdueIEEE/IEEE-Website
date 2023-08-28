@@ -21,7 +21,7 @@
     "image": "/images/officers/2022_Hadi_Ahmed.jpg",
     "position": "Vice President of Technical Committees (August to December)",
     "description": "Hadi is a senior in Computer Engineering and the former chair of Software Saturdays, as well as a member of the Computer Society and electrical lead for Aerial Robotics. He also serves as the lead for IEEE Infrastructure. He enjoys archery, hiking, photography, and reading. He loves computers and everything connected to them.",
-    "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"/part/\">Aerial Robotics</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/racing/\">Racing</a>",
+    "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"https://www.purdueaerial.com/\">Aerial Robotics</a>, <a href=\"/csociety/\">Computer Society</a>, <a href=\"/racing/\">Racing</a>",
     "email": "vp@purdueieee.org"
   },
   {
@@ -45,10 +45,17 @@
     "image": "/images/officers/2022_Paul_Teter.jpg",
     "position": "Secretary",
     "description": "Paul is a Junior in Computer Engineering and a member of the Aerial Robotics team since 2021. He enjoys biking and playing board games, and is passionate about cooking. In his free time he sometimes models and prints various items on his 3D printer.",
-    "committees": "<a href=\"/part/\">Aerial Robotics</a>",
+    "committees": "<a href=\"https://www.purdueaerial.com/\">Aerial Robotics</a>",
     "email": "sec@purdueieee.org"
   }],
-  "cornerstone":[
+  "cornerstone":[{
+    "name": "Rohan Malavathu",
+    "image": "/images/officers/2022_Rohan_Malavathu.jpg",
+    "position": "Infrastructure Lead",
+    "description": "Rohan is a sophomore in computer engineering. He has an interest in software development and machine learning. In his free time he likes to cook and watch sports.",
+    "committees": "<a href=\"https://www.purdueaerial.com/\">Aerial Robotics</a>",
+    "email": "ieee-infrastructure@purdueieee.org"
+  },
   {
     "name": "Alex Taylor",
     "image": "/images/officers/2022_Alex_Taylor_2.jpg",
@@ -79,7 +86,7 @@
     "image": "/images/officers/2022_Matthieu_Opdyke.jpg",
     "position": "Aerial Robotics Captain",
     "description": "Matthieu is a senior in Aerospace Engineering and has been a member of PART since 2019. He loves watching soccer, playing tennis, and supporting Purdue Basketball.",
-    "committees": "<a href=\"/part/\">Aerial Robotics</a>",
+    "committees": "<a href=\"https://www.purdueaerial.com/\">Aerial Robotics</a>",
     "email": "part@purdueieee.org"
   },
   {

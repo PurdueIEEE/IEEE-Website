@@ -1,0 +1,44 @@
+.scroll-container {
+  height: 300px;
+  overflow: hidden;
+  line-height: 300px;
+
+  .scroll-element {
+    top: 0;
+    left: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+  }
+  
+  .scroll {
+    animation: scroll-ani 10s linear infinite;
+  }
+
+  .scroll2 {
+    animation: scroll2-ani 10s linear infinite;
+  }
+
+  b {
+    padding-left: 10px;
+  }
+}
+
+@keyframes scroll-ani {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: -100%
+  }
+}
+
+@keyframes scroll2-ani {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: 0%
+  }
+}

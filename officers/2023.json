@@ -1,0 +1,109 @@
+{
+  "elected":[
+  {
+    "name": "Aniruddh Suresh",
+    "image": "/images/officers/2022_Aniruddh_Suresh.jpg",
+    "position": "President",
+    "description": "Ani is a junior pursuing Computer Engineering, and vice chair of Racing. In his free time he likes to bike, play bass, read comics and playing tennis. He also really loves cats and other pets.",
+    "committees": "<a href=\"/racing/\">Racing</a>",
+    "email": "president@purdueieee.org"
+  },
+  {
+    "name": "Adithya Chandrasekar",
+    "image": "/images/officers/2022_Adithya_Chandrasekar.jpg",
+    "position": "Vice President of Technical Committees",
+    "description": "Adithya is a junior in Computer Science & Data Science and is also software lead for EMBS. He has an avid interest in software development, data analytics, and management & technology consulting. In his free time, he enjoys working on personal projects, trying new food, and reading manga.",
+    "committees": "<a href=\"/software/\">Software Saturdays</a>, <a href=\"/embs/\">EMBS</a>",
+    "email": "vp@purdueieee.org"
+  },
+  {
+    "name": "Lee Haglid",
+    "image": "/images/officers/2023_Lee_Haglid.jpg",
+    "position": "Vice President of Member Involvement",
+    "description": "Lee Haglid is the Vice President of Member Involvement of the IEEE Purdue Student Chapter. Lee is also the vice-chair and hardware lead of the Neurotech Committee. They are a BME major and Pre-Med. Lee enjoys circuits, nerves, and neuroscience when it comes to fields of study and research. In their free time Lee enjoys activities like weight lifting, karate, and art.",
+    "committees": "<a href=\"/neurotech/\">Neurotech</a>",
+    "email": "vp@purdueieee.org"
+  },
+  {
+    "name": "Dev Thakkar",
+    "image": "/images/officers/2022_Dev_Thakkar.jpg",
+    "position": "Treasurer (From February)",
+    "description": "Dev is a junior in computer engineering. Outside of classes, he loves watching soccer with his friends, playing ping pong, and is a total sneakerhead.",
+    "committees": "",
+    "email": "treas@purdueieee.org"
+  }],
+  "cornerstone":[{
+    "name": "Rohan Malavathu",
+    "image": "/images/officers/2022_Rohan_Malavathu.jpg",
+    "position": "Infrastructure Lead",
+    "description": "Rohan is a junior in computer engineering. He has an interest in software development and machine learning. In his free time he likes to cook and watch sports.",
+    "committees": "",
+    "email": "ieee-infrastructure@purdueieee.org"
+  },
+  {
+    "name": "Eva Maria DeRamon",
+    "image": "/images/officers/2023_Eva_Maria_DeRamon.jpg",
+    "position": "Growth & Engagement Head",
+    "description": "Eva is a sophomore in Mechanical Engineering. She's Head of Growth & Engagement, a Mechanical Member in ROV, and their Outreach and Marketing Co-Lead. In her free time, she likes to read, spend time with friends, and collect post cards from all over the world.",
+    "committees": "<a href=\"/growth/\">Growth & Engagement</a>, <a href=\"/rov/\">ROV</a>",
+    "email":"growth@purdueieee.org"
+  },
+  {
+    "name": "Jorge Varela",
+    "image": "/images/officers/2023_Jorge_Varela.jpg",
+    "position": "Learning Head",
+    "description": "Jorge is a sophmore in Mechatronics Engineering Tech, and works in Purdue ROV as mechanical co-lead. He realized he liked teaching in late highschool, and wants to apply that to help others build skills in and out of engineering. He loves cooking, and playing spikeball when he gets the chance.",
+    "committees": "<a href=\"/rov/\">ROV</a>, <a href=\"/learning/\">Learning</a>",
+    "email": "learning@purdueieee.org"
+  },
+  {
+    "name": "Lizzie O'Brien",
+    "image": "/images/officers/2022_Lizzie_OBrien.jpg",
+    "position": "Social Head",
+    "description": "Lizzie is a Senior in Electrical Engineering and has been an active member of IEEE Computer Society since Fall 2021. She is also involved in other clubs on campus such as Kappa Delta Sorority, Theme Park Engineering Design (TPED), Women in Engineering Program Leadership Team, and Higher Ground Dance Company.",
+    "committees": "<a href=\"/csociety/\">Computer Society</a>, <a href=\"/social/\">Social</a>",
+    "email": "social@purdueieee.org"
+  }],
+  "technical":[
+  {
+    "name": "Logan Cover",
+    "image": "/images/officers/2023_Logan_Cover.jpg",
+    "position": "Computer Society Chair",
+    "description": "Logan is a Junior studying Computer Science with a concentration in Systems Programming along with a minor in Mathematics. I am from Fishers, Indiana where in high school I took a class in computer science principle my sophomore year and began to develop my programming knowledge through web development, now mostly focusing on database design and server programming. During my Freshman year at Purdue, one of my friends recommended that I join CSociety and I have not missed a meeting since! Outside of the technical world, I enjoying playing soccer and sand volleyball with my friends.",
+    "committees": "<a href=\"/csociety/\">Computer Society</a>",
+    "email": "csociety-info@purdueieee.org"
+  },
+  {
+    "name": "Amrutha Vaidyam",
+    "image": "/images/officers/2022_Amrutha_Vaidyam.jpg",
+    "position": "EMBS Chair",
+    "description": "Amrutha Vaidyam is a junior majoring in Neurobiology & Physiology along with pursuing minors in Psychology and Computer Science. In her spare time she enjoys partaking in standup comedy, sketching, and more.",
+    "committees": "<a href=\"/embs/\">EMBS</a>",
+    "email": "info-embs@purdueieee.org"
+  },
+  {
+    "name": "George Luo",
+    "image": "/images/officers/2019_Jiayu_Luo.jpg",
+    "position": "MTT-S Chair",
+    "description": "George is a second year master's student in Robotics and the chair of MTT-S. He was an undergraduate student of Purdue and an member of MTT-S for many years. He is also involved in many other activities such as Judo Club and Boiler Blade. He enjoys musicals, hiking, and cooking.",
+    "committees": "<a href=\"/mtts/\">MTT-S</a>, <a href=\"/racing/\">Racing</a>",
+    "email": "mtt-s-info@purdueieee.org"
+  },
+  {
+    "name": "Grant Cameron",
+    "image": "/images/officers/2023_Grant_Cameron.jpg",
+    "position": "Racing Chair",
+    "description": "Grant is a Junior in Mechanical Engineering. He joined IEEE in Fall 2022 as a member of the Racing team. He is passionate about motorsports and anything that moves fast. Outside of classes, he enjoys playing board games, building Legos, and spending time with friends.",
+    "committees": "<a href=\"/racing/\">Racing</a>",
+    "email": "racing@purdueieee.org"
+  },
+  {
+    "name": "Zachary Neel",
+    "image": "/images/officers/2023_Zachary_Neel.jpg",
+    "position": "ROV Captain",
+    "description": "Zach is a senior in computer engineering and has been a member of ROV's software team since his freshman year. He has a special interest in all things low-level: ASIC, embedded software, operating systems and computer architecture. Outside of engineering, he is a big history buff, and if he ever has some free time, he loves to play Spikeball, pickleball, or practice Brazilian Ju-Jitsu.",
+    "committees": "<a href=\"/rov/\">ROV</a>",
+    "email": "rov@purdueieee.org"
+  }
+]
+}
