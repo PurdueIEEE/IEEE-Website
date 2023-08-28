@@ -5,7 +5,6 @@ const all_cal = [
     { name: 'computer society', color: '1B887A', src: 'mmi9atsgvigdbhnsf783vtlcv8@group.calendar.google.com'},
     { name: 'embs', color: '5229A3', src: 'embspurdue@gmail.com'},
     { name: 'mtt-s', color: '0D7813', src: 'edv88gqt4b1v7fs6b6gi2bd8f8@group.calendar.google.com'},
-    // { name: 'part', color: 'A32929', src: 'h8nk778rgq4idlspuf4uevfs84@group.calendar.google.com'},
     { name: 'racing', color: '6B3304', src: 'cptv9quqhvbder77uuq0n7nsi8@group.calendar.google.com'},
     { name: 'rov 2023-24', color: 'AB8B00', src: 'a118f57a3b848864639c230afb25222c13a5e423d465a68d30316181b8b46c33@group.calendar.google.com'},
     { name: 'rov 2022-23', color: 'AB8B00', src: 'bi0fe47ju9ih831e1l3ngko0c0@group.calendar.google.com'},
