@@ -35,7 +35,7 @@ Vue.component('ieee-header', {
                     <li><a class="dropdown-item" href="/growth">Growth & Engagement</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><div class="dropdown-header py-1">Technical</div></li>
-                    <li><a class="dropdown-item" href="/part">Aerial Robotics</a></li>
+                    <li><a class="dropdown-item" href="/Neurotech">Neurotech Committee</a></li>
                     <li><a class="dropdown-item" href="/csociety">Computer Society</a></li>
                     <li><a class="dropdown-item" href="/embs">EMBS</a></li>
                     <li><a class="dropdown-item" href="/mtt-s">MTT-S</a></li>

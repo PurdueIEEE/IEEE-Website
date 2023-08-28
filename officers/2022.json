@@ -48,7 +48,14 @@
     "committees": "<a href=\"/part/\">Aerial Robotics</a>",
     "email": "sec@purdueieee.org"
   }],
-  "cornerstone":[
+  "cornerstone":[{
+    "name": "Rohan Malavathu",
+    "image": "/images/officers/2022_Rohan_Malavathu.jpg",
+    "position": "Infrastructure Lead",
+    "description": "Rohan is a sophomore in computer engineering. He has an interest in software development and machine learning. In his free time he likes to cook and watch sports.",
+    "committees": "<a href=\"/part/\">Aerial Robotics</a>",
+    "email": "infrastructure@purdueieee.org"
+  },
   {
     "name": "Alex Taylor",
     "image": "/images/officers/2022_Alex_Taylor_2.jpg",

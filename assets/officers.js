@@ -1,8 +1,8 @@
 const vm = new Vue({
     el: '#app',
     data: {
-      year: 2022,
-      maxYear: 2022,
+      year: 2023,
+      maxYear: 2023,
       startYear: 2008,
       elected: [],
       cornerstone: [],
