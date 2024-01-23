@@ -4,12 +4,12 @@ let date = new Date();
 let date_i = new Date();
 
 let info_sessions = [
-    {date:{month:8,day:30},time:{hour:19,minute:30},committee:'Purdue IEEE',location:'BHEE 129'},
+    {date:{month:1,day:24},time:{hour:18,minute:30},committee:'Purdue IEEE',location:'BHEE 129'},
     // {date:{month:1,day:18},time:{hour:18,minute:30},committee:'Cornerstones',location:'BHEE 129'},
     // {date:{month:1,day:19},time:{hour:18,minute:00},committee:'EMBS',location:'BHEE 226'},
-    // {date:{month:1,day:19},time:{hour:19,minute:30},committee:'Computer Society',location:'BHEE 224'},
-    {date:{month:9,day:6},time:{hour:18,minute:0},committee:'ROV',location:'POTR 234'},
-    {date:{month:9,day:6},time:{hour:18,minute:30},committee:'Racing',location:'PHYS 114'},
+    {date:{month:1,day:29},time:{hour:18,minute:30},committee:'Computer Society',location:'BHEE 222'},
+    // {date:{month:9,day:6},time:{hour:18,minute:0},committee:'ROV',location:'POTR 234'},
+    // {date:{month:9,day:6},time:{hour:18,minute:30},committee:'Racing',location:'PHYS 114'},
     // {date:{month:1,day:23},time:{hour:18,minute:30},committee:'MTT-S',location:'BHEE 224'},
     // {date:{month:1,day:28},time:{hour:11,minute:30},committee:'Software Saturdays',location:'WALC 1018'},
 ]
